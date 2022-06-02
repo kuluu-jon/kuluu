@@ -1,0 +1,18 @@
+[submodule "xiNavmeshes"]
+	path = xiNavmeshes
+	url = https://github.com/LandSandBoat/xiNavmeshes
+[submodule "research-docs/PacketFFXI"]
+	path = research-docs/PacketFFXI
+	url = https://github.com/bope12/PacketFFXI.git
+[submodule "research-docs/FFXI-NavMesh-Builder-"]
+	path = research-docs/FFXI-NavMesh-Builder-
+	url = https://github.com/LandSandBoat/FFXI-NavMesh-Builder-.git
+[submodule "research-docs/FFXI_DATS"]
+	path = research-docs/FFXI_DATS
+	url = https://github.com/MurphyCodes/FFXI_DATS.git
+[submodule "research-docs/Ashita4-Plugins"]
+	path = research-docs/Ashita4-Plugins
+	url = https://github.com/MurphyCodes/Ashita4-Plugins.git
+[submodule "research-docs/lotus-engine"]
+	path = research-docs/lotus-engine
+	url = https://github.com/teschnei/lotus-engine.git

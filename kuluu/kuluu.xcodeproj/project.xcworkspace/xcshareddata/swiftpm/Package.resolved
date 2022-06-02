@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BinaryCodable",
+        "repositoryURL": "https://github.com/jverkoey/BinaryCodable.git",
+        "state": {
+          "branch": null,
+          "revision": "aebaa30f1b73c5c45c374d251029b8bd68bde755",
+          "version": "0.3.1"
+        }
+      },
+      {
+        "package": "CocoaAsyncSocket",
+        "repositoryURL": "https://github.com/robbiehanson/CocoaAsyncSocket",
+        "state": {
+          "branch": null,
+          "revision": "dbdc00669c1ced63b27c3c5f052ee4d28f10150c",
+          "version": "7.6.5"
+        }
+      },
+      {
+        "package": "CollectionConcurrencyKit",
+        "repositoryURL": "https://github.com/JohnSundell/CollectionConcurrencyKit.git",
+        "state": {
+          "branch": "main",
+          "revision": "b4f23e24b5a1bff301efc5e70871083ca029ff95",
+          "version": null
+        }
+      },
+      {
+        "package": "CryptoSwift",
+        "repositoryURL": "https://github.com/krzyzanowskim/CryptoSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "039f56c5d7960f277087a0be51f5eb04ed0ec073",
+          "version": "1.5.1"
+        }
+      },
+      {
+        "package": "Introspect",
+        "repositoryURL": "https://github.com/siteline/SwiftUI-Introspect.git",
+        "state": {
+          "branch": null,
+          "revision": "f2616860a41f9d9932da412a8978fec79c06fe24",
+          "version": "0.1.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
