@@ -1,7 +1,7 @@
 
 ![Project Kuluu Logo](https://raw.githubusercontent.com/kuluu-jon/kuluu/main/logo.jpg)
 
-![Preview](https://raw.githubusercontent.com/kuluu-jon/kuluu/main/kuluu-preview.webm)
+![Preview](https://raw.githubusercontent.com/kuluu-jon/kuluu/main/kuluu-preview.gif)
 
 # Project Kuluu `[PROTOTYPE STAGE]`
 
@@ -47,4 +47,4 @@ Building from source is confirmed working for Xcode 13.2+, but may work on older
 
 # License
 
-Kuluu is licensed under GNU GPL v3
+Kuluu is licensed under [GNU GPL v3](https://github.com/kuluu-jon/kuluu/main/LICENSE.md)
