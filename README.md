@@ -1,7 +1,7 @@
 
 ![Project Kuluu Logo](https://raw.githubusercontent.com/kuluu-jon/kuluu/main/logo.jpg)
 
-![Preview](https://raw.githubusercontent.com/kuluu-jon/kuluu/main/kuluu-preview.gif)
+<a href="https://raw.githubusercontent.com/kuluu-jon/kuluu/main/blob/kuluu-preview.webm"><img src="https://raw.githubusercontent.com/kuluu-jon/kuluu/main/kuluu-preview.gif" width="720" height="480" />
 
 # Project Kuluu `[PROTOTYPE STAGE]`
 
