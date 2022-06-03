@@ -12,7 +12,7 @@ _Special thanks to all authors of the submodules in the `research-docs` folder!_
 
 # Project Kuluu
 
-Welcome to Project Kuluu, an open source cross-platform client emulator for FFXI. It is currently aiming to be compatible with the latest [LandSandBoat FFXI Server Emulator](https://github.com/kuluu-jon/kuluu/research-docs/lsb).
+Welcome to Project Kuluu, an open source cross-platform client emulator for FFXI. It is currently aiming to be compatible with the latest [LandSandBoat FFXI Server Emulator](https://github.com/kuluu-jon/kuluu/main/research-docs/lsb).
 
 Kuluu is a fan-community run project and aims to be a faithful remaster of the FFXI client to run on multiple modern game engines at 60+ FPS.
 
