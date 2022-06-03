@@ -16,3 +16,6 @@
 [submodule "research-docs/lotus-engine"]
 	path = research-docs/lotus-engine
 	url = https://github.com/teschnei/lotus-engine.git
+[submodule "research-docs/lsb"]
+	path = research-docs/lsb
+	url = https://github.com/LandSandBoat/server.git
