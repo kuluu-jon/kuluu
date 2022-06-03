@@ -1,5 +1,8 @@
 
 ![Project Kuluu Logo](https://raw.githubusercontent.com/kuluu-jon/kuluu/main/logo.jpg)
+
+![Preview](https://raw.githubusercontent.com/kuluu-jon/kuluu/main/kuluu-preview.webm)
+
 # Project Kuluu `[PROTOTYPE STAGE]`
 
 <a href="https://github.com/kuluu-jon/kuluu">![GitHub last commit](https://img.shields.io/github/last-commit/kuluu-jon/kuluu?style=for-the-badge)</a>
