@@ -19,6 +19,10 @@ Kuluu is a fan-community run project and aims to be a faithful remaster of the F
 ⚠️ No copyrighted materials may be redistributed. Please [join the Discord](https://discord.gg/5c8NK46SuD) for assistance getting up and running using your own files!
 
 ## Getting Started
+
+To see overall project progress, check https://github.com/users/kuluu-jon/projects/1
+
+*WIKI IS A WORK IN PROGRESS* 
 A [quick start guide](https://github.com/kuluu-jon/kuluu/wiki/Quick-Start-Guide), the [frequently asked questions](https://github.com/kuluu-jon/kuluu/-/wikis/Frequently-Asked-Questions), and a table of "[what works](https://github.com/kuluu-jon/kuluu/wikis/What-Works)" are all available on [our wiki](https://github.com/kuluu-jon/kuluu/wiki).
 
 [![Support Server](https://img.shields.io/discord/979113183124025364.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/5c8NK46SuD)
