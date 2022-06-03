@@ -1,15 +1,12 @@
 
 ![Project Kuluu Logo](https://raw.githubusercontent.com/kuluu-jon/kuluu/main/logo.jpg)
 
-<a href="https://raw.githubusercontent.com/kuluu-jon/kuluu/main/blob/kuluu-preview.webm"><img src="https://raw.githubusercontent.com/kuluu-jon/kuluu/main/kuluu-preview.gif" width="720" height="480" />
-
 # Project Kuluu `[PROTOTYPE STAGE]`
 
 <a href="https://github.com/kuluu-jon/kuluu">![GitHub last commit](https://img.shields.io/github/last-commit/kuluu-jon/kuluu?style=for-the-badge)</a>
 <a href="https://discord.gg/5c8NK46SuD">![Discord](https://img.shields.io/discord/979113183124025364?style=for-the-badge)</a>
 <a href="https://github.com/kuluu-jon/kuluu/issues">![GitHub issues](https://img.shields.io/github/issues/kuluu-jon/kuluu?style=for-the-badge)</a>
 <a href="https://github.com/kuluu-jon/kuluu/issues?q=is%3Aissue+is%3Aclosed">![GitHub closed issues](https://img.shields.io/github/issues-closed/kuluu-jon/kuluu?style=for-the-badge)</a>
-
 
 _Special thanks to all authors of the submodules in the `research-docs` folder!_
 
@@ -20,6 +17,8 @@ Welcome to Project Kuluu, an open source cross-platform client emulator for FFXI
 Kuluu is a fan-community run project and aims to be a faithful remaster of the FFXI client to run on multiple modern game engines at 60+ FPS.
 
 ⚠️ No copyrighted materials may be redistributed. Please [join the Discord](https://discord.gg/5c8NK46SuD) for assistance getting up and running using your own files!
+
+<a href="https://raw.githubusercontent.com/kuluu-jon/kuluu/main/blob/kuluu-preview.webm"><img src="https://raw.githubusercontent.com/kuluu-jon/kuluu/main/kuluu-preview.gif" width="720" height="480" />
 
 ## Getting Started
 
