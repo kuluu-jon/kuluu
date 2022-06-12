@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Batallia Downs"
+  model "ROM\0\122.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Batallia Downs BumpMap"
+  model "ROM\92\23.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

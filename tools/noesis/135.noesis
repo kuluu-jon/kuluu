@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Dynamis - Xarcabard"
+  model "ROM2\12\109.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Dynamis - Xarcabard BumpMap"
+  model "ROM2\21\77.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

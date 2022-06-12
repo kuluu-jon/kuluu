@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Rolanberry Fields [S]"
+  model "ROM5\0\11.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Rolanberry Fields [S] BumpMap"
+  model "ROM5\5\112.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

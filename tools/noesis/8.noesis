@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Boneyard Gully"
+  model "ROM3\0\7.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Boneyard Gully BumpMap"
+  model "ROM3\6\2.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "The Eldieme Necropolis [S]"
+  model "ROM5\0\28.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "The Eldieme Necropolis [S] BumpMap"
+  model "ROM5\6\1.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Cloister of Storms"
+  model "ROM2\0\18.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Cloister of Storms BumpMap"
+  model "ROM2\21\98.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

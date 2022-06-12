@@ -1,0 +1,4 @@
+part,name,race,datFilePath
+body,LeatherVest,HuMa,ROM\28\8.dat
+body,Breastplate,HuMa,ROM\28\9.dat
+body,Tunic,HuMa,ROM\28\10.dat

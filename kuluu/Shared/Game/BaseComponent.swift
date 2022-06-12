@@ -13,7 +13,7 @@ import simd
 class BaseComponent: GKComponent {
 
     public static let EnemyAltitude: Float = -0.46
-    
+
     private(set) var agent = GKAgent2D()
     public var isAutoMoveNode = true
 
@@ -98,7 +98,7 @@ class BaseComponent: GKComponent {
 }
 
 extension GKAgent2D {
-    
+
     var transform: matrix_float4x4 {
         get {
             let quat = simd_quaternion(-Float(rotation - (.pi / 2)), simd_make_float3(0, 1, 0))

@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Jugner Forest"
+  model "ROM\0\114.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Jugner Forest BumpMap"
+  model "ROM\92\22.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Full Moon Fountain"
+  model "ROM2\0\12.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Full Moon Fountain BumpMap"
+  model "ROM2\21\84.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

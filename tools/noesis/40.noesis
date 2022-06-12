@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Dynamis - Buburimu"
+  model "ROM3\5\3.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Dynamis - Buburimu BumpMap"
+  model "ROM3\6\33.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Aydeewa Subterrane"
+  model "ROM4\0\21.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Aydeewa Subterrane BumpMap"
+  model "ROM4\7\100.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

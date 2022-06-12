@@ -8,12 +8,12 @@
 import Foundation
 
 import SwiftUI
-import Networking
+import kuluu_ffxi_network_protocol
 
 struct AccountSelectionList: View {
-    
+
     @EnvironmentObject var appViewModel: HeadlessFFXIAppViewModel
-    
+
     var body: some View {
         NavigationView {
     //                var index = 0
@@ -67,7 +67,7 @@ struct AccountSelectionList: View {
                 }
             }
             .navigationTitle("Sessions")
-            
+
         }
         .onAppear { DispatchQueue.main.async { appViewModel.newSession() } }
     }
@@ -78,4 +78,3 @@ struct AccountSelectionList: View {
 //
 //    }
 }
-

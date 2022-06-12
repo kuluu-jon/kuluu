@@ -1,0 +1,10 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "1084"
+  model "ROM\303\27.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

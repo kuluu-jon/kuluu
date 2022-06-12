@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Chocobo Circuit"
+  model "ROM4\5\106.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Chocobo Circuit BumpMap"
+  model "ROM4\7\102.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

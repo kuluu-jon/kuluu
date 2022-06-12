@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Sea Serpent Grotto"
+  model "ROM2\0\15.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Sea Serpent Grotto BumpMap"
+  model "ROM2\21\87.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

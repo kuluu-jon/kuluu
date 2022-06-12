@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1D93E328540E97002965FA /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D93E228540E97002965FA /* R.generated.swift */; };
+		FC1D93F228540F98002965FA /* Rswift in Frameworks */ = {isa = PBXBuildFile; productRef = FC1D93F128540F98002965FA /* Rswift */; };
+		FC1D93F628540F9F002965FA /* Rswift in Frameworks */ = {isa = PBXBuildFile; productRef = FC1D93F528540F9F002965FA /* Rswift */; };
 		FC281D3F282752EE004E1710 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D3E282752EE004E1710 /* Tests_iOS.swift */; };
 		FC281D41282752EE004E1710 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D40282752EE004E1710 /* Tests_iOSLaunchTests.swift */; };
-		FC281D4B282752EE004E1710 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D4A282752EE004E1710 /* Tests_macOS.swift */; };
-		FC281D4D282752EE004E1710 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D4C282752EE004E1710 /* Tests_macOSLaunchTests.swift */; };
 		FC281D4E282752EE004E1710 /* HeadlessFFXIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D27282752ED004E1710 /* HeadlessFFXIApp.swift */; };
 		FC281D4F282752EE004E1710 /* HeadlessFFXIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D27282752ED004E1710 /* HeadlessFFXIApp.swift */; };
 		FC281D52282752EE004E1710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC281D29282752EE004E1710 /* Assets.xcassets */; };
@@ -19,20 +20,18 @@
 		FC281D632827533A004E1710 /* ViewController+Embed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D6028275321004E1710 /* ViewController+Embed.swift */; };
 		FC281D6628275B81004E1710 /* HeadlessSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D6428275B01004E1710 /* HeadlessSession.swift */; };
 		FC281D6728275B82004E1710 /* HeadlessSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D6428275B01004E1710 /* HeadlessSession.swift */; };
-		FC281D6928275DA8004E1710 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = FC281D6828275DA8004E1710 /* Networking */; };
-		FC281D6B28275DB0004E1710 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = FC281D6A28275DB0004E1710 /* Networking */; };
 		FC281D6D28275E55004E1710 /* View+navigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D6C28275E55004E1710 /* View+navigationLink.swift */; };
 		FC281D6E28275E55004E1710 /* View+navigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D6C28275E55004E1710 /* View+navigationLink.swift */; };
 		FC281D702827615F004E1710 /* CharacterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D6F2827615F004E1710 /* CharacterPicker.swift */; };
 		FC281D712827615F004E1710 /* CharacterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D6F2827615F004E1710 /* CharacterPicker.swift */; };
 		FC281D7328279FE0004E1710 /* HeadlessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D7228279FE0004E1710 /* HeadlessMap.swift */; };
 		FC281D7428279FE0004E1710 /* HeadlessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D7228279FE0004E1710 /* HeadlessMap.swift */; };
+		FC32295E284B1269006F5E2F /* BlowfishSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32295D284B1269006F5E2F /* BlowfishSpec.swift */; };
 		FC46156628333F0D00B16F2B /* GameViewController+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46156528333F0D00B16F2B /* GameViewController+iOS.swift */; };
 		FC46156928333F4700B16F2B /* GameViewController+macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46156728333F3D00B16F2B /* GameViewController+macOS.swift */; };
 		FC46156D2833400700B16F2B /* ButtonOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46156A2833400700B16F2B /* ButtonOverlay.swift */; };
 		FC46156E2833400700B16F2B /* PadOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46156B2833400700B16F2B /* PadOverlay.swift */; };
 		FC46156F2833400700B16F2B /* ControlOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46156C2833400700B16F2B /* ControlOverlay.swift */; };
-		FC461571283340EC00B16F2B /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC461570283340EC00B16F2B /* Overlay.swift */; };
 		FC4615732833414500B16F2B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4615722833414500B16F2B /* Menu.swift */; };
 		FC54E7D728319A47007EDB4C /* ScaredComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54E7D128319A46007EDB4C /* ScaredComponent.swift */; };
 		FC54E7D828319A47007EDB4C /* ScaredComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54E7D128319A46007EDB4C /* ScaredComponent.swift */; };
@@ -48,6 +47,10 @@
 		FC54E7E228319A47007EDB4C /* BaseComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54E7D628319A47007EDB4C /* BaseComponent.swift */; };
 		FC5B09D02830280C00B581AE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B09CF2830280C00B581AE /* GameView.swift */; };
 		FC5B09D12830280C00B581AE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B09CF2830280C00B581AE /* GameView.swift */; };
+		FC7553B02853CB7E00206257 /* NSEvent+KeyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7553AF2853CB7E00206257 /* NSEvent+KeyCode.swift */; };
+		FC7553B12853CB7E00206257 /* NSEvent+KeyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7553AF2853CB7E00206257 /* NSEvent+KeyCode.swift */; };
+		FC7553B32853D26C00206257 /* SCNGeometry+Vertices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7553B22853D26C00206257 /* SCNGeometry+Vertices.swift */; };
+		FC7553B42853D26C00206257 /* SCNGeometry+Vertices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7553B22853D26C00206257 /* SCNGeometry+Vertices.swift */; };
 		FC78AF5B283F162700C29E00 /* AccountSessionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC78AF5A283F162700C29E00 /* AccountSessionList.swift */; };
 		FC78AF5C283F162700C29E00 /* AccountSessionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC78AF5A283F162700C29E00 /* AccountSessionList.swift */; };
 		FC78AF5E283F16A300C29E00 /* HeadlessFFXIAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC78AF5D283F16A300C29E00 /* HeadlessFFXIAppViewModel.swift */; };
@@ -58,8 +61,13 @@
 		FC80108E283263A4006AF7C5 /* FFXI.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FC80108C28326349006AF7C5 /* FFXI.scnassets */; };
 		FCAEACF32830ACC000827800 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A7CA92782BD53000E2E12 /* GameController.swift */; };
 		FCAEACF42830ACC000827800 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A7CA92782BD53000E2E12 /* GameController.swift */; };
-		FCD24C5128335BBB00F2C618 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC461570283340EC00B16F2B /* Overlay.swift */; };
 		FCD24C5228335BC100F2C618 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4615722833414500B16F2B /* Menu.swift */; };
+		FCE6DF18285541E800A50D6E /* kuluu-ffxi-network-protocol in Frameworks */ = {isa = PBXBuildFile; productRef = FCE6DF17285541E800A50D6E /* kuluu-ffxi-network-protocol */; };
+		FCE6DF1A285541F200A50D6E /* kuluu-ffxi-network-protocol in Frameworks */ = {isa = PBXBuildFile; productRef = FCE6DF19285541F200A50D6E /* kuluu-ffxi-network-protocol */; };
+		FCE6DF1D2855432600A50D6E /* kuluu-ffxi-emulator in Frameworks */ = {isa = PBXBuildFile; productRef = FCE6DF1C2855432600A50D6E /* kuluu-ffxi-emulator */; };
+		FCE6DF1F2855432E00A50D6E /* kuluu-ffxi-emulator in Frameworks */ = {isa = PBXBuildFile; productRef = FCE6DF1E2855432E00A50D6E /* kuluu-ffxi-emulator */; };
+		FCE6DF212855438800A50D6E /* Zone+Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE6DF202855438800A50D6E /* Zone+Scene.swift */; };
+		FCE6DF222855438800A50D6E /* Zone+Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE6DF202855438800A50D6E /* Zone+Scene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,9 +85,40 @@
 			remoteGlobalIDString = FC281D32282752EE004E1710;
 			remoteInfo = "kuluu (macOS)";
 		};
+		FCE6DF0B285541A000A50D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE6DF07285541A000A50D6E /* noesis-scene-generator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FCB4A3712852DFCD005110C1;
+			remoteInfo = "noesis-scene-generator";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FC1D93EF28540F0D002965FA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1D93FA28540F9F002965FA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		FC1D93E228540E97002965FA /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		FC281D27282752ED004E1710 /* HeadlessFFXIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlessFFXIApp.swift; sourceTree = "<group>"; };
 		FC281D29282752EE004E1710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC281D2E282752EE004E1710 /* kuluu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kuluu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,22 +128,20 @@
 		FC281D3E282752EE004E1710 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		FC281D40282752EE004E1710 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		FC281D46282752EE004E1710 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC281D4A282752EE004E1710 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		FC281D4C282752EE004E1710 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		FC281D6028275321004E1710 /* ViewController+Embed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Embed.swift"; sourceTree = "<group>"; };
 		FC281D6428275B01004E1710 /* HeadlessSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlessSession.swift; sourceTree = "<group>"; };
 		FC281D6C28275E55004E1710 /* View+navigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+navigationLink.swift"; sourceTree = "<group>"; };
 		FC281D6F2827615F004E1710 /* CharacterPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterPicker.swift; sourceTree = "<group>"; };
 		FC281D7228279FE0004E1710 /* HeadlessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlessMap.swift; sourceTree = "<group>"; };
+		FC32295D284B1269006F5E2F /* BlowfishSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlowfishSpec.swift; sourceTree = "<group>"; };
+		FC32295F284B15B2006F5E2F /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
 		FC46156528333F0D00B16F2B /* GameViewController+iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewController+iOS.swift"; sourceTree = "<group>"; };
 		FC46156728333F3D00B16F2B /* GameViewController+macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewController+macOS.swift"; sourceTree = "<group>"; };
 		FC46156A2833400700B16F2B /* ButtonOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonOverlay.swift; sourceTree = "<group>"; };
 		FC46156B2833400700B16F2B /* PadOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PadOverlay.swift; sourceTree = "<group>"; };
 		FC46156C2833400700B16F2B /* ControlOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlOverlay.swift; sourceTree = "<group>"; };
-		FC461570283340EC00B16F2B /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 		FC4615722833414500B16F2B /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		FC4A7CA92782BD53000E2E12 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
-		FC4A7D262782C7C1000E2E12 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Networking; path = ../Networking; sourceTree = "<group>"; };
 		FC54E7D128319A46007EDB4C /* ScaredComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaredComponent.swift; sourceTree = "<group>"; };
 		FC54E7D228319A46007EDB4C /* PlayerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerComponent.swift; sourceTree = "<group>"; };
 		FC54E7D328319A46007EDB4C /* SimdExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimdExtensions.swift; sourceTree = "<group>"; };
@@ -112,13 +149,18 @@
 		FC54E7D528319A47007EDB4C /* ChaserComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaserComponent.swift; sourceTree = "<group>"; };
 		FC54E7D628319A47007EDB4C /* BaseComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseComponent.swift; sourceTree = "<group>"; };
 		FC5B09CF2830280C00B581AE /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		FC7553AF2853CB7E00206257 /* NSEvent+KeyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSEvent+KeyCode.swift"; sourceTree = "<group>"; };
+		FC7553B22853D26C00206257 /* SCNGeometry+Vertices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNGeometry+Vertices.swift"; sourceTree = "<group>"; };
 		FC78AF5A283F162700C29E00 /* AccountSessionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSessionList.swift; sourceTree = "<group>"; };
 		FC78AF5D283F16A300C29E00 /* HeadlessFFXIAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlessFFXIAppViewModel.swift; sourceTree = "<group>"; };
 		FC78AF63283F20F100C29E00 /* HeadlessSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlessSessionViewModel.swift; sourceTree = "<group>"; };
-		FC7EE52E283EB44500CF5BCE /* xiNavmeshes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = xiNavmeshes; path = ../xiNavmeshes; sourceTree = "<group>"; };
 		FC7EE567283EEE3500CF5BCE /* kuluu--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "kuluu--macOS--Info.plist"; sourceTree = "<group>"; };
 		FC80108C28326349006AF7C5 /* FFXI.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = FFXI.scnassets; sourceTree = "<group>"; };
 		FCD24C502833543F00F2C618 /* kuluu--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "kuluu--iOS--Info.plist"; sourceTree = "<group>"; };
+		FCE6DF052855409700A50D6E /* kuluu-ffxi-network-protocol */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "kuluu-ffxi-network-protocol"; path = "../kuluu-ffxi-network-protocol"; sourceTree = "<group>"; };
+		FCE6DF07285541A000A50D6E /* noesis-scene-generator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "noesis-scene-generator.xcodeproj"; path = "../tools/noesis-scene-generator/noesis-scene-generator.xcodeproj"; sourceTree = "<group>"; };
+		FCE6DF1B285542CC00A50D6E /* kuluu-ffxi-emulator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "kuluu-ffxi-emulator"; path = "../kuluu-ffxi-emulator"; sourceTree = "<group>"; };
+		FCE6DF202855438800A50D6E /* Zone+Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Zone+Scene.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +168,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC281D6928275DA8004E1710 /* Networking in Frameworks */,
+				FC1D93F628540F9F002965FA /* Rswift in Frameworks */,
+				FCE6DF1A285541F200A50D6E /* kuluu-ffxi-network-protocol in Frameworks */,
+				FCE6DF1F2855432E00A50D6E /* kuluu-ffxi-emulator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +178,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC281D6B28275DB0004E1710 /* Networking in Frameworks */,
+				FC1D93F228540F98002965FA /* Rswift in Frameworks */,
+				FCE6DF18285541E800A50D6E /* kuluu-ffxi-network-protocol in Frameworks */,
+				FCE6DF1D2855432600A50D6E /* kuluu-ffxi-emulator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +233,8 @@
 		FC281D49282752EE004E1710 /* Tests macOS */ = {
 			isa = PBXGroup;
 			children = (
-				FC281D4A282752EE004E1710 /* Tests_macOS.swift */,
-				FC281D4C282752EE004E1710 /* Tests_macOSLaunchTests.swift */,
+				FC32295D284B1269006F5E2F /* BlowfishSpec.swift */,
+				FC32295F284B15B2006F5E2F /* CocoaAsyncSocket.h */,
 			);
 			path = "Tests macOS";
 			sourceTree = "<group>";
@@ -196,6 +242,7 @@
 		FC46156428333EE900B16F2B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FC1D93E228540E97002965FA /* R.generated.swift */,
 				FC46156A2833400700B16F2B /* ButtonOverlay.swift */,
 				FC46156C2833400700B16F2B /* ControlOverlay.swift */,
 				FC46156B2833400700B16F2B /* PadOverlay.swift */,
@@ -207,8 +254,9 @@
 		FC4A7CA32782BD53000E2E12 = {
 			isa = PBXGroup;
 			children = (
-				FC4A7D262782C7C1000E2E12 /* Networking */,
-				FC7EE52E283EB44500CF5BCE /* xiNavmeshes */,
+				FCE6DF052855409700A50D6E /* kuluu-ffxi-network-protocol */,
+				FCE6DF1B285542CC00A50D6E /* kuluu-ffxi-emulator */,
+				FCE6DF07285541A000A50D6E /* noesis-scene-generator.xcodeproj */,
 				FCD24C502833543F00F2C618 /* kuluu--iOS--Info.plist */,
 				FC7EE567283EEE3500CF5BCE /* kuluu--macOS--Info.plist */,
 				FC4A7D1B2782C2FD000E2E12 /* Frameworks */,
@@ -250,6 +298,8 @@
 				FC54E7D228319A46007EDB4C /* PlayerComponent.swift */,
 				FC54E7D128319A46007EDB4C /* ScaredComponent.swift */,
 				FC54E7D328319A46007EDB4C /* SimdExtensions.swift */,
+				FC7553B22853D26C00206257 /* SCNGeometry+Vertices.swift */,
+				FCE6DF202855438800A50D6E /* Zone+Scene.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -257,19 +307,27 @@
 		FC54E7D0283199C1007EDB4C /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				FC461570283340EC00B16F2B /* Overlay.swift */,
 				FC281D6F2827615F004E1710 /* CharacterPicker.swift */,
 				FC281D27282752ED004E1710 /* HeadlessFFXIApp.swift */,
+				FC78AF5D283F16A300C29E00 /* HeadlessFFXIAppViewModel.swift */,
 				FC281D7228279FE0004E1710 /* HeadlessMap.swift */,
 				FC281D6428275B01004E1710 /* HeadlessSession.swift */,
+				FC78AF63283F20F100C29E00 /* HeadlessSessionViewModel.swift */,
 				FC281D6C28275E55004E1710 /* View+navigationLink.swift */,
 				FC281D6028275321004E1710 /* ViewController+Embed.swift */,
 				FC4615722833414500B16F2B /* Menu.swift */,
 				FC78AF5A283F162700C29E00 /* AccountSessionList.swift */,
-				FC78AF5D283F16A300C29E00 /* HeadlessFFXIAppViewModel.swift */,
-				FC78AF63283F20F100C29E00 /* HeadlessSessionViewModel.swift */,
+				FC7553AF2853CB7E00206257 /* NSEvent+KeyCode.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		FCE6DF08285541A000A50D6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCE6DF0C285541A000A50D6E /* noesis-scene-generator */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC281D54282752EE004E1710 /* Build configuration list for PBXNativeTarget "kuluu (iOS)" */;
 			buildPhases = (
+				FC1D93DB28540D14002965FA /* R.swift Generate */,
+				FC1D93DC28540D3B002965FA /* SwiftLint */,
 				FC281D2A282752EE004E1710 /* Sources */,
 				FC281D2B282752EE004E1710 /* Frameworks */,
 				FC281D2C282752EE004E1710 /* Resources */,
+				FC1D93FA28540F9F002965FA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,7 +350,9 @@
 			);
 			name = "kuluu (iOS)";
 			packageProductDependencies = (
-				FC281D6828275DA8004E1710 /* Networking */,
+				FC1D93F528540F9F002965FA /* Rswift */,
+				FCE6DF19285541F200A50D6E /* kuluu-ffxi-network-protocol */,
+				FCE6DF1E2855432E00A50D6E /* kuluu-ffxi-emulator */,
 			);
 			productName = "kuluu (iOS)";
 			productReference = FC281D2E282752EE004E1710 /* kuluu.app */;
@@ -299,9 +362,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC281D57282752EE004E1710 /* Build configuration list for PBXNativeTarget "kuluu (macOS)" */;
 			buildPhases = (
+				FC1D93E028540DA4002965FA /* R.swift */,
+				FC1D93E128540DCC002965FA /* SwiftLint */,
 				FC281D2F282752EE004E1710 /* Sources */,
 				FC281D30282752EE004E1710 /* Frameworks */,
 				FC281D31282752EE004E1710 /* Resources */,
+				FC1D93EF28540F0D002965FA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -309,7 +375,9 @@
 			);
 			name = "kuluu (macOS)";
 			packageProductDependencies = (
-				FC281D6A28275DB0004E1710 /* Networking */,
+				FC1D93F128540F98002965FA /* Rswift */,
+				FCE6DF17285541E800A50D6E /* kuluu-ffxi-network-protocol */,
+				FCE6DF1C2855432600A50D6E /* kuluu-ffxi-emulator */,
 			);
 			productName = "kuluu (macOS)";
 			productReference = FC281D33282752EE004E1710 /* kuluu.app */;
@@ -373,6 +441,7 @@
 					};
 					FC281D45282752EE004E1710 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 						TestTargetID = FC281D32282752EE004E1710;
 					};
 				};
@@ -388,9 +457,16 @@
 			mainGroup = FC4A7CA32782BD53000E2E12;
 			packageReferences = (
 				FC281D752827B3F6004E1710 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				FC1D93F028540F98002965FA /* XCRemoteSwiftPackageReference "R.swift.Library" */,
 			);
 			productRefGroup = FC4A7CB12782BD54000E2E12 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FCE6DF08285541A000A50D6E /* Products */;
+					ProjectRef = FCE6DF07285541A000A50D6E /* noesis-scene-generator.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FC281D2D282752EE004E1710 /* kuluu (iOS) */,
@@ -400,6 +476,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FCE6DF0C285541A000A50D6E /* noesis-scene-generator */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "noesis-scene-generator";
+			remoteRef = FCE6DF0B285541A000A50D6E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FC281D2C282752EE004E1710 /* Resources */ = {
@@ -436,28 +522,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FC1D93DB28540D14002965FA /* R.swift Generate */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"",
+			);
+			name = "R.swift Generate";
+			outputFileListPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/../build-tools/rswift\" generate \"$SRCROOT/Shared/R.generated.swift\"\n";
+		};
+		FC1D93DC28540D3B002965FA /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/../build-tools/portable_swiftlint/swiftlint\" --fix\n";
+		};
+		FC1D93E028540DA4002965FA /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/../build-tools/rswift\" generate \"$SRCROOT/Shared/R.generated.swift\"\n";
+		};
+		FC1D93E128540DCC002965FA /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/../build-tools/portable_swiftlint/swiftlint\" --fix\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC281D2A282752EE004E1710 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC461571283340EC00B16F2B /* Overlay.swift in Sources */,
 				FC54E7E128319A47007EDB4C /* BaseComponent.swift in Sources */,
 				FC54E7DD28319A47007EDB4C /* Character.swift in Sources */,
+				FC7553B32853D26C00206257 /* SCNGeometry+Vertices.swift in Sources */,
 				FC54E7DF28319A47007EDB4C /* ChaserComponent.swift in Sources */,
 				FC54E7DB28319A47007EDB4C /* SimdExtensions.swift in Sources */,
 				FC281D6228275339004E1710 /* ViewController+Embed.swift in Sources */,
 				FC78AF5E283F16A300C29E00 /* HeadlessFFXIAppViewModel.swift in Sources */,
 				FC281D7328279FE0004E1710 /* HeadlessMap.swift in Sources */,
+				FCE6DF212855438800A50D6E /* Zone+Scene.swift in Sources */,
 				FC46156628333F0D00B16F2B /* GameViewController+iOS.swift in Sources */,
 				FC78AF5B283F162700C29E00 /* AccountSessionList.swift in Sources */,
 				FC281D702827615F004E1710 /* CharacterPicker.swift in Sources */,
 				FC46156F2833400700B16F2B /* ControlOverlay.swift in Sources */,
 				FC54E7D728319A47007EDB4C /* ScaredComponent.swift in Sources */,
 				FC46156E2833400700B16F2B /* PadOverlay.swift in Sources */,
+				FC7553B02853CB7E00206257 /* NSEvent+KeyCode.swift in Sources */,
 				FC54E7D928319A47007EDB4C /* PlayerComponent.swift in Sources */,
 				FC281D6628275B81004E1710 /* HeadlessSession.swift in Sources */,
 				FC4615732833414500B16F2B /* Menu.swift in Sources */,
+				FC1D93E328540E97002965FA /* R.generated.swift in Sources */,
 				FCAEACF42830ACC000827800 /* GameController.swift in Sources */,
 				FC46156D2833400700B16F2B /* ButtonOverlay.swift in Sources */,
 				FC281D6D28275E55004E1710 /* View+navigationLink.swift in Sources */,
@@ -476,16 +643,18 @@
 				FC54E7DE28319A47007EDB4C /* Character.swift in Sources */,
 				FC54E7E028319A47007EDB4C /* ChaserComponent.swift in Sources */,
 				FC54E7DC28319A47007EDB4C /* SimdExtensions.swift in Sources */,
+				FC7553B12853CB7E00206257 /* NSEvent+KeyCode.swift in Sources */,
 				FC281D632827533A004E1710 /* ViewController+Embed.swift in Sources */,
 				FC281D7428279FE0004E1710 /* HeadlessMap.swift in Sources */,
 				FC281D712827615F004E1710 /* CharacterPicker.swift in Sources */,
 				FC54E7D828319A47007EDB4C /* ScaredComponent.swift in Sources */,
 				FC54E7DA28319A47007EDB4C /* PlayerComponent.swift in Sources */,
 				FC78AF65283F20F100C29E00 /* HeadlessSessionViewModel.swift in Sources */,
-				FCD24C5128335BBB00F2C618 /* Overlay.swift in Sources */,
+				FC7553B42853D26C00206257 /* SCNGeometry+Vertices.swift in Sources */,
 				FC281D6728275B82004E1710 /* HeadlessSession.swift in Sources */,
 				FCAEACF32830ACC000827800 /* GameController.swift in Sources */,
 				FCD24C5228335BC100F2C618 /* Menu.swift in Sources */,
+				FCE6DF222855438800A50D6E /* Zone+Scene.swift in Sources */,
 				FC78AF5F283F16A300C29E00 /* HeadlessFFXIAppViewModel.swift in Sources */,
 				FC78AF5C283F162700C29E00 /* AccountSessionList.swift in Sources */,
 				FC281D6E28275E55004E1710 /* View+navigationLink.swift in Sources */,
@@ -507,8 +676,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC281D4D282752EE004E1710 /* Tests_macOSLaunchTests.swift in Sources */,
-				FC281D4B282752EE004E1710 /* Tests_macOS.swift in Sources */,
+				FC32295E284B1269006F5E2F /* BlowfishSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +723,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kuluu;
 				PRODUCT_NAME = kuluu;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG OFFLINE";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -588,6 +757,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kuluu;
 				PRODUCT_NAME = "kuluu-kuluu";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = OFFLINE;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -598,15 +768,16 @@
 		FC281D58282752EE004E1710 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = MacAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "kuluu--macOS--Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
@@ -615,11 +786,12 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kuluu;
 				PRODUCT_NAME = kuluu;
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG OFFLINE";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -628,15 +800,16 @@
 		FC281D59282752EE004E1710 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = MacAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "kuluu--macOS--Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
@@ -645,11 +818,12 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kuluu;
 				PRODUCT_NAME = kuluu;
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = OFFLINE;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -700,16 +874,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MS9JF6U38B;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kuluu.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = "kuluu (macOS)";
 			};
@@ -719,16 +903,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MS9JF6U38B;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kuluu.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = "kuluu (macOS)";
 			};
@@ -832,6 +1025,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -896,6 +1090,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		FC1D93F028540F98002965FA /* XCRemoteSwiftPackageReference "R.swift.Library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift.Library.git";
+			requirement = {
+				kind = revision;
+				revision = 71eccb771f6877f44b2ad3876cc3ec17f3b92ef2;
+			};
+		};
 		FC281D752827B3F6004E1710 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
@@ -907,13 +1109,31 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FC281D6828275DA8004E1710 /* Networking */ = {
+		FC1D93F128540F98002965FA /* Rswift */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Networking;
+			package = FC1D93F028540F98002965FA /* XCRemoteSwiftPackageReference "R.swift.Library" */;
+			productName = Rswift;
 		};
-		FC281D6A28275DB0004E1710 /* Networking */ = {
+		FC1D93F528540F9F002965FA /* Rswift */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Networking;
+			package = FC1D93F028540F98002965FA /* XCRemoteSwiftPackageReference "R.swift.Library" */;
+			productName = Rswift;
+		};
+		FCE6DF17285541E800A50D6E /* kuluu-ffxi-network-protocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "kuluu-ffxi-network-protocol";
+		};
+		FCE6DF19285541F200A50D6E /* kuluu-ffxi-network-protocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "kuluu-ffxi-network-protocol";
+		};
+		FCE6DF1C2855432600A50D6E /* kuluu-ffxi-emulator */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "kuluu-ffxi-emulator";
+		};
+		FCE6DF1E2855432E00A50D6E /* kuluu-ffxi-emulator */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "kuluu-ffxi-emulator";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

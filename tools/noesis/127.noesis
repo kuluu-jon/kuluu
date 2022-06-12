@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Behemoth's Dominion"
+  model "ROM\1\3.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Behemoth's Dominion BumpMap"
+  model "ROM\92\38.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

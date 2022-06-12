@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Bhaflau Remnants"
+  model "ROM4\0\28.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Bhaflau Remnants BumpMap"
+  model "ROM4\7\107.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Manaclipper"
+  model "ROM3\0\2.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Manaclipper BumpMap"
+  model "ROM\92\17.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

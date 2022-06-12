@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Abyssea - Grauberg"
+  model "ROM\258\112.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Abyssea - Grauberg BumpMap"
+  model "ROM\258\116.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Abdhaljs Isle-Purgonorgo"
+  model "ROM3\5\7.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Abdhaljs Isle-Purgonorgo BumpMap"
+  model "ROM3\6\37.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

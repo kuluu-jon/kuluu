@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Leafallia"
+  model "ROM9\8\10.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Leafallia BumpMap"
+  model "ROM9\8\11.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

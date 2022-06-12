@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Yughott Grotto"
+  model "ROM\1\8.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Yughott Grotto BumpMap"
+  model "ROM\92\43.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

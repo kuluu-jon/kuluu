@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Altar Room"
+  model "ROM\0\64.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Altar Room BumpMap"
+  model "ROM\92\53.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

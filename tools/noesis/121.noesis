@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "The Sanctuary of Zi'Tah"
+  model "ROM2\0\2.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "The Sanctuary of Zi'Tah BumpMap"
+  model "ROM2\21\69.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

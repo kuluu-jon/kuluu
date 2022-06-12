@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Fort Ghelsba"
+  model "ROM\1\7.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Fort Ghelsba BumpMap"
+  model "ROM\92\42.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

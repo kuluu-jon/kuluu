@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Arrapago Reef"
+  model "ROM4\0\7.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Arrapago Reef BumpMap"
+  model "ROM4\7\86.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

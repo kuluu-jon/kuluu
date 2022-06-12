@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Abyssea - Tahrongi"
+  model "ROM\240\107.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Abyssea - Tahrongi BumpMap"
+  model "ROM\254\11.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

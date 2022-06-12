@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Castle Zvahl Keep [S]"
+  model "ROM5\0\24.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Castle Zvahl Keep [S] BumpMap"
+  model "ROM5\5\125.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

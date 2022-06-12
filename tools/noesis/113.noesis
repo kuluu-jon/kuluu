@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Cape Teriggan"
+  model "ROM2\0\0.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Cape Teriggan BumpMap"
+  model "ROM2\21\67.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

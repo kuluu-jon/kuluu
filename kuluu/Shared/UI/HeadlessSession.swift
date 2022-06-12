@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Networking
+import kuluu_ffxi_network_protocol
 
 struct HeadlessSession: View {
     @FocusState private var focusedField: Field?
@@ -15,11 +15,11 @@ struct HeadlessSession: View {
     enum Field: Hashable {
        case host, port, username, password
     }
-    
+
     init(viewModel: HeadlessSessionViewModel) {
         self.viewModel = viewModel
     }
-    
+
     var body: some View {
         GeometryReader { g in
             NavigationView {
@@ -43,12 +43,12 @@ private extension HeadlessSession {
             serverAndAccountConfig.navigationTitle("New Session")
         }
     }
-    
+
     func lobby(_ lobby: LobbyState) -> some View {
         CharacterPicker(lobby: lobby)
             .environmentObject(viewModel.client)
     }
-    
+
     var serverAndAccountConfig: some View {
         VStack {
             TextField(
@@ -72,7 +72,7 @@ private extension HeadlessSession {
             )
                 .focused($focusedField, equals: .password)
 //                .textFieldStyle(.squareBorder)
-            
+
             Toggle("Save account and password", isOn: $viewModel.isSaved)
             Button.init(action: {
                 viewModel.login()
@@ -88,7 +88,6 @@ private extension HeadlessSession {
         .frame(width: 400, height: 400, alignment: .center)
     }
 }
-
 
 struct HeadlessSession_Previews: PreviewProvider {
     static var previews: some View {

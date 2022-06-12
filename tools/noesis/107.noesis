@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "South Gustaberg"
+  model "ROM\0\124.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "South Gustaberg BumpMap"
+  model "ROM\92\25.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

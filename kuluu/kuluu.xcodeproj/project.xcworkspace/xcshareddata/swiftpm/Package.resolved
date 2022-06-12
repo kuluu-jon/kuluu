@@ -38,6 +38,15 @@
         }
       },
       {
+        "package": "R.swift.Library",
+        "repositoryURL": "https://github.com/mac-cain13/R.swift.Library.git",
+        "state": {
+          "branch": null,
+          "revision": "71eccb771f6877f44b2ad3876cc3ec17f3b92ef2",
+          "version": null
+        }
+      },
+      {
         "package": "Introspect",
         "repositoryURL": "https://github.com/siteline/SwiftUI-Introspect.git",
         "state": {

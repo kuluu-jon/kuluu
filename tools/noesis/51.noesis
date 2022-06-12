@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Wajaom Woodlands"
+  model "ROM4\1\99.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Wajaom Woodlands BumpMap"
+  model "ROM4\7\83.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

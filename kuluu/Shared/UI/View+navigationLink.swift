@@ -14,7 +14,7 @@ extension View {
     ) -> some View {
         self.modifier(NavigationViewModifier(item: item, destination: destination))
     }
-    
+
     @ViewBuilder
     func navigationLink<Destination: View>(
         isActive: Binding<Bool>,
@@ -39,12 +39,12 @@ private struct IdentifiableProxy: Identifiable {
 struct NavigationViewModifier<Item, Destination: View>: ViewModifier {
     @Binding var item: Item?
     let destination: (Item) -> Destination
-    
+
     func body(content: Content) -> some View {
         content
             .background(self.background)
     }
-    
+
     var background: some View {
         NavigationLink(
             destination: item.map { destination($0) },
@@ -52,7 +52,7 @@ struct NavigationViewModifier<Item, Destination: View>: ViewModifier {
             label: {}
         )
     }
-    
+
     var binding: Binding<Bool> {
         Binding(
             get: { item != nil },

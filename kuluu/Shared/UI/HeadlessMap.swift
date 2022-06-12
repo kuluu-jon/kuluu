@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Networking
+import kuluu_ffxi_network_protocol
 
 struct HeadlessMap<GameView: View>: View {
     let gameView: (FFXIClient) -> GameView
@@ -32,7 +32,7 @@ struct HeadlessMap<GameView: View>: View {
                     }
                 }
                 Button.init(action: {
-                    
+
                     let chatMessage = self.chatMessage
                     Task {
                         try? await kuluuClient.send(chatMessage: chatMessage)
@@ -73,8 +73,8 @@ private extension HeadlessMap {
     }
 }
 
-//struct HeadlessMap_Previews: PreviewProvider {
+// struct HeadlessMap_Previews: PreviewProvider {
 //    static var previews: some View {
 //        HeadlessMap(map: .init(from: ))
 //    }
-//}
+// }

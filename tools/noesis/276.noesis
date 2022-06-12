@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Ra'Kaznar Inner Court"
+  model "ROM9\0\23.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Ra'Kaznar Inner Court BumpMap"
+  model "ROM9\7\73.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

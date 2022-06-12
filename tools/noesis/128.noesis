@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Valley of Sorrows"
+  model "ROM2\0\7.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Valley of Sorrows BumpMap"
+  model "ROM2\21\74.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

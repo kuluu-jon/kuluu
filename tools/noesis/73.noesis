@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Zhayolm Remnants"
+  model "ROM4\0\26.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Zhayolm Remnants BumpMap"
+  model "ROM4\7\105.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

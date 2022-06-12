@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Open sea route to Mhaura"
+  model "ROM4\0\1.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Open sea route to Mhaura BumpMap"
+  model "ROM4\7\80.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

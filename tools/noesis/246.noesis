@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Port Jeuno"
+  model "ROM\1\42.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Port Jeuno BumpMap"
+  model "ROM\92\93.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

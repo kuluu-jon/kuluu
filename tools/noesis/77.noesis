@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Nyzul Isle"
+  model "ROM4\0\30.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Nyzul Isle BumpMap"
+  model "ROM4\7\109.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

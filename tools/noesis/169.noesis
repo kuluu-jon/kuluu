@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Toraimarai Canal"
+  model "ROM\0\65.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Toraimarai Canal BumpMap"
+  model "ROM\92\61.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

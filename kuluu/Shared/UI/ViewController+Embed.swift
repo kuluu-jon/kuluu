@@ -20,10 +20,10 @@ public extension UIViewController {
             withinView.addSubview(self.view)
         }
         parent.addChild(self)
-        
+
         didMove(toParent: parent)
     }
-    
+
     func embed(
         inParent parent: UIViewController,
         withinView: UIView,
@@ -34,7 +34,7 @@ public extension UIViewController {
         parent.addChild(self)
         didMove(toParent: parent)
     }
-    
+
     func unEmbed() {
         willMove(toParent: nil)
         if let view = view {
@@ -60,14 +60,14 @@ public extension NSViewController {
         }
         parent.addChild(self)
     }
-    
+
     func embed(inParent parent: NSViewController, withinView: NSView, belowSubview: NSView) {
         if let index = withinView.subviews.firstIndex(of: belowSubview) {
             withinView.subviews.insert(view, at: index)
         }
         parent.addChild(self)
     }
-    
+
     func unEmbed() {
         NSLayoutConstraint.deactivate(view.constraints)
         view.removeFromSuperview()

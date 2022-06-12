@@ -16,7 +16,7 @@ protocol ButtonOverlayDelegate: NSObjectProtocol {
 
 class ButtonOverlay: SKNode {
     // Default 25, 25
-    
+
     var size = CGSize.zero {
         didSet {
             if size != oldValue {
@@ -33,18 +33,18 @@ class ButtonOverlay: SKNode {
 
     init(_ text: NSString) {
         super.init()
-        
+
         size = CGSize(width: CGFloat(40), height: CGFloat(40))
         alpha = 0.7
         isUserInteractionEnabled = true
         buildPad(text)
-    
+
     }
-    
+
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+
     func buildPad(_ text: NSString) {
         let backgroundRect = CGRect(x: CGFloat(0), y: CGFloat(0), width: CGFloat(size.width), height: CGFloat(size.height))
         background = SKShapeNode()
@@ -52,14 +52,14 @@ class ButtonOverlay: SKNode {
         background.strokeColor = SKColor.black
         background.lineWidth = 3.0
         addChild(background)
-        
+
         inner = SKShapeNode()
         inner.path = CGPath( ellipseIn: CGRect( x: 0, y: 0, width: innerSize.width, height: innerSize.height ), transform: nil)
         inner.lineWidth = 1.0
         inner.fillColor = SKColor.white
         inner.strokeColor = SKColor.gray
         addChild(inner)
-        
+
         label = SKLabelNode()
         label!.fontName = UIFont.boldSystemFont(ofSize: 24).fontName
         label!.fontSize = 24
@@ -78,7 +78,7 @@ class ButtonOverlay: SKNode {
         background.path = CGPath(ellipseIn: backgroundRect, transform: nil)
         let innerRect = CGRect(x: CGFloat(0), y: CGFloat(0), width: CGFloat(size.width / 3.0), height: CGFloat(size.height / 3.0))
         inner.path = CGPath(ellipseIn: innerRect, transform: nil)
-        
+
         label!.position = CGPoint(x: size.width / 2.0 - label!.frame.size.width / 2.0, y: size.height / 2.0 - label!.frame.size.height / 2.0)
     }
 

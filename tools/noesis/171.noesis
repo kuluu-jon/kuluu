@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Crawlers' Nest [S]"
+  model "ROM5\0\27.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Crawlers' Nest [S] BumpMap"
+  model "ROM5\6\0.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

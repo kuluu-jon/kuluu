@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Dynamis - Bastok [D]"
+  model "ROM\355\3.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Dynamis - Bastok [D] BumpMap"
+  model "ROM\355\4.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

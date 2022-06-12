@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Balga's Dais"
+  model "ROM\0\105.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Balga's Dais BumpMap"
+  model "ROM\92\47.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

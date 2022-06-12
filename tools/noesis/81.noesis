@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "East Ronfaure [S]"
+  model "ROM5\0\1.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "East Ronfaure [S] BumpMap"
+  model "ROM5\5\102.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

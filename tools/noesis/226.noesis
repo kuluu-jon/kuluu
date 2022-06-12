@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Kazham-Jeuno Airship"
+  model "ROM2\0\24.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Kazham-Jeuno Airship BumpMap"
+  model "ROM\92\17.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

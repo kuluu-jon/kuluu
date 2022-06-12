@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Feretory"
+  model "ROM\306\54.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Feretory BumpMap"
+  model "ROM\306\55.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Apollyon"
+  model "ROM3\5\1.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Apollyon BumpMap"
+  model "ROM3\6\31.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

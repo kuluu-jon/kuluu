@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Beadeaux"
+  model "ROM\0\61.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Beadeaux BumpMap"
+  model "ROM\92\48.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

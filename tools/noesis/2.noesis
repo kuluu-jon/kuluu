@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Carpenters' Landing"
+  model "ROM3\0\1.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Carpenters' Landing BumpMap"
+  model "ROM3\5\125.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Selbina"
+  model "ROM\1\43.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Selbina BumpMap"
+  model "ROM\92\94.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

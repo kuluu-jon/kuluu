@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Qufim Island"
+  model "ROM\0\58.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Qufim Island BumpMap"
+  model "ROM\92\37.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

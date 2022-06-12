@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Middle Delkfutt's Tower"
+  model "ROM\0\56.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Middle Delkfutt's Tower BumpMap"
+  model "ROM\92\54.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

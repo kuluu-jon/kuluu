@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Dynamis - Windurst"
+  model "ROM2\12\118.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Dynamis - Windurst BumpMap"
+  model "ROM2\21\95.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

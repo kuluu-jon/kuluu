@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Spire of Mea"
+  model "ROM3\0\20.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Spire of Mea BumpMap"
+  model "ROM3\6\14.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

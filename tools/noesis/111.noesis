@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Beaucedine Glacier"
+  model "ROM\0\72.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Beaucedine Glacier BumpMap"
+  model "ROM\92\29.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

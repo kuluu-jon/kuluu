@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Lebros Cavern"
+  model "ROM4\0\16.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Lebros Cavern BumpMap"
+  model "ROM4\7\95.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

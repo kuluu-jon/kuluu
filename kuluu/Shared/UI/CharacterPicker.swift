@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Networking
+import kuluu_ffxi_network_protocol
 
 struct CharacterPicker: View {
     @EnvironmentObject var kuluuClient: FFXIClient
@@ -15,9 +15,9 @@ struct CharacterPicker: View {
     var isEnabled: Bool {
         kuluuClient.map == nil
     }
-    
+
     var body: some View {
-        
+
         if lobby.account.characterSlots.isEmpty {
             Text(
                 """
@@ -31,7 +31,7 @@ struct CharacterPicker: View {
             Text("but no characters?")
         } else {
             List(lobby.account.characterSlots) { character in
-                
+
                 Text(
                 """
                 accountId: \(lobby.accountId.description),
@@ -43,9 +43,9 @@ struct CharacterPicker: View {
                 )
                     .font(.body.monospaced())
     //                .background(Color.background)
-                
+
                 Divider()
-                
+
                 Button(action: { self.selectCharacter(character)}) {
                     HStack {
                         Spacer()
@@ -59,7 +59,7 @@ struct CharacterPicker: View {
                         }
                         .padding()
                         .background(Color.accentColor.opacity(0.2))
-                        
+
                         Spacer()
                     }
                 }
@@ -97,8 +97,8 @@ private extension CharacterPicker {
     }
 }
 
-//struct CharacterPicker_Previews: PreviewProvider {
+// struct CharacterPicker_Previews: PreviewProvider {
 //    static var previews: some View {
 //        CharacterPicker(lobby: FFXILobby.Lobby())
 //    }
-//}
+// }

@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Northern San d'Oria"
+  model "ROM\1\32.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Northern San d'Oria BumpMap"
+  model "ROM\92\78.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

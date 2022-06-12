@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Reisenjima Henge"
+  model "ROM\351\58.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Reisenjima Henge BumpMap"
+  model "ROM\351\60.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Networking
+import kuluu_ffxi_network_protocol
 
 #if os(macOS)
 import AppKit
@@ -19,14 +19,13 @@ typealias VC = UIViewController
 #endif
 
 struct GameView: VCRep {
-    
+
     let client: FFXIClient
     typealias NSViewControllerType = VC
-    
-    
+
     #if os(macOS)
     func updateNSViewController(_ nsViewController: VC, context: Context) {
-        
+
     }
     func makeNSViewController(context: Context) -> VC {
         let gameOn = GameViewController(client: client)

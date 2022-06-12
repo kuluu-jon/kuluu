@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Ship bound for Selbina"
+  model "ROM\1\24.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Ship bound for Selbina BumpMap"
+  model "ROM\92\17.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Promyvion - Dem"
+  model "ROM3\0\17.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Promyvion - Dem BumpMap"
+  model "ROM3\6\11.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

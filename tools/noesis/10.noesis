@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "The Shrouded Maw"
+  model "ROM3\0\9.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "The Shrouded Maw BumpMap"
+  model "ROM3\6\4.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

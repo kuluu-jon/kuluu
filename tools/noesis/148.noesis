@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Qulun Dome"
+  model "ROM\0\62.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Qulun Dome BumpMap"
+  model "ROM\92\49.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

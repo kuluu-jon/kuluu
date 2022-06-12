@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Dho Gates"
+  model "ROM9\0\19.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Dho Gates BumpMap"
+  model "ROM9\7\69.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

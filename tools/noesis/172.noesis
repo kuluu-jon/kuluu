@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Zeruhn Mines"
+  model "ROM\1\11.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Zeruhn Mines BumpMap"
+  model "ROM\92\62.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

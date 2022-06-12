@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Oldton Movalpolos"
+  model "ROM3\0\10.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Oldton Movalpolos BumpMap"
+  model "ROM3\6\5.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

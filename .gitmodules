@@ -1,6 +1,3 @@
-[submodule "xiNavmeshes"]
-	path = xiNavmeshes
-	url = https://github.com/LandSandBoat/xiNavmeshes
 [submodule "research-docs/PacketFFXI"]
 	path = research-docs/PacketFFXI
 	url = https://github.com/bope12/PacketFFXI.git
@@ -19,3 +16,21 @@
 [submodule "research-docs/lsb"]
 	path = research-docs/lsb
 	url = https://github.com/LandSandBoat/server.git
+[submodule "research-docs/Tesselate_texture_plane"]
+	path = research-docs/Tesselate_texture_plane
+	url = https://github.com/Pullusb/Tesselate_texture_plane
+[submodule "research-docs/POLUtils"]
+	path = research-docs/POLUtils
+	url = https://github.com/Windower/POLUtils.git
+[submodule "research-docs/ffxivmodelviewer"]
+	path = research-docs/ffxivmodelviewer
+	url = https://github.com/nohbdy/ffxivmodelviewer.git
+[submodule "research-docs/ffxi-datReader"]
+	path = research-docs/ffxi-datReader
+	url = https://github.com/galkareeve/ffxi.git
+[submodule "research-docs/ResourceExtractor"]
+	path = research-docs/ResourceExtractor
+	url = https://github.com/Windower/ResourceExtractor.git
+[submodule "research-docs/swift-cross-ui"]
+	path = research-docs/swift-cross-ui
+	url = https://github.com/stackotter/swift-cross-ui.git

@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "Castle Oztroja"
+  model "ROM\0\63.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "Castle Oztroja BumpMap"
+  model "ROM\92\52.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}

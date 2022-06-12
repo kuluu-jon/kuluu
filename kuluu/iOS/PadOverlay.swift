@@ -17,7 +17,7 @@ protocol PadOverlayDelegate: NSObjectProtocol {
 
 class PadOverlay: SKNode {
     // Default 100, 100
-    
+
     var size = CGSize.zero {
         didSet {
             if size != oldValue {
@@ -47,11 +47,11 @@ class PadOverlay: SKNode {
         isUserInteractionEnabled = true
         buildPad()
     }
-    
+
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+
     func buildPad() {
         let backgroundRect = CGRect(x: CGFloat(0), y: CGFloat(0), width: CGFloat(size.width), height: CGFloat(size.height))
         background = SKShapeNode()
@@ -64,14 +64,14 @@ class PadOverlay: SKNode {
         stick = SKShapeNode()
         stick.path = CGPath( ellipseIn: stickRect, transform: nil)
         stick.lineWidth = 2.0
-        //#if os( OSX )
+        // #if os( OSX )
         stick.fillColor = SKColor.white
-        //#endif
+        // #endif
         stick.strokeColor = SKColor.black
         addChild(stick)
         updateStickPosition()
     }
-    
+
     var stickSize: CGSize {
         return CGSize( width: size.width / 3.0, height: size.height / 3.0)
     }

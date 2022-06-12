@@ -1,0 +1,16 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib ""
+defaultAxis "0"
+object
+{
+  name "GM_Home"
+  model "ROM\0\40.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
+object
+{
+  name "GM_Home BumpMap"
+  model "ROM\92\17.DAT"
+  loadOptions "-ff11blendhack 0.99 -ff11keepnames 1"
+}
