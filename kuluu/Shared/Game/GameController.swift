@@ -288,10 +288,13 @@ class GameController: NSObject, ExtraProtocols {
         let birdsEyeView = SCNTransformConstraint.positionConstraint(inWorldSpace: true, with: { [weak self] (_ node: SCNNode, _ position: SCNVector3) -> SCNVector3 in
             guard let self = self else { return position }
             var position = SIMD3<Float>(target.simdWorldPosition)
-            position.y += 100
-            self.minimapCamera?.camera?.zNear = Double(position.y - 15)
-            self.minimapCamera?.camera?.zFar = Double(position.y + 15)
-            self.minimapCamera?.camera?.orthographicScale = Double(100.0)
+            let box = self.map?.visible.boundingBox
+            let width = abs((box?.max.x ?? 0) - (box?.min.x ?? 0))
+            position.y += Float(width)
+            self.minimapCamera?.camera?.automaticallyAdjustsZRange = true
+//            self.minimapCamera?.camera?.zNear = Double(position.y - 15)
+//            self.minimapCamera?.camera?.zFar = Double(position.y + 15)
+//            self.minimapCamera?.camera?.orthographicScale = Double(10.0)
 //            self.minimapCamera?.camera?.orthographicScale = Double(position.y / 10)
             return SCNVector3(position)
         })

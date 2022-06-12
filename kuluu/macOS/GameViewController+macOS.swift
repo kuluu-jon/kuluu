@@ -102,7 +102,7 @@ class GameViewController: VC {
 
     override func viewDidLayout() {
         super.viewDidLayout()
-        minimap.layer?.contentsScale = 0.5
+        minimap.layer?.contentsScale = 0.33
         minimap.layer?.opacity = 0.78
     }
 
