@@ -64,7 +64,6 @@
 		FCD24C5228335BC100F2C618 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4615722833414500B16F2B /* Menu.swift */; };
 		FCE6DF18285541E800A50D6E /* kuluu-ffxi-network-protocol in Frameworks */ = {isa = PBXBuildFile; productRef = FCE6DF17285541E800A50D6E /* kuluu-ffxi-network-protocol */; };
 		FCE6DF1A285541F200A50D6E /* kuluu-ffxi-network-protocol in Frameworks */ = {isa = PBXBuildFile; productRef = FCE6DF19285541F200A50D6E /* kuluu-ffxi-network-protocol */; };
-		FCE6DF1D2855432600A50D6E /* kuluu-ffxi-emulator in Frameworks */ = {isa = PBXBuildFile; productRef = FCE6DF1C2855432600A50D6E /* kuluu-ffxi-emulator */; };
 		FCE6DF1F2855432E00A50D6E /* kuluu-ffxi-emulator in Frameworks */ = {isa = PBXBuildFile; productRef = FCE6DF1E2855432E00A50D6E /* kuluu-ffxi-emulator */; };
 		FCE6DF212855438800A50D6E /* Zone+Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE6DF202855438800A50D6E /* Zone+Scene.swift */; };
 		FCE6DF222855438800A50D6E /* Zone+Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE6DF202855438800A50D6E /* Zone+Scene.swift */; };
@@ -156,10 +155,10 @@
 		FC78AF63283F20F100C29E00 /* HeadlessSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlessSessionViewModel.swift; sourceTree = "<group>"; };
 		FC7EE567283EEE3500CF5BCE /* kuluu--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "kuluu--macOS--Info.plist"; sourceTree = "<group>"; };
 		FC80108C28326349006AF7C5 /* FFXI.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = FFXI.scnassets; sourceTree = "<group>"; };
+		FCB8A181285D3B8C0047B685 /* kuluu-ffxi-emulator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "kuluu-ffxi-emulator"; path = "../kuluu-ffxi-emulator"; sourceTree = "<group>"; };
 		FCD24C502833543F00F2C618 /* kuluu--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "kuluu--iOS--Info.plist"; sourceTree = "<group>"; };
-		FCE6DF052855409700A50D6E /* kuluu-ffxi-network-protocol */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "kuluu-ffxi-network-protocol"; path = "../kuluu-ffxi-network-protocol"; sourceTree = "<group>"; };
+		FCE6DF052855409700A50D6E /* kuluu-ffxi-network-protocol */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "kuluu-ffxi-network-protocol"; sourceTree = "<group>"; };
 		FCE6DF07285541A000A50D6E /* noesis-scene-generator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "noesis-scene-generator.xcodeproj"; path = "../tools/noesis-scene-generator/noesis-scene-generator.xcodeproj"; sourceTree = "<group>"; };
-		FCE6DF1B285542CC00A50D6E /* kuluu-ffxi-emulator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "kuluu-ffxi-emulator"; path = "../kuluu-ffxi-emulator"; sourceTree = "<group>"; };
 		FCE6DF202855438800A50D6E /* Zone+Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Zone+Scene.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,7 +179,6 @@
 			files = (
 				FC1D93F228540F98002965FA /* Rswift in Frameworks */,
 				FCE6DF18285541E800A50D6E /* kuluu-ffxi-network-protocol in Frameworks */,
-				FCE6DF1D2855432600A50D6E /* kuluu-ffxi-emulator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +252,7 @@
 		FC4A7CA32782BD53000E2E12 = {
 			isa = PBXGroup;
 			children = (
-				FCE6DF052855409700A50D6E /* kuluu-ffxi-network-protocol */,
-				FCE6DF1B285542CC00A50D6E /* kuluu-ffxi-emulator */,
+				FCB8A180285D3B8C0047B685 /* Packages */,
 				FCE6DF07285541A000A50D6E /* noesis-scene-generator.xcodeproj */,
 				FCD24C502833543F00F2C618 /* kuluu--iOS--Info.plist */,
 				FC7EE567283EEE3500CF5BCE /* kuluu--macOS--Info.plist */,
@@ -322,6 +319,15 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		FCB8A180285D3B8C0047B685 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				FCE6DF052855409700A50D6E /* kuluu-ffxi-network-protocol */,
+				FCB8A181285D3B8C0047B685 /* kuluu-ffxi-emulator */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		FCE6DF08285541A000A50D6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,7 +383,6 @@
 			packageProductDependencies = (
 				FC1D93F128540F98002965FA /* Rswift */,
 				FCE6DF17285541E800A50D6E /* kuluu-ffxi-network-protocol */,
-				FCE6DF1C2855432600A50D6E /* kuluu-ffxi-emulator */,
 			);
 			productName = "kuluu (macOS)";
 			productReference = FC281D33282752EE004E1710 /* kuluu.app */;
@@ -1126,10 +1131,6 @@
 		FCE6DF19285541F200A50D6E /* kuluu-ffxi-network-protocol */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = "kuluu-ffxi-network-protocol";
-		};
-		FCE6DF1C2855432600A50D6E /* kuluu-ffxi-emulator */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = "kuluu-ffxi-emulator";
 		};
 		FCE6DF1E2855432E00A50D6E /* kuluu-ffxi-emulator */ = {
 			isa = XCSwiftPackageProductDependency;
