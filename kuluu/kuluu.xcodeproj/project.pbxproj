@@ -26,7 +26,6 @@
 		FC281D712827615F004E1710 /* CharacterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D6F2827615F004E1710 /* CharacterPicker.swift */; };
 		FC281D7328279FE0004E1710 /* HeadlessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D7228279FE0004E1710 /* HeadlessMap.swift */; };
 		FC281D7428279FE0004E1710 /* HeadlessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC281D7228279FE0004E1710 /* HeadlessMap.swift */; };
-		FC32295E284B1269006F5E2F /* BlowfishSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32295D284B1269006F5E2F /* BlowfishSpec.swift */; };
 		FC3B9720285D6E8200EA2CAA /* kuluu-ffxi-emulator in Frameworks */ = {isa = PBXBuildFile; productRef = FC3B971F285D6E8200EA2CAA /* kuluu-ffxi-emulator */; };
 		FC3B9723285D6E8B00EA2CAA /* kuluu-ffxi-emulator in Frameworks */ = {isa = PBXBuildFile; productRef = FC3B9722285D6E8B00EA2CAA /* kuluu-ffxi-emulator */; };
 		FC46156628333F0D00B16F2B /* GameViewController+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46156528333F0D00B16F2B /* GameViewController+iOS.swift */; };
@@ -133,7 +132,6 @@
 		FC281D6C28275E55004E1710 /* View+navigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+navigationLink.swift"; sourceTree = "<group>"; };
 		FC281D6F2827615F004E1710 /* CharacterPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterPicker.swift; sourceTree = "<group>"; };
 		FC281D7228279FE0004E1710 /* HeadlessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlessMap.swift; sourceTree = "<group>"; };
-		FC32295D284B1269006F5E2F /* BlowfishSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlowfishSpec.swift; sourceTree = "<group>"; };
 		FC32295F284B15B2006F5E2F /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
 		FC46156528333F0D00B16F2B /* GameViewController+iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewController+iOS.swift"; sourceTree = "<group>"; };
 		FC46156728333F3D00B16F2B /* GameViewController+macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewController+macOS.swift"; sourceTree = "<group>"; };
@@ -233,7 +231,6 @@
 		FC281D49282752EE004E1710 /* Tests macOS */ = {
 			isa = PBXGroup;
 			children = (
-				FC32295D284B1269006F5E2F /* BlowfishSpec.swift */,
 				FC32295F284B15B2006F5E2F /* CocoaAsyncSocket.h */,
 			);
 			path = "Tests macOS";
@@ -684,7 +681,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC32295E284B1269006F5E2F /* BlowfishSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

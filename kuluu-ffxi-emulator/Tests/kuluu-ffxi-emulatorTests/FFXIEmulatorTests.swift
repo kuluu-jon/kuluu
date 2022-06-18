@@ -3,7 +3,12 @@ import XCTest
 
 final class FFXIEmulatorTests: XCTestCase {
     func testLoadEntitiesForZone() async throws {
-        let entities = try await loadEntitiesForZone(id: 0)
-        XCTAssertFalse(entities.isEmpty)
-    }
+        do {
+            let entities = try await loadEntities()
+            XCTAssertFalse(entities.isEmpty)
+        } catch {
+            XCTFail((error as NSError).description)
+//            XCTFail(error.localizedDescription)
+        }
+    }    
 }

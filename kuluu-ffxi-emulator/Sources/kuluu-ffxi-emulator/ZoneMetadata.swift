@@ -16,9 +16,17 @@ public enum ZoneMetadataType: String, Codable {
     case model = "Model"
 }
 
-public struct ZoneMetadata: Codable {
-    public let fileId: UInt
-    public let identifier: String
+public struct ArrayOfSubRegion: Codable {
+    public var zoneMetadatas: [ZoneMetadata]
+    
+    public enum CodingKeys: String, CodingKey {
+        case zoneMetadatas = "SubRegion"
+    }
+}
+
+public struct ZoneMetadata: Codable, Identifiable {
+    public let fileId: Int
+    public let id: String
     
     public let rotationX: Float
     public let rotationY: Float
@@ -28,10 +36,24 @@ public struct ZoneMetadata: Codable {
     public let scaleY: Float
     public let scaleZ: Float
     
-    public let type: ZoneMetadataType
+    public let type: ZoneMetadataType?
+    
+    public let positionX: Float
+    public let positionY: Float
+    public let positionZ: Float
+    
+    public enum CodingKeys: String, CodingKey {
+        case id = "Identifier"
+        case fileId = "FileId"
+        case rotationX = "RotationX"
+        case rotationY = "RotationY"
+        case rotationZ = "RotationZ"
+        case scaleX = "ScaleX"
+        case scaleY = "ScaleY"
+        case scaleZ = "ScaleZ"
+        case type = "Type"
+        case positionX = "X"
+        case positionY = "Y"
+        case positionZ = "Z"
+    }
 }
-
-public struct ZoneMetadataContainer: Codable {
-    public let arrayOfSubRegion: [ZoneMetadata]
-}
-
