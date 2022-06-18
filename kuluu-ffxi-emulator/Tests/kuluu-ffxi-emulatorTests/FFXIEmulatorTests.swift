@@ -1,11 +1,9 @@
 import XCTest
-@testable import FFXIEmulator
+@testable import kuluu_ffxi_emulator
 
 final class FFXIEmulatorTests: XCTestCase {
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(FFXIEmulator().text, "Hello, World!")
+    func testLoadEntitiesForZone() async throws {
+        let entities = try await loadEntitiesForZone(id: 0)
+        XCTAssertFalse(entities.isEmpty)
     }
 }

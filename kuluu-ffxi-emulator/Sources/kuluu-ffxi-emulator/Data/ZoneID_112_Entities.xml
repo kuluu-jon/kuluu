@@ -1,0 +1,2331 @@
+<?xml version="1.0"?>
+<ArrayOfEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Entity>
+    <Name>none</Name>
+    <ServerId>0</ServerId>
+    <TargetIndex>0</TargetIndex>
+    <ZoneId>0</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235969</ServerId>
+    <TargetIndex>1</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235970</ServerId>
+    <TargetIndex>2</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235971</ServerId>
+    <TargetIndex>3</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235972</ServerId>
+    <TargetIndex>4</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235973</ServerId>
+    <TargetIndex>5</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235974</ServerId>
+    <TargetIndex>6</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235975</ServerId>
+    <TargetIndex>7</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235976</ServerId>
+    <TargetIndex>8</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235977</ServerId>
+    <TargetIndex>9</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235978</ServerId>
+    <TargetIndex>10</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235979</ServerId>
+    <TargetIndex>11</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235980</ServerId>
+    <TargetIndex>12</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235981</ServerId>
+    <TargetIndex>13</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235982</ServerId>
+    <TargetIndex>14</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17235983</ServerId>
+    <TargetIndex>15</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17235984</ServerId>
+    <TargetIndex>16</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17235985</ServerId>
+    <TargetIndex>17</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17235986</ServerId>
+    <TargetIndex>18</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Shadow Dragon</Name>
+    <ServerId>17235987</ServerId>
+    <TargetIndex>19</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Biast</Name>
+    <ServerId>17235988</ServerId>
+    <TargetIndex>20</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ice Elemental</Name>
+    <ServerId>17235989</ServerId>
+    <TargetIndex>21</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Cursed Weapon</Name>
+    <ServerId>17235990</ServerId>
+    <TargetIndex>22</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Cursed Weapon</Name>
+    <ServerId>17235991</ServerId>
+    <TargetIndex>23</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Cursed Weapon</Name>
+    <ServerId>17235992</ServerId>
+    <TargetIndex>24</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Cursed Weapon</Name>
+    <ServerId>17235993</ServerId>
+    <TargetIndex>25</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17235994</ServerId>
+    <TargetIndex>26</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17235995</ServerId>
+    <TargetIndex>27</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Dark Elemental</Name>
+    <ServerId>17235996</ServerId>
+    <TargetIndex>28</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235997</ServerId>
+    <TargetIndex>29</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235998</ServerId>
+    <TargetIndex>30</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17235999</ServerId>
+    <TargetIndex>31</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236000</ServerId>
+    <TargetIndex>32</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236001</ServerId>
+    <TargetIndex>33</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236002</ServerId>
+    <TargetIndex>34</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ice Elemental</Name>
+    <ServerId>17236003</ServerId>
+    <TargetIndex>35</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Cursed Weapon</Name>
+    <ServerId>17236004</ServerId>
+    <TargetIndex>36</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Cursed Weapon</Name>
+    <ServerId>17236005</ServerId>
+    <TargetIndex>37</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236006</ServerId>
+    <TargetIndex>38</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236007</ServerId>
+    <TargetIndex>39</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236008</ServerId>
+    <TargetIndex>40</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236009</ServerId>
+    <TargetIndex>41</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17236010</ServerId>
+    <TargetIndex>42</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17236011</ServerId>
+    <TargetIndex>43</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236012</ServerId>
+    <TargetIndex>44</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236013</ServerId>
+    <TargetIndex>45</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ice Elemental</Name>
+    <ServerId>17236014</ServerId>
+    <TargetIndex>46</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236015</ServerId>
+    <TargetIndex>47</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236016</ServerId>
+    <TargetIndex>48</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236017</ServerId>
+    <TargetIndex>49</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236018</ServerId>
+    <TargetIndex>50</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236019</ServerId>
+    <TargetIndex>51</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17236020</ServerId>
+    <TargetIndex>52</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17236021</ServerId>
+    <TargetIndex>53</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236022</ServerId>
+    <TargetIndex>54</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236023</ServerId>
+    <TargetIndex>55</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ice Elemental</Name>
+    <ServerId>17236024</ServerId>
+    <TargetIndex>56</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Cursed Weapon</Name>
+    <ServerId>17236025</ServerId>
+    <TargetIndex>57</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Cursed Weapon</Name>
+    <ServerId>17236026</ServerId>
+    <TargetIndex>58</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Barbaric Weapon</Name>
+    <ServerId>17236027</ServerId>
+    <TargetIndex>59</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236028</ServerId>
+    <TargetIndex>60</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236029</ServerId>
+    <TargetIndex>61</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236030</ServerId>
+    <TargetIndex>62</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236031</ServerId>
+    <TargetIndex>63</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17236032</ServerId>
+    <TargetIndex>64</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17236033</ServerId>
+    <TargetIndex>65</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236034</ServerId>
+    <TargetIndex>66</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236035</ServerId>
+    <TargetIndex>67</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ice Elemental</Name>
+    <ServerId>17236036</ServerId>
+    <TargetIndex>68</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236037</ServerId>
+    <TargetIndex>69</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236038</ServerId>
+    <TargetIndex>70</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236039</ServerId>
+    <TargetIndex>71</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236040</ServerId>
+    <TargetIndex>72</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236041</ServerId>
+    <TargetIndex>73</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236042</ServerId>
+    <TargetIndex>74</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236043</ServerId>
+    <TargetIndex>75</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236044</ServerId>
+    <TargetIndex>76</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Timeworn Warrior</Name>
+    <ServerId>17236045</ServerId>
+    <TargetIndex>77</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236046</ServerId>
+    <TargetIndex>78</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236047</ServerId>
+    <TargetIndex>79</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236048</ServerId>
+    <TargetIndex>80</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236049</ServerId>
+    <TargetIndex>81</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17236050</ServerId>
+    <TargetIndex>82</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17236051</ServerId>
+    <TargetIndex>83</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17236052</ServerId>
+    <TargetIndex>84</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Dark Elemental</Name>
+    <ServerId>17236053</ServerId>
+    <TargetIndex>85</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236054</ServerId>
+    <TargetIndex>86</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236055</ServerId>
+    <TargetIndex>87</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236056</ServerId>
+    <TargetIndex>88</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236057</ServerId>
+    <TargetIndex>89</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17236058</ServerId>
+    <TargetIndex>90</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ereshkigal</Name>
+    <ServerId>17236059</ServerId>
+    <TargetIndex>91</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236060</ServerId>
+    <TargetIndex>92</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236061</ServerId>
+    <TargetIndex>93</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ice Elemental</Name>
+    <ServerId>17236062</ServerId>
+    <TargetIndex>94</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Blizzard Gigas</Name>
+    <ServerId>17236063</ServerId>
+    <TargetIndex>95</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Graupel Gigas</Name>
+    <ServerId>17236064</ServerId>
+    <TargetIndex>96</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Frost Gigas</Name>
+    <ServerId>17236065</ServerId>
+    <TargetIndex>97</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gigas's Tiger</Name>
+    <ServerId>17236066</ServerId>
+    <TargetIndex>98</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hail Gigas</Name>
+    <ServerId>17236067</ServerId>
+    <TargetIndex>99</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Blizzard Gigas</Name>
+    <ServerId>17236068</ServerId>
+    <TargetIndex>100</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Graupel Gigas</Name>
+    <ServerId>17236069</ServerId>
+    <TargetIndex>101</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Frost Gigas</Name>
+    <ServerId>17236070</ServerId>
+    <TargetIndex>102</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gigas's Tiger</Name>
+    <ServerId>17236071</ServerId>
+    <TargetIndex>103</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hail Gigas</Name>
+    <ServerId>17236072</ServerId>
+    <TargetIndex>104</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236073</ServerId>
+    <TargetIndex>105</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236074</ServerId>
+    <TargetIndex>106</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ice Elemental</Name>
+    <ServerId>17236075</ServerId>
+    <TargetIndex>107</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Blizzard Gigas</Name>
+    <ServerId>17236076</ServerId>
+    <TargetIndex>108</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Graupel Gigas</Name>
+    <ServerId>17236077</ServerId>
+    <TargetIndex>109</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Frost Gigas</Name>
+    <ServerId>17236078</ServerId>
+    <TargetIndex>110</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gigas's Tiger</Name>
+    <ServerId>17236079</ServerId>
+    <TargetIndex>111</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hail Gigas</Name>
+    <ServerId>17236080</ServerId>
+    <TargetIndex>112</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Blizzard Gigas</Name>
+    <ServerId>17236081</ServerId>
+    <TargetIndex>113</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Graupel Gigas</Name>
+    <ServerId>17236082</ServerId>
+    <TargetIndex>114</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Frost Gigas</Name>
+    <ServerId>17236083</ServerId>
+    <TargetIndex>115</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gigas's Tiger</Name>
+    <ServerId>17236084</ServerId>
+    <TargetIndex>116</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hail Gigas</Name>
+    <ServerId>17236085</ServerId>
+    <TargetIndex>117</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236086</ServerId>
+    <TargetIndex>118</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236087</ServerId>
+    <TargetIndex>119</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ice Elemental</Name>
+    <ServerId>17236088</ServerId>
+    <TargetIndex>120</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Blizzard Gigas</Name>
+    <ServerId>17236089</ServerId>
+    <TargetIndex>121</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Graupel Gigas</Name>
+    <ServerId>17236090</ServerId>
+    <TargetIndex>122</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Frost Gigas</Name>
+    <ServerId>17236091</ServerId>
+    <TargetIndex>123</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gigas's Tiger</Name>
+    <ServerId>17236092</ServerId>
+    <TargetIndex>124</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hail Gigas</Name>
+    <ServerId>17236093</ServerId>
+    <TargetIndex>125</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Dark Elemental</Name>
+    <ServerId>17236094</ServerId>
+    <TargetIndex>126</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Blizzard Gigas</Name>
+    <ServerId>17236095</ServerId>
+    <TargetIndex>127</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Graupel Gigas</Name>
+    <ServerId>17236096</ServerId>
+    <TargetIndex>128</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Frost Gigas</Name>
+    <ServerId>17236097</ServerId>
+    <TargetIndex>129</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gigas's Tiger</Name>
+    <ServerId>17236098</ServerId>
+    <TargetIndex>130</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hail Gigas</Name>
+    <ServerId>17236099</ServerId>
+    <TargetIndex>131</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Blizzard Gigas</Name>
+    <ServerId>17236100</ServerId>
+    <TargetIndex>132</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Graupel Gigas</Name>
+    <ServerId>17236101</ServerId>
+    <TargetIndex>133</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Frost Gigas</Name>
+    <ServerId>17236102</ServerId>
+    <TargetIndex>134</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gigas's Tiger</Name>
+    <ServerId>17236103</ServerId>
+    <TargetIndex>135</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hail Gigas</Name>
+    <ServerId>17236104</ServerId>
+    <TargetIndex>136</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Dark Elemental</Name>
+    <ServerId>17236105</ServerId>
+    <TargetIndex>137</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Blizzard Gigas</Name>
+    <ServerId>17236106</ServerId>
+    <TargetIndex>138</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Graupel Gigas</Name>
+    <ServerId>17236107</ServerId>
+    <TargetIndex>139</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Frost Gigas</Name>
+    <ServerId>17236108</ServerId>
+    <TargetIndex>140</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gigas's Tiger</Name>
+    <ServerId>17236109</ServerId>
+    <TargetIndex>141</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hail Gigas</Name>
+    <ServerId>17236110</ServerId>
+    <TargetIndex>142</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236111</ServerId>
+    <TargetIndex>143</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236112</ServerId>
+    <TargetIndex>144</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236113</ServerId>
+    <TargetIndex>145</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236114</ServerId>
+    <TargetIndex>146</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236115</ServerId>
+    <TargetIndex>147</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236116</ServerId>
+    <TargetIndex>148</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236117</ServerId>
+    <TargetIndex>149</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236118</ServerId>
+    <TargetIndex>150</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236119</ServerId>
+    <TargetIndex>151</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236120</ServerId>
+    <TargetIndex>152</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236121</ServerId>
+    <TargetIndex>153</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236122</ServerId>
+    <TargetIndex>154</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236123</ServerId>
+    <TargetIndex>155</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ice Elemental</Name>
+    <ServerId>17236124</ServerId>
+    <TargetIndex>156</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236125</ServerId>
+    <TargetIndex>157</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236126</ServerId>
+    <TargetIndex>158</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236127</ServerId>
+    <TargetIndex>159</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Dark Elemental</Name>
+    <ServerId>17236128</ServerId>
+    <TargetIndex>160</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236129</ServerId>
+    <TargetIndex>161</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236130</ServerId>
+    <TargetIndex>162</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236131</ServerId>
+    <TargetIndex>163</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236132</ServerId>
+    <TargetIndex>164</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236133</ServerId>
+    <TargetIndex>165</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236134</ServerId>
+    <TargetIndex>166</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236135</ServerId>
+    <TargetIndex>167</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236136</ServerId>
+    <TargetIndex>168</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ice Elemental</Name>
+    <ServerId>17236137</ServerId>
+    <TargetIndex>169</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236138</ServerId>
+    <TargetIndex>170</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236139</ServerId>
+    <TargetIndex>171</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236140</ServerId>
+    <TargetIndex>172</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236141</ServerId>
+    <TargetIndex>173</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236142</ServerId>
+    <TargetIndex>174</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236143</ServerId>
+    <TargetIndex>175</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236144</ServerId>
+    <TargetIndex>176</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236145</ServerId>
+    <TargetIndex>177</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Duke Focalor</Name>
+    <ServerId>17236146</ServerId>
+    <TargetIndex>178</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236147</ServerId>
+    <TargetIndex>179</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236148</ServerId>
+    <TargetIndex>180</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236149</ServerId>
+    <TargetIndex>181</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236150</ServerId>
+    <TargetIndex>182</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236151</ServerId>
+    <TargetIndex>183</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236152</ServerId>
+    <TargetIndex>184</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236153</ServerId>
+    <TargetIndex>185</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236154</ServerId>
+    <TargetIndex>186</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Warlock</Name>
+    <ServerId>17236155</ServerId>
+    <TargetIndex>187</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon's Elemental</Name>
+    <ServerId>17236156</ServerId>
+    <TargetIndex>188</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236157</ServerId>
+    <TargetIndex>189</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236158</ServerId>
+    <TargetIndex>190</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Warlock</Name>
+    <ServerId>17236159</ServerId>
+    <TargetIndex>191</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon's Elemental</Name>
+    <ServerId>17236160</ServerId>
+    <TargetIndex>192</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236161</ServerId>
+    <TargetIndex>193</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236162</ServerId>
+    <TargetIndex>194</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236163</ServerId>
+    <TargetIndex>195</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236164</ServerId>
+    <TargetIndex>196</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236165</ServerId>
+    <TargetIndex>197</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236166</ServerId>
+    <TargetIndex>198</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236167</ServerId>
+    <TargetIndex>199</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236168</ServerId>
+    <TargetIndex>200</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236169</ServerId>
+    <TargetIndex>201</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lost Soul</Name>
+    <ServerId>17236170</ServerId>
+    <TargetIndex>202</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17236171</ServerId>
+    <TargetIndex>203</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17236172</ServerId>
+    <TargetIndex>204</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Etemmu</Name>
+    <ServerId>17236173</ServerId>
+    <TargetIndex>205</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236174</ServerId>
+    <TargetIndex>206</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236175</ServerId>
+    <TargetIndex>207</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236176</ServerId>
+    <TargetIndex>208</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236177</ServerId>
+    <TargetIndex>209</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236178</ServerId>
+    <TargetIndex>210</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236179</ServerId>
+    <TargetIndex>211</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Shadow Eye</Name>
+    <ServerId>17236180</ServerId>
+    <TargetIndex>212</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236181</ServerId>
+    <TargetIndex>213</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236182</ServerId>
+    <TargetIndex>214</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236183</ServerId>
+    <TargetIndex>215</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236184</ServerId>
+    <TargetIndex>216</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236185</ServerId>
+    <TargetIndex>217</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236186</ServerId>
+    <TargetIndex>218</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236187</ServerId>
+    <TargetIndex>219</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236188</ServerId>
+    <TargetIndex>220</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236189</ServerId>
+    <TargetIndex>221</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236190</ServerId>
+    <TargetIndex>222</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236191</ServerId>
+    <TargetIndex>223</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236192</ServerId>
+    <TargetIndex>224</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Pawn</Name>
+    <ServerId>17236193</ServerId>
+    <TargetIndex>225</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236194</ServerId>
+    <TargetIndex>226</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236195</ServerId>
+    <TargetIndex>227</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Evil Eye</Name>
+    <ServerId>17236196</ServerId>
+    <TargetIndex>228</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236197</ServerId>
+    <TargetIndex>229</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236198</ServerId>
+    <TargetIndex>230</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236199</ServerId>
+    <TargetIndex>231</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236200</ServerId>
+    <TargetIndex>232</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Chaos Elemental</Name>
+    <ServerId>17236201</ServerId>
+    <TargetIndex>233</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Boreal Hound</Name>
+    <ServerId>17236202</ServerId>
+    <TargetIndex>234</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Boreal Coeurl</Name>
+    <ServerId>17236203</ServerId>
+    <TargetIndex>235</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Boreal Tiger</Name>
+    <ServerId>17236204</ServerId>
+    <TargetIndex>236</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Koenigstiger</Name>
+    <ServerId>17236205</ServerId>
+    <TargetIndex>237</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hobgoblin Warrior</Name>
+    <ServerId>17236206</ServerId>
+    <TargetIndex>238</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hobgoblin White Mage</Name>
+    <ServerId>17236207</ServerId>
+    <TargetIndex>239</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hobgoblin Black Mage</Name>
+    <ServerId>17236208</ServerId>
+    <TargetIndex>240</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hobgoblin Red Mage</Name>
+    <ServerId>17236209</ServerId>
+    <TargetIndex>241</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hobgoblin Thief</Name>
+    <ServerId>17236210</ServerId>
+    <TargetIndex>242</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hobgoblin Dark Knight</Name>
+    <ServerId>17236211</ServerId>
+    <TargetIndex>243</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hobgoblin Ranger</Name>
+    <ServerId>17236212</ServerId>
+    <TargetIndex>244</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Hobgoblin Beastmaster</Name>
+    <ServerId>17236213</ServerId>
+    <TargetIndex>245</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Goblin's Tiger</Name>
+    <ServerId>17236214</ServerId>
+    <TargetIndex>246</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gigas Warrior</Name>
+    <ServerId>17236215</ServerId>
+    <TargetIndex>247</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gigas Monk</Name>
+    <ServerId>17236216</ServerId>
+    <TargetIndex>248</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gigas Beastmaster</Name>
+    <ServerId>17236217</ServerId>
+    <TargetIndex>249</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gigas Ranger</Name>
+    <ServerId>17236218</ServerId>
+    <TargetIndex>250</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gigas's Tiger</Name>
+    <ServerId>17236219</ServerId>
+    <TargetIndex>251</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236220</ServerId>
+    <TargetIndex>252</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236221</ServerId>
+    <TargetIndex>253</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236222</ServerId>
+    <TargetIndex>254</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236223</ServerId>
+    <TargetIndex>255</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236224</ServerId>
+    <TargetIndex>256</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Wizard</Name>
+    <ServerId>17236225</ServerId>
+    <TargetIndex>257</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236226</ServerId>
+    <TargetIndex>258</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Knight</Name>
+    <ServerId>17236227</ServerId>
+    <TargetIndex>259</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Demon Aristocrat</Name>
+    <ServerId>17236228</ServerId>
+    <TargetIndex>260</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Kulili</Name>
+    <ServerId>17236229</ServerId>
+    <TargetIndex>261</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Yilbegan</Name>
+    <ServerId>17236230</ServerId>
+    <TargetIndex>262</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Lord Ruthven</Name>
+    <ServerId>17236231</ServerId>
+    <TargetIndex>263</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Feuerunke</Name>
+    <ServerId>17236232</ServerId>
+    <TargetIndex>264</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Erebus</Name>
+    <ServerId>17236233</ServerId>
+    <TargetIndex>265</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gjenganger</Name>
+    <ServerId>17236234</ServerId>
+    <TargetIndex>266</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gjenganger</Name>
+    <ServerId>17236235</ServerId>
+    <TargetIndex>267</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gjenganger</Name>
+    <ServerId>17236236</ServerId>
+    <TargetIndex>268</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gjenganger</Name>
+    <ServerId>17236237</ServerId>
+    <TargetIndex>269</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gorehound</Name>
+    <ServerId>17236238</ServerId>
+    <TargetIndex>270</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gorehound</Name>
+    <ServerId>17236239</ServerId>
+    <TargetIndex>271</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gorehound</Name>
+    <ServerId>17236240</ServerId>
+    <TargetIndex>272</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gorehound</Name>
+    <ServerId>17236241</ServerId>
+    <TargetIndex>273</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Beist</Name>
+    <ServerId>17236242</ServerId>
+    <TargetIndex>274</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Beist</Name>
+    <ServerId>17236243</ServerId>
+    <TargetIndex>275</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Beist</Name>
+    <ServerId>17236244</ServerId>
+    <TargetIndex>276</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Rousing Raaz</Name>
+    <ServerId>17236245</ServerId>
+    <TargetIndex>277</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Rapturous Raaz</Name>
+    <ServerId>17236246</ServerId>
+    <TargetIndex>278</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Rhapsodic Raaz</Name>
+    <ServerId>17236247</ServerId>
+    <TargetIndex>279</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Beastmaster</Name>
+    <ServerId>17236248</ServerId>
+    <TargetIndex>280</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236254</ServerId>
+    <TargetIndex>286</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236255</ServerId>
+    <TargetIndex>287</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236256</ServerId>
+    <TargetIndex>288</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236257</ServerId>
+    <TargetIndex>289</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236258</ServerId>
+    <TargetIndex>290</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236259</ServerId>
+    <TargetIndex>291</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236260</ServerId>
+    <TargetIndex>292</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236261</ServerId>
+    <TargetIndex>293</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236262</ServerId>
+    <TargetIndex>294</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236263</ServerId>
+    <TargetIndex>295</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236264</ServerId>
+    <TargetIndex>296</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236265</ServerId>
+    <TargetIndex>297</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236266</ServerId>
+    <TargetIndex>298</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236267</ServerId>
+    <TargetIndex>299</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236268</ServerId>
+    <TargetIndex>300</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Casket</Name>
+    <ServerId>17236269</ServerId>
+    <TargetIndex>301</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Treasure Coffer</Name>
+    <ServerId>17236270</ServerId>
+    <TargetIndex>302</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Achieve Master</Name>
+    <ServerId>17236271</ServerId>
+    <TargetIndex>303</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Unity Master</Name>
+    <ServerId>17236272</ServerId>
+    <TargetIndex>304</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>???</Name>
+    <ServerId>17236278</ServerId>
+    <TargetIndex>310</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>DEBUG BOSS BREAKER</Name>
+    <ServerId>17236279</ServerId>
+    <TargetIndex>311</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17236281</ServerId>
+    <TargetIndex>313</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17236282</ServerId>
+    <TargetIndex>314</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17236283</ServerId>
+    <TargetIndex>315</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17236284</ServerId>
+    <TargetIndex>316</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17236285</ServerId>
+    <TargetIndex>317</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17236286</ServerId>
+    <TargetIndex>318</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17236287</ServerId>
+    <TargetIndex>319</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17236288</ServerId>
+    <TargetIndex>320</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Jeantelas, R.K.</Name>
+    <ServerId>17236289</ServerId>
+    <TargetIndex>321</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Kaya, I.M.</Name>
+    <ServerId>17236290</ServerId>
+    <TargetIndex>322</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Magumo-Yagimo, W.W.</Name>
+    <ServerId>17236291</ServerId>
+    <TargetIndex>323</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236292</ServerId>
+    <TargetIndex>324</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236293</ServerId>
+    <TargetIndex>325</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236294</ServerId>
+    <TargetIndex>326</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236295</ServerId>
+    <TargetIndex>327</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Pilcha, R.K.</Name>
+    <ServerId>17236296</ServerId>
+    <TargetIndex>328</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Heavy Bear, I.M.</Name>
+    <ServerId>17236297</ServerId>
+    <TargetIndex>329</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Tememe, W.W.</Name>
+    <ServerId>17236298</ServerId>
+    <TargetIndex>330</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Pelogrant</Name>
+    <ServerId>17236299</ServerId>
+    <TargetIndex>331</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236300</ServerId>
+    <TargetIndex>332</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236301</ServerId>
+    <TargetIndex>333</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236302</ServerId>
+    <TargetIndex>334</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236303</ServerId>
+    <TargetIndex>335</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Telepoint</Name>
+    <ServerId>17236304</ServerId>
+    <TargetIndex>336</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Dimensional Portal</Name>
+    <ServerId>17236305</ServerId>
+    <TargetIndex>337</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Shattered Telepoint</Name>
+    <ServerId>17236306</ServerId>
+    <TargetIndex>338</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>???</Name>
+    <ServerId>17236307</ServerId>
+    <TargetIndex>339</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>???</Name>
+    <ServerId>17236308</ServerId>
+    <TargetIndex>340</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>???</Name>
+    <ServerId>17236309</ServerId>
+    <TargetIndex>341</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Perennial Snow</Name>
+    <ServerId>17236310</ServerId>
+    <TargetIndex>342</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>???</Name>
+    <ServerId>17236311</ServerId>
+    <TargetIndex>343</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>???</Name>
+    <ServerId>17236312</ServerId>
+    <TargetIndex>344</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Semih Lafihna</Name>
+    <ServerId>17236313</ServerId>
+    <TargetIndex>345</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Syu Befrathi</Name>
+    <ServerId>17236314</ServerId>
+    <TargetIndex>346</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Yow Rabntah</Name>
+    <ServerId>17236315</ServerId>
+    <TargetIndex>347</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>TIGER</Name>
+    <ServerId>17236316</ServerId>
+    <TargetIndex>348</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>???</Name>
+    <ServerId>17236317</ServerId>
+    <TargetIndex>349</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>DEBUG_SWITCH</Name>
+    <ServerId>17236318</ServerId>
+    <TargetIndex>350</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>EFFECTER</Name>
+    <ServerId>17236319</ServerId>
+    <TargetIndex>351</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Carbuncle</Name>
+    <ServerId>17236320</ServerId>
+    <TargetIndex>352</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Talking Doll</Name>
+    <ServerId>17236321</ServerId>
+    <TargetIndex>353</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Beastmen's Banner</Name>
+    <ServerId>17236322</ServerId>
+    <TargetIndex>354</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ramblix</Name>
+    <ServerId>17236323</ServerId>
+    <TargetIndex>355</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Goblin Footprint</Name>
+    <ServerId>17236324</ServerId>
+    <TargetIndex>356</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236325</ServerId>
+    <TargetIndex>357</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Raogrimm</Name>
+    <ServerId>17236326</ServerId>
+    <TargetIndex>358</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236327</ServerId>
+    <TargetIndex>359</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Trail Markings</Name>
+    <ServerId>17236328</ServerId>
+    <TargetIndex>360</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ulrich</Name>
+    <ServerId>17236329</ServerId>
+    <TargetIndex>361</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Francmage</Name>
+    <ServerId>17236330</ServerId>
+    <TargetIndex>362</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Iru-Kuiru</Name>
+    <ServerId>17236331</ServerId>
+    <TargetIndex>363</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Yow Rabntah</Name>
+    <ServerId>17236332</ServerId>
+    <TargetIndex>364</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Cornelia</Name>
+    <ServerId>17236333</ServerId>
+    <TargetIndex>365</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236334</ServerId>
+    <TargetIndex>366</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Raogrimm</Name>
+    <ServerId>17236335</ServerId>
+    <TargetIndex>367</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>???</Name>
+    <ServerId>17236336</ServerId>
+    <TargetIndex>368</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Diabolos</Name>
+    <ServerId>17236337</ServerId>
+    <TargetIndex>369</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Diabolos</Name>
+    <ServerId>17236338</ServerId>
+    <TargetIndex>370</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Diabolos</Name>
+    <ServerId>17236339</ServerId>
+    <TargetIndex>371</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Luck Rune</Name>
+    <ServerId>17236341</ServerId>
+    <TargetIndex>373</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Cavernous Maw</Name>
+    <ServerId>17236342</ServerId>
+    <TargetIndex>374</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>???</Name>
+    <ServerId>17236343</ServerId>
+    <TargetIndex>375</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236344</ServerId>
+    <TargetIndex>376</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236345</ServerId>
+    <TargetIndex>377</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Schultz</Name>
+    <ServerId>17236346</ServerId>
+    <TargetIndex>378</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236347</ServerId>
+    <TargetIndex>379</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Indescript Markings</Name>
+    <ServerId>17236348</ServerId>
+    <TargetIndex>380</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Field Manual</Name>
+    <ServerId>17236349</ServerId>
+    <TargetIndex>381</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Field Manual</Name>
+    <ServerId>17236350</ServerId>
+    <TargetIndex>382</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Field Parchment</Name>
+    <ServerId>17236351</ServerId>
+    <TargetIndex>383</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ethereal Junction</Name>
+    <ServerId>17236352</ServerId>
+    <TargetIndex>384</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ethereal Junction</Name>
+    <ServerId>17236353</ServerId>
+    <TargetIndex>385</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ethereal Junction</Name>
+    <ServerId>17236354</ServerId>
+    <TargetIndex>386</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Mogball-Local</Name>
+    <ServerId>17236355</ServerId>
+    <TargetIndex>387</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Mog-Tablet</Name>
+    <ServerId>17236356</ServerId>
+    <TargetIndex>388</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Stooge Moogle</Name>
+    <ServerId>17236357</ServerId>
+    <TargetIndex>389</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Option One</Name>
+    <ServerId>17236358</ServerId>
+    <TargetIndex>390</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Option Two</Name>
+    <ServerId>17236359</ServerId>
+    <TargetIndex>391</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Option Three</Name>
+    <ServerId>17236360</ServerId>
+    <TargetIndex>392</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Summoner</Name>
+    <ServerId>17236361</ServerId>
+    <TargetIndex>393</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Summoner</Name>
+    <ServerId>17236362</ServerId>
+    <TargetIndex>394</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236363</ServerId>
+    <TargetIndex>395</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Alberic</Name>
+    <ServerId>17236364</ServerId>
+    <TargetIndex>396</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17236365</ServerId>
+    <TargetIndex>397</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Geomantic Reservoir</Name>
+    <ServerId>17236366</ServerId>
+    <TargetIndex>398</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Survival Guide</Name>
+    <ServerId>17236369</ServerId>
+    <TargetIndex>401</TargetIndex>
+    <ZoneId>112</ZoneId>
+  </Entity>
+</ArrayOfEntity>

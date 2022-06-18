@@ -16,13 +16,13 @@ public protocol ProvidesMapMovement {
 // MARK: Client -> Server
 
 public extension FFXIMapPacket {
-    
+
     struct PlayerSyncRequest: FFXIPacket {
-        
+
         public var header: EmptyPacketHeader {
             .init(sendCount: sendCount)
         }
-        
+
         public let id: UInt16 = 0x15
         public let size: UInt8 = 0x10
         public let isBodyEncrypted: Bool = false
@@ -31,7 +31,7 @@ public extension FFXIMapPacket {
         let isMoving: UInt16 = 1
         let rotation: Float
         let targetId: UInt16
-        
+
         public func encode(to encoder: BinaryEncoder) throws {
             var c = encoder.container()
 //            let pad1 = [UInt8](repeating: .zero, count: 2)
@@ -41,7 +41,7 @@ public extension FFXIMapPacket {
             try c.encode(position.z)
             try c.encode(UInt16(0x0)) // pad1
             try c.encode(isMoving) // ?speed/footsteps
-            
+
             let rawDegrees = (rotation) * (360 / .pi)
             let degrees: Float
             if rawDegrees.sign == .minus {
@@ -58,7 +58,6 @@ public extension FFXIMapPacket {
             let rot: UInt8 = min(UInt8.max, max(UInt8.min, UInt8(scaledTurns)))
             try c.encode(rot)
 
-            
             try c.encode(UInt8(0x0)) // pad
             try c.encode(UInt16(0x0)) // target id
             try c.encode(sequence: [UInt8](repeating: .zero, count: 5))

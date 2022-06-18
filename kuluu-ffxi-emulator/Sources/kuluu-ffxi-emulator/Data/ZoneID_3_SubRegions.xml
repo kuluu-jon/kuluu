@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfSubRegion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_030 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>1</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>0</X>
+    <Y>2.0595627</Y>
+    <Z>0</Z>
+  </SubRegion>
+</ArrayOfSubRegion>

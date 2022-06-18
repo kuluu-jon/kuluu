@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ArrayOfSubRegion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_830 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>4.5</ScaleX>
+    <ScaleY>4.5</ScaleY>
+    <ScaleZ>4.5</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>33168</Unknown>
+    <X>-628</X>
+    <Y>-33.4</Y>
+    <Z>-99.6</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_831 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>4.5</ScaleX>
+    <ScaleY>4.5</ScaleY>
+    <ScaleZ>4.5</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>33168</Unknown>
+    <X>-439</X>
+    <Y>-41.4</Y>
+    <Z>26</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_832 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0.7853982</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>4.5</ScaleX>
+    <ScaleY>4.5</ScaleY>
+    <ScaleZ>4.5</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>33168</Unknown>
+    <X>105.52</X>
+    <Y>-65.4</Y>
+    <Z>263.68</Z>
+  </SubRegion>
+</ArrayOfSubRegion>

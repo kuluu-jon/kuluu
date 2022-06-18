@@ -33,7 +33,7 @@ import Combine
         self.clientVersion = clientVersion
         self.lobbyClient = .init(clientVersion: clientVersion)
     }
-    
+
     public func disconnect() {
         Task {
             await lobbyClient.disconnect()
@@ -56,7 +56,7 @@ extension FFXIClient: ProvidesLobby {
             self.map = map
         }
     }
-    
+
     public func login(host: String, port: String, username: String, password: String) async throws {
         try await lobbyClient.login(host: host, port: port, username: username, password: password)
         let lobby = await lobbyClient.lobby
@@ -67,26 +67,26 @@ extension FFXIClient: ProvidesLobby {
 }
 
 extension FFXIClient: ProvidesMap {
-    
+
     public func connect() async throws {
         try await mapClient?.connect()
     }
-    
+
     public func zoneIn() async throws {
         try await mapClient?.zoneIn()
     }
-    
+
     public func logout() async throws {
         // await logout()
         try await mapClient?.logout()
-        
+
         disconnect()
     }
-    
+
     public func send(chatMessage: String) async throws {
         try await mapClient?.send(chatMessage: chatMessage)
     }
-    
+
     public func sync(position: SIMD3<Float>, rotation: Float) async throws {
         try await mapClient?.sync(position: position, rotation: rotation)
     }

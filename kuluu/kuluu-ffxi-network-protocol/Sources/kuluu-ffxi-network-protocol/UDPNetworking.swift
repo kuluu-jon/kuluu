@@ -11,17 +11,17 @@ public actor UDPNetworking {
     enum ConnectError: Error {
         case noAddressReturned
     }
-    
+
     enum SendError: Error {
         case sendFailed(tag: Int)
     }
-    
+
     enum ReceiveError: Error {
         case receiveBufferTooSmall(Int)
     }
-    
+
     private let socket: GCDAsyncUdpSocket
-    private let delegate = UdpSocketDelegate()
+    private weak var delegate = UdpSocketDelegate()
     private let delegateQueue = DispatchQueue(label: "UDPSocketDelegateQueue")
     private let socketQueue = DispatchQueue(label: "UDPSocketQueue")
     let host: String
@@ -29,36 +29,36 @@ public actor UDPNetworking {
     private let timeout: TimeInterval
     private let blowfish: Blowfish?
     private(set) var sendCount: Int = 0
-    
+
     public init(host: String = "127.0.0.1", port: UInt16 = 54231, clientVersion: String = "30181250_0", timeout: TimeInterval = 60.0, blowfish: Blowfish? = defaultBlowfish) {
         self.host = host
         self.port = port
         self.timeout = timeout
         self.blowfish = blowfish
-        
+
         socket = .init(delegate: delegate, delegateQueue: delegateQueue, socketQueue: socketQueue)
         socket.setMaxReceiveIPv4BufferSize(4096)
         socket.setMaxReceiveIPv6BufferSize(4096)
     }
-    
+
     deinit {
         close()
     }
-    
+
     private var connectCancellable: AnyCancellable?
     private var sendCancellable: AnyCancellable?
 
     public func connect() async throws {
         try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<Void, Error>) in
             do {
-                delegate.didConnect = nil
-                connectCancellable = delegate.$didConnect
+                delegate?.didConnect = nil
+                connectCancellable = delegate?.$didConnect
                     .filter { $0 != nil }
                     .first()
                     .sink(receiveValue: { result in
                         if case .success(let address) = result {
                             if let host = GCDAsyncSocket.host(fromAddress: address) {
-                                print(self.delegate.logId, "connected to host:", host)
+                                print(self.delegate?.logId, "connected to host:", host)
                             }
                             continuation.resume()
                         } else if case .failure(let error) = result {
@@ -75,7 +75,7 @@ public actor UDPNetworking {
     }
     public func send<Packet>(packet: AttachHeaderAndMD5Footer<Packet>, encoder: BinaryDataEncoder = .init()) async throws {
 //        let skipEncryption = !packet.packet.isBodyEncrypted
-        
+
         let outputData: Data
         if packet.packet.isBodyEncrypted {
 //            let start = packet.packet.start(packetType: packet.packet.id, size: packet.packet.size)
@@ -90,7 +90,7 @@ public actor UDPNetworking {
             let md5 = toMd5.md5()
             assert(md5.elementsEqual(check))
         }
-        
+
 //        let body = try encoder.encode(packet.packet)
 //        let header = try encoder.encode(packet.packet.header)
 //        let encryptedPacket: [UInt8]? = !skipEncryption ? try blowfish?.encrypt(encryptionInput) : nil
@@ -98,14 +98,14 @@ public actor UDPNetworking {
 //        output.append(contentsOf: encryptedPacket ?? encryptionInput.bytes)
 //        output.append(contentsOf: packet.md5)
 //        let outputData = Data(packet)
-        print(delegate.logId, "willSendDataWithTag:", "{\n\ttag:", sendCount, "\n\toutPacket", outputData.toHexString(), "\n\tmd5:", packet.md5.toHexString(), "\n}")
+        print(delegate?.logId, "willSendDataWithTag:", "{\n\ttag:", sendCount, "\n\toutPacket", outputData.toHexString(), "\n\tmd5:", packet.md5.toHexString(), "\n}")
 
 //        print(delegate.logId, "willSendDataWithTag:", "{\n\ttag:", sendCount, "\n\theader:", header.toHexString(), "\n\tbody:", body.toHexString(), "\n\toutPacket", outputData.toHexString(), "\n\tmd5:", packet.md5.toHexString(), "\n}")
         let thisSendCount = sendCount
         sendCount += 1
         try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<Void, Error>) in
-            delegate.didSend = nil
-            sendCancellable = delegate.$didSend
+            delegate?.didSend = nil
+            sendCancellable = delegate?.$didSend
                 .first(where: { result in
                     if case .success(let tag) = result {
                         return tag == thisSendCount
@@ -131,12 +131,12 @@ public actor UDPNetworking {
         let encryptedBytes: [UInt8]? = tryEncryption ? try blowfish?.encrypt(data.bytes) : nil
 //        let encryptedBytes: Data? = nil
         let encryedData: Data? = encryptedBytes != nil ? Data(encryptedBytes!) : nil
-        print(delegate.logId, "willSendDataWithTag:", "{\n\ttag:", sendCount, "\n\thex:", data.toHexString(), "\n\tencyptedHex", encryedData?.toHexString() ?? "N/A","\n}")
+        print(delegate?.logId, "willSendDataWithTag:", "{\n\ttag:", sendCount, "\n\thex:", data.toHexString(), "\n\tencyptedHex", encryedData?.toHexString() ?? "N/A", "\n}")
         let thisSendCount = sendCount
         sendCount += 1
         try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<Void, Error>) in
-            delegate.didSend = nil
-            sendCancellable = delegate.$didSend
+            delegate?.didSend = nil
+            sendCancellable = delegate?.$didSend
                 .first(where: { result in
                     if case .success(let tag) = result {
                         return tag == thisSendCount
@@ -159,10 +159,10 @@ public actor UDPNetworking {
         }
 //        try socket.receiveOnce()
     }
-    
+
     public func beginReceiving() throws -> AnyPublisher<Data, Error> {
         try socket.beginReceiving()
-        return delegate.$didReceive
+        return delegate!.$didReceive
             .receive(on: self.delegateQueue)
             .compactMap { $0 }
             .tryMap { (result: Result<Data, Error>) -> Data in
@@ -175,8 +175,7 @@ public actor UDPNetworking {
 //                    let md5 = data.suffix(16)
                     // pad to be multiple of 8 length
 //                    let encryptedBytes = data[8..<data.count]
-                    
-                    
+
 //                    let decryptedBytes = try self.blowfish?.decrypt(encryptedBytes) ?? encryptedBytes
                     return data
                 case .failure(let error):
@@ -185,7 +184,7 @@ public actor UDPNetworking {
             }
             .eraseToAnyPublisher()
     }
-    
+
 //    public func receiveOnce(tag: UInt16) async throws -> (Data, Int) {
 //        let thisSendCount = tag
 //        return try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<(Data, Int), Error>) in
@@ -214,7 +213,7 @@ public actor UDPNetworking {
 //        }
 //
 //    }
-    
+
     public func close() {
         socket.close()
     }

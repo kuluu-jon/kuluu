@@ -37,9 +37,9 @@ public struct ZoneEnvironment {
     public let atmosphere: String?
 }
 
-public protocol ZoneMetadata {
+public protocol ZoneSceneMetadata {
     var id: Int { get }
-    var lines: [ZoneLine] { get }
+    var lines: [ZoneLine] { get } // TODO: remove, use `ZoneMetadata`
     var fog: Fog? { get }
     var environment: ZoneEnvironment? { get }
 }
@@ -51,7 +51,7 @@ public enum Zone: Int {
     case valkurmDunes = 103
 //    case ssandoriaShadow = 230
 
-    public var metadata: ZoneMetadata {
+    public var metadata: ZoneSceneMetadata {
         switch self {
         case .ssandoria: return SSandoria()
         case .wronfaure: return WRonfaure()
@@ -75,7 +75,7 @@ public struct ZoneLine {
     let scale: SIMD3<Float>
 }
 
-public struct SSandoria: ZoneMetadata {
+public struct SSandoria: ZoneSceneMetadata {
     public let id = Zone.ssandoria.rawValue
     public let lines: [ZoneLine] = [
         .init(
@@ -89,7 +89,7 @@ public struct SSandoria: ZoneMetadata {
     public let environment: ZoneEnvironment? = .init(skybox: nil, atmosphere: nil)
 }
 
-public struct WRonfaure: ZoneMetadata {
+public struct WRonfaure: ZoneSceneMetadata {
     public let id = Zone.wronfaure.rawValue
     public let lines: [ZoneLine] = [
         .init(
@@ -103,7 +103,7 @@ public struct WRonfaure: ZoneMetadata {
     public let environment: ZoneEnvironment? = .init(skybox: nil, atmosphere: nil)
 }
 
-public struct ValkurmDunes: ZoneMetadata {
+public struct ValkurmDunes: ZoneSceneMetadata {
     public let id = Zone.valkurmDunes.rawValue
     public let lines: [ZoneLine] = [
         .init(
@@ -118,7 +118,6 @@ public struct ValkurmDunes: ZoneMetadata {
     public var environment: ZoneEnvironment? {
         return .init(
             skybox: .init(cubemapImage: "FFXI.scnassets/noesisv4464/dust    suny_c01.png"),
-//            skybox: .rotatingImage("f"),
             atmosphere: nil
         )
     }

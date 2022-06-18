@@ -24,11 +24,11 @@ extension Data {
     func chunked(into size: Int, isPadded: Bool = true) async -> [Data] {
         let copySelf = Data(self)
         return await stride(from: 0, to: count, by: size).asyncMap { index -> Data? in
-            
+
             guard count >= size, copySelf.indices.contains(index) else {
                 return nil
             }
-            
+
             var data = copySelf[index ..< Swift.min(index + size, count)]
             let remainder = data.count % size
             if isPadded, remainder > 0 {
@@ -44,26 +44,26 @@ public actor FFXIMap: ProvidesMap {
     private let character: AccountResponse.CharacterSlot
     private let mapNet: UDPNetworking
     private let searchNet: UDPNetworking
-    
+
     private let decoder = BinaryDataDecoder()
     private let encoder = BinaryDataEncoder()
     private var sendCount: UInt16 = 2 // to match hxiclient.py
-    
+
     private var receivingCancellable: AnyCancellable? {
         didSet {
             oldValue?.cancel()
         }
     }
-    
+
     public init(character: AccountResponse.CharacterSlot, mapNet: UDPNetworking, searchNet: UDPNetworking) {
         self.character = character
         self.mapNet = mapNet
         self.searchNet = searchNet
-        
+
     }
-    
+
     public func connect() async throws {
-        
+
 //        func createChunks(ofSize chunkSize: Int, from data: Data) {
 //
 //            data.withUnsafeBytes { (u8Ptr: UnsafePointer<UInt8>) in
@@ -78,8 +78,7 @@ public actor FFXIMap: ProvidesMap {
 //                }
 //            }
 //        }
-        
-        
+
         try await mapNet.connect()
         let z = await z.init()
         receivingCancellable = try await mapNet.beginReceiving()
@@ -98,16 +97,16 @@ public actor FFXIMap: ProvidesMap {
                     print(incomingPacket)
                     var data = incomingPacket.encryptedBody
                     let checksum = incomingPacket.md5
-                    
+
                     guard !Task.isCancelled else { return }
 
                     let remainder = data.count % Blowfish.blockSize
-                    
+
                     if remainder > 0 {
                         let zeros: [UInt8] = .init(repeating: 0, count: Blowfish.blockSize - remainder)
                         data.append(contentsOf: zeros)
                     }
-                    
+
 //                    let chunked = await data.chunked(into: chunkSize)
 //
 //                    print(chunked.map { $0.toHexString() })
@@ -117,9 +116,9 @@ public actor FFXIMap: ProvidesMap {
 //                        let decryptedBytes = try defaultBlowfish.decrypt(encryptedBytes)
 //                        return Data(decryptedBytes)
 //                    }
-                    
+
                     let d = try! defaultBlowfish.decrypt(data.bytes)
-                    
+
                     guard !Task.isCancelled else { return }
 //                    guard let d = decryptedChunks?.joined() else {
 //                        fatalError("hey")
@@ -130,7 +129,7 @@ public actor FFXIMap: ProvidesMap {
                     print("decrypted+compressed", decrypted.toHexString())
 //                    let zlibPacketSize = Int(decrypted.toUInt32(offset: decrypted.endIndex - 4))
 //                    let zlibBufferSize = Int(Double(zlibPacketSize))
-                    
+
                     let zlibPacketSize = Int(decrypted.toUInt32(offset: decrypted.endIndex - 20))
                     let zlibBufferSize = Int((Double(zlibPacketSize) / Double(Blowfish.blockSize)).rounded(.up))
                     let decompressed = z.decompress(data: decrypted, maxSize: zlibPacketSize)
@@ -266,7 +265,7 @@ public actor FFXIMap: ProvidesMap {
 //                    //Console.WriteLine("Dezlib size:" +final.Length+ "\n" + BitConverter.ToString(final).Replace("-", " "));
 //                    int index = 0;
 //                    int size = final.Length > 2 ? final[index + 1] & 0x0FE : 0;
-                    
+
 //                    let eightByteSegmentCount = (Double(body.count) / 8.0).rounded(.up)
 //                    let bytesToPad = body.count % 8
 //
@@ -275,24 +274,23 @@ public actor FFXIMap: ProvidesMap {
 //                        // whatever.append(contentsOf: zeros)
 //                    }
                 }
-                
+
             })
     }
-    
-}
 
+}
 
 // MARK: Login
 
 public extension FFXIMap {
     func zoneIn() async throws {
-        
+
         guard let p1 = try FFXIMapPacket.StartZoneTransition(sendCount: sendCount, characterId: character.id).packed(encoder: encoder, skipStart: true) else {
             fatalError("nil!")
         }
         try await mapNet.send(packet: p1)
         sendCount += 1
-        
+
         guard let p2 = try FFXIMapPacket.ZoneTransitionConfirmation(sendCount: sendCount).packed(encoder: encoder, skipStart: true) else {
             fatalError("nil!")
         }
@@ -305,9 +303,9 @@ public extension FFXIMap {
         try await mapNet.send(packet: p3)
         sendCount += 1
     }
-    
+
     func logout() async throws {
-        
+
     }
 }
 

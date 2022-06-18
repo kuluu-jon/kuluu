@@ -1,0 +1,468 @@
+<?xml version="1.0"?>
+<ArrayOfSubRegion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7a0 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>1</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>258</Unknown>
+    <X>-418.90356</X>
+    <Y>-10</Y>
+    <Z>0</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7a1 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>4.712389</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>1</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>258</Unknown>
+    <X>-381.15314</X>
+    <Y>-10</Y>
+    <Z>0</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7a2 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>3.1415927</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>1</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>258</Unknown>
+    <X>-40</X>
+    <Y>-10</Y>
+    <Z>418.91956</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7a3 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>1</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>258</Unknown>
+    <X>-40</X>
+    <Y>-10</Y>
+    <Z>381.09546</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7a4 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>3.1415927</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>1</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>258</Unknown>
+    <X>160</X>
+    <Y>-10</Y>
+    <Z>258.92255</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7a5 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>1</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>258</Unknown>
+    <X>160</X>
+    <Y>-10</Y>
+    <Z>221.0729</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7a6 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>3.1415927</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>1</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>258</Unknown>
+    <X>-40</X>
+    <Y>-10</Y>
+    <Z>-181.06209</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7a7 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>1</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>258</Unknown>
+    <X>-40</X>
+    <Y>-10</Y>
+    <Z>-218.88142</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7a8 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>3.1415927</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>1</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>258</Unknown>
+    <X>320</X>
+    <Y>-10</Y>
+    <Z>-261.0425</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7a9 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>1</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>258</Unknown>
+    <X>320</X>
+    <Y>-10</Y>
+    <Z>-298.95917</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7aa </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5</ScaleX>
+    <ScaleY>14</ScaleY>
+    <ScaleZ>45</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>256</Unknown>
+    <X>-418.89</X>
+    <Y>-4.3922462</Y>
+    <Z>-0.243895</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7ab </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5</ScaleX>
+    <ScaleY>14</ScaleY>
+    <ScaleZ>45</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>256</Unknown>
+    <X>-380.96564</X>
+    <Y>-4.021259</Y>
+    <Z>-0.032318495</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7ag </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5</ScaleX>
+    <ScaleY>14</ScaleY>
+    <ScaleZ>45</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>256</Unknown>
+    <X>-39.748516</X>
+    <Y>-4.370078</Y>
+    <Z>-180.88489</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7ah </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5</ScaleX>
+    <ScaleY>14</ScaleY>
+    <ScaleZ>45</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>256</Unknown>
+    <X>-39.898476</X>
+    <Y>-3.9597163</Y>
+    <Z>-219.04808</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7af </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5</ScaleX>
+    <ScaleY>14</ScaleY>
+    <ScaleZ>45</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>256</Unknown>
+    <X>160.08932</X>
+    <Y>-3.6310544</Y>
+    <Z>220.87384</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7ae </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5</ScaleX>
+    <ScaleY>14</ScaleY>
+    <ScaleZ>45</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>256</Unknown>
+    <X>160.34549</X>
+    <Y>-3.3346934</Y>
+    <Z>259.04968</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7ad </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5</ScaleX>
+    <ScaleY>14</ScaleY>
+    <ScaleZ>45</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>256</Unknown>
+    <X>-40.093044</X>
+    <Y>-3.6333244</Y>
+    <Z>381.1214</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7ac </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5</ScaleX>
+    <ScaleY>14</ScaleY>
+    <ScaleZ>45</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>256</Unknown>
+    <X>-39.7569</X>
+    <Y>-3.7316837</Y>
+    <Z>419.06793</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7ai </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5</ScaleX>
+    <ScaleY>14</ScaleY>
+    <ScaleZ>45</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>256</Unknown>
+    <X>319.88126</X>
+    <Y>-3.5879388</Y>
+    <Z>-260.80933</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7aj </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5</ScaleX>
+    <ScaleY>14</ScaleY>
+    <ScaleZ>45</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>256</Unknown>
+    <X>320.41782</X>
+    <Y>-3.6381218</Y>
+    <Z>-299.0292</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7ak </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.012291</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>10</ScaleX>
+    <ScaleY>8</ScaleY>
+    <ScaleZ>9</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-333.077</X>
+    <Y>-3.5</Y>
+    <Z>260.048</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7al </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>4.1538835</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>10</ScaleX>
+    <ScaleY>8</ScaleY>
+    <ScaleZ>9</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-427.2203</X>
+    <Y>-2.939608</Y>
+    <Z>-259.48837</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_7am </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>5.497787</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>8.2</ScaleX>
+    <ScaleY>5</ScaleY>
+    <ScaleZ>8.2</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>258</Unknown>
+    <X>403</X>
+    <Y>-4</Y>
+    <Z>283</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z7a1</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>2.7925267</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>4</ScaleY>
+    <ScaleZ>4</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>1</Unknown>
+    <X>374.34723</X>
+    <Y>7.8196273</Y>
+    <Z>460.167</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z7a0z7g5</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.0471976</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>13</ScaleX>
+    <ScaleY>8</ScaleY>
+    <ScaleZ>2</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>0</Unknown>
+    <X>380.358</X>
+    <Y>9.427605</Y>
+    <Z>462.21</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z7a3</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.3089969</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>4</ScaleY>
+    <ScaleZ>4</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>1</Unknown>
+    <X>99.5635</X>
+    <Y>7.78992</Y>
+    <Z>-66.5152</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z7a2z7g7</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>6.0213857</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>13</ScaleX>
+    <ScaleY>8</ScaleY>
+    <ScaleZ>2</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>0</Unknown>
+    <X>99.14749</X>
+    <Y>8.835716</Y>
+    <Z>-61.627945</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z7a5</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0.2617994</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>4</ScaleY>
+    <ScaleZ>4</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>1</Unknown>
+    <X>-355.48</X>
+    <Y>9.5428505</Y>
+    <Z>301.098</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z7a4z7k3</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>2.0071287</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>13</ScaleX>
+    <ScaleY>8</ScaleY>
+    <ScaleZ>2</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>0</Unknown>
+    <X>-360.06125</X>
+    <Y>11.097472</Y>
+    <Z>305.12027</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z7a7</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>4</ScaleY>
+    <ScaleZ>4</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>1</Unknown>
+    <X>-455.87997</X>
+    <Y>8.441098</Y>
+    <Z>-300.68344</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z7a6z7k1</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.3089969</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>13</ScaleX>
+    <ScaleY>8</ScaleY>
+    <ScaleZ>2</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>0</Unknown>
+    <X>-460.97696</X>
+    <Y>9.466822</Y>
+    <Z>-302.50754</Z>
+  </SubRegion>
+</ArrayOfSubRegion>

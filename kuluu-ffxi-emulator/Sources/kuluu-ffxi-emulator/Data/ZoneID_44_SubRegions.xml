@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<ArrayOfSubRegion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e182 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>800</ScaleX>
+    <ScaleY>200</ScaleY>
+    <ScaleZ>800</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>-370</X>
+    <Y>-50</Y>
+    <Z>-650</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e181 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>800</ScaleX>
+    <ScaleY>200</ScaleY>
+    <ScaleZ>800</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>545</X>
+    <Y>-50</Y>
+    <Z>295</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e180 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5</ScaleX>
+    <ScaleY>8</ScaleY>
+    <ScaleZ>5</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>-278</X>
+    <Y>-10.057246</Y>
+    <Z>-512</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e183 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>390</ScaleX>
+    <ScaleY>70</ScaleY>
+    <ScaleZ>250</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>-358.7263</X>
+    <Y>-17.813917</Y>
+    <Z>-470.8112</Z>
+  </SubRegion>
+</ArrayOfSubRegion>

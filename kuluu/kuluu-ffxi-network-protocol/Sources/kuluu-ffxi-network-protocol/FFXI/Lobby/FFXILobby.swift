@@ -67,13 +67,13 @@ public struct LobbyState {
 }
 
 public struct SelectCharacterResponse: BinaryDecodable, Hashable {
-    
+
 //    public let statusCode: UInt16
     public let zoneIp: String
     public let zonePort: UInt16
     public let searchIp: String
     public let searchPort: UInt16
-    
+
     public init(from decoder: BinaryDecoder) throws {
         var c = decoder.container(maxLength: 72)
         let data = try c.decode(length: 56)
@@ -85,7 +85,7 @@ public struct SelectCharacterResponse: BinaryDecodable, Hashable {
         searchIp = searchIpData.map(String.init).joined(separator: ".")
         searchPort = try c.decode(UInt16.self)
     }
-    
+
     public init(zoneIp: String, zonePort: UInt16, searchIp: String, searchPort: UInt16) {
         self.zoneIp = zoneIp
         self.zonePort = zonePort
@@ -94,21 +94,20 @@ public struct SelectCharacterResponse: BinaryDecodable, Hashable {
     }
 }
 
-
 enum FFXILobbyError: Error {
     case invalidData(String)
     case unauthenticated
 }
 
 public actor FFXILobby: ProvidesLobby {
-    
+
     private var net: TCPNetworking!
     private var lobbyDataNet: TCPNetworking!
     private var lobbyViewNet: TCPNetworking!
     private let decoder = BinaryDataDecoder()
     private let encoder = BinaryDataEncoder()
     private let clientVersion: String
-    
+
     private(set) public var lobby: LobbyState? {
         didSet {
             if lobby == nil {
@@ -117,29 +116,29 @@ public actor FFXILobby: ProvidesLobby {
         }
     }
     private(set) public var map: SelectCharacterResponse?
-    
+
     init(clientVersion: String) {
         self.clientVersion = clientVersion
     }
-    
+
     deinit {
         disconnect()
     }
-    
+
     public func disconnect() {
         net?.disconnect()
         lobbyViewNet?.disconnect()
         lobbyDataNet?.disconnect()
         map = nil
     }
-    
+
     public func login(host: String, port: String, username: String, password: String) async throws {
         // get account id
         self.net = .init(host: host, port: UInt16(port)!, clientVersion: clientVersion)
         self.lobbyDataNet = .init(host: host, port: UInt16(port)! - 1, clientVersion: clientVersion)
         self.lobbyViewNet = .init(host: host, port: UInt16(port)! - 230, clientVersion: clientVersion)
         let loginResponse = try await authenticate(username: username, password: password)
-        
+
         // start connect w/ lobby data
         try await sendLobbyData0xA1_0(accountId: loginResponse.accountId)
         // start connect w/ lobby view
@@ -147,10 +146,10 @@ public actor FFXILobby: ProvidesLobby {
         try await sendLobbyView0x1F()
         let account = try await sendLobbyData0xA1_1()
         print("first character:", account.characterSlots.first?.name ?? "nil", "server feature flags:", serverConfig.featureBitmask, "expansion", serverConfig.expansionBitmask)
-        
+
         self.lobby = .init(accountId: loginResponse.accountId, serverConfig: serverConfig, account: account)
     }
-    
+
     public func selectCharacter(_ character: AccountResponse.CharacterSlot) async throws {
         guard self.lobby != nil else {
             throw FFXILobbyError.unauthenticated
@@ -163,7 +162,7 @@ public actor FFXILobby: ProvidesLobby {
 
 // authentication, first handshake where we get account id for un/pw
 private extension FFXILobby {
-    
+
     struct LoginPacket: BinaryEncodable {
         let username: String
         let password: String
@@ -177,27 +176,27 @@ private extension FFXILobby {
             try container.encode(code)
         }
     }
-    
+
     struct LoginResponse: BinaryDecodable {
         let responseCode: UInt8 // 1 = success, 2 = invalid un/pw, other = failed
         let accountId: UInt16
-        
+
         init(from decoder: BinaryDecoder) throws {
             var container = decoder.container(maxLength: 16)
             self.responseCode = try container.decode(UInt8.self)
             self.accountId = try container.decode(UInt16.self)
         }
     }
-    
-    func authenticate(username: String, password: String) async throws -> LoginResponse  {
+
+    func authenticate(username: String, password: String) async throws -> LoginResponse {
         try await self.net.connect()
         defer { self.net.disconnect() }
-        
+
         let packet = LoginPacket(username: username, password: password)
         let packetData = try encoder.encode(packet)
         guard let (data, _) = try await self.net.write(data: packetData, readLength: 16)
         else { throw FFXILobbyError.invalidData("no response from login") }
-        
+
         guard let response = try? decoder.decode(LoginResponse.self, from: data) else {
             throw FFXILobbyError.invalidData("could not decode login response")
         }
@@ -221,14 +220,14 @@ private extension FFXILobby {
         struct LobbyData0xA1: BinaryEncodable {
             let id: UInt8 = 0xA1
             let accountId: UInt32
-            
+
             func encode(to encoder: BinaryEncoder) throws {
                 var container = encoder.container()
                 try container.encode(id)
                 try container.encode(accountId)
             }
         }
-        
+
         try await self.lobbyDataNet.connect()
         let packet = LobbyData0xA1(accountId: .init(accountId))
         let packetData = try encoder.encode(packet)
@@ -240,7 +239,7 @@ private extension FFXILobby {
     struct LobbyView0x26: BinaryEncodable {
         let id: UInt8 = 0x26
         let clientVersion: String
-        
+
         func encode(to encoder: BinaryEncoder) throws {
             var container = encoder.container()
             let zero = UInt8(0)
@@ -279,11 +278,11 @@ private extension FFXILobby {
     func sendLobbyView0x26() async throws -> ServerConfigResponse {
         try await self.lobbyViewNet.connect()
         let packet = LobbyView0x26(clientVersion: clientVersion)
-        
+
         let packetData = try encoder.encode(packet)
         guard let (data, _) = try await self.lobbyViewNet.write(data: packetData, readLength: 40)
         else { throw FFXILobbyError.invalidData("no response from 0x26") }
-        
+
         guard let response = try? decoder.decode(ServerConfigResponse.self, from: data) else {
             throw FFXILobbyError.invalidData("could not decode login response")
         }
@@ -305,7 +304,7 @@ private extension FFXILobby {
     func sendLobbyView0x1F() async throws {
         struct LobbyView0x1F: BinaryEncodable {
             let id: UInt8 = 0x1F
-            
+
             func encode(to encoder: BinaryEncoder) throws {
                 var container = encoder.container()
                 let zero = UInt8(0)
@@ -316,7 +315,7 @@ private extension FFXILobby {
                 try container.encode(sequence: pad2)
             }
         }
-        
+
         let packet = LobbyView0x1F()
         let packetData = try encoder.encode(packet)
         try await self.lobbyDataNet.write(data: packetData)
@@ -349,7 +348,7 @@ private extension FFXILobby {
      except Exception as ex:
      print(ex)
      */
-    
+
     func sendLobbyData0xA1_1() async throws -> AccountResponse {
         let packetData = Data([0xA1, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00])
         guard let (_, _) = try await self.lobbyDataNet.write(data: packetData, readLength: 328) else {
@@ -377,7 +376,7 @@ private extension FFXILobby {
         struct LobbyView0x07: BinaryEncodable {
             let id: UInt8 = 0x07
             let charId: UInt32
-            
+
             func encode(to encoder: BinaryEncoder) throws {
                 var container = encoder.container()
                 let zero = UInt8(0)
@@ -389,7 +388,7 @@ private extension FFXILobby {
                 try container.encode(charId)
             }
         }
-        
+
         let packet = LobbyView0x07(charId: charId)
         let packetData = try encoder.encode(packet)
         try await self.lobbyViewNet.write(data: packetData)
@@ -438,7 +437,7 @@ private extension FFXILobby {
      
      print(f'ZoneServ: {self.map_server}, SearchServ: {self.search_server}')
      */
-    
+
     func sendLobbyData0xA2() async throws -> SelectCharacterResponse {
         assert(!Thread.isMainThread)
         let packet: [UInt8] = [

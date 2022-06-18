@@ -13,6 +13,6 @@ public protocol ProvidesCharacter {
 
 public extension FFXIMapPacket {
     struct CharacterStats {
-        
+
     }
 }

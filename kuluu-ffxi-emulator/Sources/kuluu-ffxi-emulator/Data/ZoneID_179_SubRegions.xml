@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<ArrayOfSubRegion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_4z0 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5.63109</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>3</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-519.995</X>
+    <Y>-9.6943</Y>
+    <Z>23.5083</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_4z1 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>4</ScaleX>
+    <ScaleY>7.92746</ScaleY>
+    <ScaleZ>0.500008</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>0</X>
+    <Y>196.21373</Y>
+    <Z>-388.5</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_4z2 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>4</ScaleX>
+    <ScaleY>7.92746</ScaleY>
+    <ScaleZ>0.500008</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>0</X>
+    <Y>-3.7862709</Y>
+    <Z>11.5</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_4z3 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>4</ScaleX>
+    <ScaleY>7.92746</ScaleY>
+    <ScaleZ>0.500008</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>0</X>
+    <Y>-203.78627</Y>
+    <Z>411.5</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e4z0 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2.5</ScaleX>
+    <ScaleY>5</ScaleY>
+    <ScaleZ>2.5</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>-520.01013</X>
+    <Y>-3.3</Y>
+    <Z>-45.8299</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e4z1 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2.5</ScaleX>
+    <ScaleY>5</ScaleY>
+    <ScaleZ>2.5</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>319.99536</X>
+    <Y>-3.8</Y>
+    <Z>4.8550534</Z>
+  </SubRegion>
+</ArrayOfSubRegion>

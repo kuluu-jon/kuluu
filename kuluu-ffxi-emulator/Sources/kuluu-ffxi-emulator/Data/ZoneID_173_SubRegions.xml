@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+<ArrayOfSubRegion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z4t2z361</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2</ScaleX>
+    <ScaleY>8</ScaleY>
+    <ScaleZ>14</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>0</Unknown>
+    <X>-499.99973</X>
+    <Y>-23.837646</Y>
+    <Z>4.0009933</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z4t3</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>3</ScaleY>
+    <ScaleZ>4</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>1</Unknown>
+    <X>-500.00406</X>
+    <Y>-21.82379</Y>
+    <Z>0.35830843</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z4t4z3h3</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>3.1415927</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2</ScaleX>
+    <ScaleY>8</ScaleY>
+    <ScaleZ>14</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>0</Unknown>
+    <X>-523.01953</X>
+    <Y>-33.357418</Y>
+    <Z>340.04834</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z4t5</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>3</ScaleY>
+    <ScaleZ>4</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>1</Unknown>
+    <X>-519.36096</X>
+    <Y>-31.872042</Y>
+    <Z>340.02008</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z4t0z4s3</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2</ScaleX>
+    <ScaleY>8</ScaleY>
+    <ScaleZ>14</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>0</Unknown>
+    <X>459.97903</X>
+    <Y>-42.93559</Y>
+    <Z>156.97272</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z4t1</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>4.712389</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>3</ScaleY>
+    <ScaleZ>4</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>1</Unknown>
+    <X>459.9674</X>
+    <Y>-41.72817</Y>
+    <Z>160.62737</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e4t0 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0.2268928</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2</ScaleX>
+    <ScaleY>3</ScaleY>
+    <ScaleZ>2.5</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>-85.97298</X>
+    <Y>0.40691817</Y>
+    <Z>-103.57769</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e4t1 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0.6981317</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2</ScaleX>
+    <ScaleY>3</ScaleY>
+    <ScaleZ>2.5</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>-88.683365</X>
+    <Y>0.406481</Y>
+    <Z>-108.017</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e4t2 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.3089969</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2.5</ScaleX>
+    <ScaleY>3</ScaleY>
+    <ScaleZ>2.5</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>-94.9833</X>
+    <Y>0.40965346</Y>
+    <Z>-114.039314</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e4t3 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>3</ScaleX>
+    <ScaleY>3</ScaleY>
+    <ScaleZ>3</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>-104.13406</X>
+    <Y>0.41246173</Y>
+    <Z>-114.06483</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e4t4 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>5.8468533</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>3</ScaleX>
+    <ScaleY>3</ScaleY>
+    <ScaleZ>3</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>-113.35157</X>
+    <Y>0.40977734</Y>
+    <Z>-104.239655</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_4t0 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>2.6138225</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>2</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>105.48</X>
+    <Y>-5.91588</Y>
+    <Z>13.929</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_4t1 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>5.8078623</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>2</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-25.1708</X>
+    <Y>-5.91588</Y>
+    <Z>186.352</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_4t2 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.030959</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>2</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-254.003</X>
+    <Y>-5.91174</Y>
+    <Z>-54.4767</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_4t3 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>4.1840954</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>2</ScaleY>
+    <ScaleZ>1</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-386.067</X>
+    <Y>-5.91669</Y>
+    <Z>54.548</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f4t0 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>5.4925423</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>20</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-424.43216</X>
+    <Y>-11.654308</Y>
+    <Z>254.90872</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f4t1 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>5.4925423</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>20</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-375.92352</X>
+    <Y>-11.654308</Y>
+    <Z>265.13898</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f4t2 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>3.1415927</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>40</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-411.3179</X>
+    <Y>-2.5422373</Y>
+    <Z>120.01486</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f4t3 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>3.1415927</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>40</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-386.93637</X>
+    <Y>-9.014491</Y>
+    <Z>60.34924</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f4t6 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>4.712389</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>40</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-21.024792</X>
+    <Y>-8.6708765</Y>
+    <Z>187.34637</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f4t5 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>3.8059173</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>30</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>40</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-244.69456</X>
+    <Y>-8.539638</Y>
+    <Z>84.48525</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f4t4 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>3.1415927</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>40</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-254.20523</X>
+    <Y>-8.8215885</Y>
+    <Z>-60.193127</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f4t7 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>4.712389</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>40</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>99.97817</X>
+    <Y>-8.606641</Y>
+    <Z>13.158669</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f4tc </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>4.712389</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>40</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-100.16157</X>
+    <Y>-2.4135122</Y>
+    <Z>-107.278885</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f4t9 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>3.1415927</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>80</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-59.854065</X>
+    <Y>-6.602108</Y>
+    <Z>122.299736</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f4ta </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>3.1415927</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>40</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-61.217598</X>
+    <Y>-0.37791717</Y>
+    <Z>39.696514</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f4tb </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>3.1415927</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>40</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-59.97531</X>
+    <Y>-1.6279676</Y>
+    <Z>-39.993584</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f4t8 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>4.712389</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>40</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-160.94223</X>
+    <Y>-2.4020386</Y>
+    <Z>-90.87648</Z>
+  </SubRegion>
+</ArrayOfSubRegion>

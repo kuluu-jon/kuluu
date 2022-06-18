@@ -198,7 +198,7 @@ public final class Blowfish {
 
     private let N = 16 // rounds
     private var P: [UInt32]
-    private var S: [Array[UInt32]>
+    private var S: [[UInt32]]
     private let origP: [UInt32] = [
         0x243f6a88, 0x85a308d3, 0x13198a2e, 0x03707344, 0xa4093822,
         0x299f31d0, 0x082efa98, 0xec4e6c89, 0x452821e6, 0x38d01377,
@@ -206,7 +206,7 @@ public final class Blowfish {
         0xb5470917, 0x9216d5d9, 0x8979fb1b
     ]
 
-    private let origS: [Array[UInt32]> = [
+    private let origS: [[UInt32]] = [
         [
             0xd1310ba6, 0x98dfb5ac, 0x2ffd72db, 0xd01adfb7,
             0xb8e1afed, 0x6a267e96, 0xba7c9045, 0xf12c7f99,

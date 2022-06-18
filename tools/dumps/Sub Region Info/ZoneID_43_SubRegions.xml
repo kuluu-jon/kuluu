@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfSubRegion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_170 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>6.01875</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>0.150132</ScaleX>
+    <ScaleY>3.01594</ScaleY>
+    <ScaleZ>3.2</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-165.49258</X>
+    <Y>-13.1813</Y>
+    <Z>77.6135</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_171 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0.38408938</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>6.5</ScaleX>
+    <ScaleY>5</ScaleY>
+    <ScaleZ>1.231</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-186.48195</X>
+    <Y>-11.8917</Y>
+    <Z>69.02644</Z>
+  </SubRegion>
+</ArrayOfSubRegion>

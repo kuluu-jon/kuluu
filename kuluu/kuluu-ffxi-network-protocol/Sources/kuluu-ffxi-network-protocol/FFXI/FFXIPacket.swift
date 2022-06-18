@@ -9,14 +9,14 @@ import Foundation
 import BinaryCodable
 
 struct IncomingHeader: BinaryCodable, CustomStringConvertible {
-    
+
     static let size = 28
     let serverPacketId: UInt16
     let clientPacketId: UInt16
     let data1: Data
     let packetTime: UInt32
     let data2: Data
-    
+
     init(from decoder: BinaryDecoder) throws {
         var c = decoder.container(maxLength: 28)
         serverPacketId = try c.decode(UInt16.self) // 2
@@ -25,7 +25,7 @@ struct IncomingHeader: BinaryCodable, CustomStringConvertible {
         packetTime = try c.decode(UInt32.self) // 12
         data2 = try c.decode(length: 16) // 28
     }
-    
+
     func encode(to encoder: BinaryEncoder) throws {
         var c = encoder.container()
         try c.encode(serverPacketId)
@@ -34,7 +34,7 @@ struct IncomingHeader: BinaryCodable, CustomStringConvertible {
         try c.encode(packetTime)
         try c.encode(sequence: data2)
     }
-    
+
     var description: String {
         "{\"serverPacketId\": \(serverPacketId), \"clientPacketId\": \(clientPacketId), \"data1\": \(data1.bytes.first!), \"packetTime\": \(packetTime), \"data2\": \(data2.bytes.first!)}"
     }
@@ -45,7 +45,7 @@ struct IncomingPacket: BinaryCodable, CustomStringConvertible {
     let header: IncomingHeader
     let encryptedBody: Data
     let md5: Data
-    
+
     init(from decoder: BinaryDecoder) throws {
         var c = decoder.container(maxLength: Self.maxLength)
         header = try c.decode(IncomingHeader.self)
@@ -57,14 +57,14 @@ struct IncomingPacket: BinaryCodable, CustomStringConvertible {
         md5 = remainder.suffix(md5Length)
         assert(encryptedBody.count + md5.count == remainder.count)
     }
-    
+
     func encode(to encoder: BinaryEncoder) throws {
         var c = encoder.container()
         try c.encode(header)
         try c.encode(sequence: encryptedBody)
         try c.encode(sequence: md5)
     }
-    
+
     var description: String {
         "{\"header\": \(header), \"encryptedBody\": \(encryptedBody.toHexString().prefix(8)), \"md5\": \(md5.toHexString())}"
     }
@@ -76,7 +76,7 @@ public struct AttachHeaderAndMD5Footer<Packet: FFXIPacket>: BinaryEncodable {
     public let packet: Packet
     public let skipStart: Bool
     public let md5: Data
-    
+
     public func encode(to encoder: BinaryEncoder) throws {
         var c = encoder.container()
         try c.encode(packet.header)
@@ -95,11 +95,11 @@ public protocol FFXIPacket: BinaryEncodable {
     var sendCount: UInt16 { get }
     var size: UInt8 { get }
     var header: Header { get }
-    
+
     var isBodyEncrypted: Bool { get }
-    
+
     func start(packetType: UInt16, size: UInt8) -> Data
-    
+
     func packed(encoder: BinaryDataEncoder, skipStart: Bool) throws -> AttachHeaderAndMD5Footer<Self>?
 }
 

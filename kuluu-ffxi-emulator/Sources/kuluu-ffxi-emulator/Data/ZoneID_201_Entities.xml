@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+<ArrayOfEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Entity>
+    <Name>none</Name>
+    <ServerId>0</ServerId>
+    <TargetIndex>0</TargetIndex>
+    <ZoneId>0</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600513</ServerId>
+    <TargetIndex>1</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600514</ServerId>
+    <TargetIndex>2</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600515</ServerId>
+    <TargetIndex>3</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ogmios</Name>
+    <ServerId>17600516</ServerId>
+    <TargetIndex>4</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ogmios</Name>
+    <ServerId>17600517</ServerId>
+    <TargetIndex>5</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ogmios</Name>
+    <ServerId>17600518</ServerId>
+    <TargetIndex>6</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600519</ServerId>
+    <TargetIndex>7</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600520</ServerId>
+    <TargetIndex>8</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600521</ServerId>
+    <TargetIndex>9</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600522</ServerId>
+    <TargetIndex>10</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Air Elemental</Name>
+    <ServerId>17600523</ServerId>
+    <TargetIndex>11</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Air Elemental</Name>
+    <ServerId>17600524</ServerId>
+    <TargetIndex>12</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Air Elemental</Name>
+    <ServerId>17600525</ServerId>
+    <TargetIndex>13</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Air Elemental</Name>
+    <ServerId>17600526</ServerId>
+    <TargetIndex>14</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600527</ServerId>
+    <TargetIndex>15</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Air Elemental</Name>
+    <ServerId>17600528</ServerId>
+    <TargetIndex>16</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Air Elemental</Name>
+    <ServerId>17600529</ServerId>
+    <TargetIndex>17</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Air Elemental</Name>
+    <ServerId>17600530</ServerId>
+    <TargetIndex>18</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Air Elemental</Name>
+    <ServerId>17600531</ServerId>
+    <TargetIndex>19</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600532</ServerId>
+    <TargetIndex>20</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Air Elemental</Name>
+    <ServerId>17600533</ServerId>
+    <TargetIndex>21</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Air Elemental</Name>
+    <ServerId>17600534</ServerId>
+    <TargetIndex>22</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Air Elemental</Name>
+    <ServerId>17600535</ServerId>
+    <TargetIndex>23</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Air Elemental</Name>
+    <ServerId>17600536</ServerId>
+    <TargetIndex>24</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600537</ServerId>
+    <TargetIndex>25</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600538</ServerId>
+    <TargetIndex>26</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600539</ServerId>
+    <TargetIndex>27</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600540</ServerId>
+    <TargetIndex>28</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600541</ServerId>
+    <TargetIndex>29</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600542</ServerId>
+    <TargetIndex>30</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600543</ServerId>
+    <TargetIndex>31</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600544</ServerId>
+    <TargetIndex>32</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600545</ServerId>
+    <TargetIndex>33</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600546</ServerId>
+    <TargetIndex>34</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600547</ServerId>
+    <TargetIndex>35</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600548</ServerId>
+    <TargetIndex>36</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600549</ServerId>
+    <TargetIndex>37</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600550</ServerId>
+    <TargetIndex>38</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600551</ServerId>
+    <TargetIndex>39</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600552</ServerId>
+    <TargetIndex>40</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600553</ServerId>
+    <TargetIndex>41</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda Prime</Name>
+    <ServerId>17600554</ServerId>
+    <TargetIndex>42</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Achieve Master</Name>
+    <ServerId>17600555</ServerId>
+    <TargetIndex>43</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Unity Master</Name>
+    <ServerId>17600556</ServerId>
+    <TargetIndex>44</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Wind Protocrystal</Name>
+    <ServerId>17600561</ServerId>
+    <TargetIndex>49</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Wind Protocrystal</Name>
+    <ServerId>17600562</ServerId>
+    <TargetIndex>50</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Wind Protocrystal</Name>
+    <ServerId>17600563</ServerId>
+    <TargetIndex>51</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Wind Protocrystal</Name>
+    <ServerId>17600564</ServerId>
+    <TargetIndex>52</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Garuda</Name>
+    <ServerId>17600569</ServerId>
+    <TargetIndex>57</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17600570</ServerId>
+    <TargetIndex>58</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17600572</ServerId>
+    <TargetIndex>60</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17600573</ServerId>
+    <TargetIndex>61</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17600574</ServerId>
+    <TargetIndex>62</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17600575</ServerId>
+    <TargetIndex>63</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17600576</ServerId>
+    <TargetIndex>64</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17600577</ServerId>
+    <TargetIndex>65</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17600578</ServerId>
+    <TargetIndex>66</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>17600579</ServerId>
+    <TargetIndex>67</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ildy-Goldy</Name>
+    <ServerId>17600580</ServerId>
+    <TargetIndex>68</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Uran-Mafran</Name>
+    <ServerId>17600581</ServerId>
+    <TargetIndex>69</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Talking Doll</Name>
+    <ServerId>17600582</ServerId>
+    <TargetIndex>70</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>EV_GARUDA</Name>
+    <ServerId>17600583</ServerId>
+    <TargetIndex>71</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ildy-Goldy</Name>
+    <ServerId>17600584</ServerId>
+    <TargetIndex>72</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ramblix</Name>
+    <ServerId>17600585</ServerId>
+    <TargetIndex>73</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Goblin Footprint</Name>
+    <ServerId>17600586</ServerId>
+    <TargetIndex>74</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17600587</ServerId>
+    <TargetIndex>75</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>???</Name>
+    <ServerId>17600588</ServerId>
+    <TargetIndex>76</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>17600589</ServerId>
+    <TargetIndex>77</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>???</Name>
+    <ServerId>17600590</ServerId>
+    <TargetIndex>78</TargetIndex>
+    <ZoneId>201</ZoneId>
+  </Entity>
+</ArrayOfEntity>

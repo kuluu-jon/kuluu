@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<ArrayOfSubRegion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_0e0 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5.76078</ScaleX>
+    <ScaleY>5</ScaleY>
+    <ScaleZ>0.5</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-216.45</X>
+    <Y>-8.635261</Y>
+    <Z>280</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_0e1 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5.76078</ScaleX>
+    <ScaleY>5</ScaleY>
+    <ScaleZ>0.5</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-216.45</X>
+    <Y>-48.63592</Y>
+    <Z>-280.00003</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_0e2 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5.76078</ScaleX>
+    <ScaleY>5</ScaleY>
+    <ScaleZ>0.5</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>280</X>
+    <Y>-88.65958</Y>
+    <Z>-16.45</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_0e3 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>0.5</ScaleX>
+    <ScaleY>0.5</ScaleY>
+    <ScaleZ>0.5</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-236.3</X>
+    <Y>-4.9</Y>
+    <Z>290</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_0e4 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>0.5</ScaleX>
+    <ScaleY>0.5</ScaleY>
+    <ScaleZ>0.5</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-236.3</X>
+    <Y>-4.9</Y>
+    <Z>270</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_0e5 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>0.5</ScaleX>
+    <ScaleY>0.5</ScaleY>
+    <ScaleZ>0.5</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-236.3</X>
+    <Y>-44.9</Y>
+    <Z>-270</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_0e6 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>0.5</ScaleX>
+    <ScaleY>0.5</ScaleY>
+    <ScaleZ>0.5</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-236.3</X>
+    <Y>-44.9</Y>
+    <Z>-290</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_0e7 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>0.5</ScaleX>
+    <ScaleY>0.5</ScaleY>
+    <ScaleZ>0.5</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>270</X>
+    <Y>-84.9</Y>
+    <Z>-36.3</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_0e8 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>0.5</ScaleX>
+    <ScaleY>0.5</ScaleY>
+    <ScaleZ>0.5</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>290</X>
+    <Y>-84.9</Y>
+    <Z>-36.3</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e0e1 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>150</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>100</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>-229.62358</X>
+    <Y>-20</Y>
+    <Z>280.0684</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e0e2 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>180</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>100</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>-220.85295</X>
+    <Y>-60</Y>
+    <Z>-279.3284</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e0e3 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>180</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>100</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>279.87448</X>
+    <Y>-100</Y>
+    <Z>-18.811478</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e0e0 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>20</ScaleY>
+    <ScaleZ>20</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>-144.17033</X>
+    <Y>-10</Y>
+    <Z>280.16025</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e0e4 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2.5</ScaleX>
+    <ScaleY>5</ScaleY>
+    <ScaleZ>2.5</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>-279.50705</X>
+    <Y>-4.49504</Y>
+    <Z>280.02615</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e0e5 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2.5</ScaleX>
+    <ScaleY>5</ScaleY>
+    <ScaleZ>2.5</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>-279.51114</X>
+    <Y>-44.783264</Y>
+    <Z>-279.95782</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e0e6 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2.5</ScaleX>
+    <ScaleY>5</ScaleY>
+    <ScaleZ>2.5</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>280.0046</X>
+    <Y>-84.705475</Y>
+    <Z>-79.5053</Z>
+  </SubRegion>
+</ArrayOfSubRegion>

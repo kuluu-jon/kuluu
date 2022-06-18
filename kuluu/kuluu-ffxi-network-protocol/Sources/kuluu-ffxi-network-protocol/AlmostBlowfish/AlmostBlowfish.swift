@@ -25,7 +25,6 @@
 
 import CryptoSwift
 
-
 @usableFromInline
 struct BatchedCollectionIndex<Base: Collection> {
     let range: Range<Base.Index>
@@ -36,7 +35,7 @@ extension BatchedCollectionIndex: Comparable {
     static func == <Base>(lhs: BatchedCollectionIndex<Base>, rhs: BatchedCollectionIndex<Base>) -> Bool {
         lhs.range.lowerBound == rhs.range.lowerBound
     }
-    
+
     @usableFromInline
     static func < <Base>(lhs: BatchedCollectionIndex<Base>, rhs: BatchedCollectionIndex<Base>) -> Bool {
         lhs.range.lowerBound < rhs.range.lowerBound
@@ -51,35 +50,35 @@ protocol BatchedCollectionType: Collection {
 struct BatchedCollection<Base: Collection>: Collection {
     let base: Base
     let size: Int
-    
+
     @usableFromInline
     init(base: Base, size: Int) {
         self.base = base
         self.size = size
     }
-    
+
     @usableFromInline
     typealias Index = BatchedCollectionIndex<Base>
-    
+
     private func nextBreak(after idx: Base.Index) -> Base.Index {
         self.base.index(idx, offsetBy: self.size, limitedBy: self.base.endIndex) ?? self.base.endIndex
     }
-    
+
     @usableFromInline
     var startIndex: Index {
         Index(range: self.base.startIndex..<self.nextBreak(after: self.base.startIndex))
     }
-    
+
     @usableFromInline
     var endIndex: Index {
         Index(range: self.base.endIndex..<self.base.endIndex)
     }
-    
+
     @usableFromInline
     func index(after idx: Index) -> Index {
         Index(range: idx.range.upperBound..<self.nextBreak(after: idx.range.upperBound))
     }
-    
+
     @usableFromInline
     subscript(idx: Index) -> Base.SubSequence {
         self.base[idx.range]
@@ -93,25 +92,23 @@ extension Collection {
     }
 }
 
-
 extension Array {
     @inlinable
     init(reserveCapacity: Int) {
-        self = Array<Element>()
+        self = [Element]()
         self.reserveCapacity(reserveCapacity)
     }
-    
+
     @inlinable
     var slice: ArraySlice<Element> {
         self[self.startIndex ..< self.endIndex]
     }
-    
+
     @inlinable
     subscript (safe index: Index) -> Element? {
         return indices.contains(index) ? self[index] : nil
     }
 }
-
 
 protocol _UInt32Type {}
 extension UInt32: _UInt32Type {}
@@ -122,7 +119,7 @@ extension UInt32 {
     init<T: Collection>(bytes: T) where T.Element == UInt8, T.Index == Int {
         self = UInt32(bytes: bytes, fromIndex: bytes.startIndex)
     }
-    
+
     @_specialize(where T == ArraySlice<UInt8>)
     @inlinable
     init<T: Collection>(bytes: T, fromIndex index: T.Index) where T.Element == UInt8, T.Index == Int {
@@ -130,18 +127,17 @@ extension UInt32 {
             self = 0
             return
         }
-        
+
         let count = bytes.count
-        
+
         let val0 = count > 0 ? UInt32(bytes[index.advanced(by: 0)]) << 24 : 0
         let val1 = count > 1 ? UInt32(bytes[index.advanced(by: 1)]) << 16 : 0
         let val2 = count > 2 ? UInt32(bytes[index.advanced(by: 2)]) << 8 : 0
         let val3 = count > 3 ? UInt32(bytes[index.advanced(by: 3)]) : 0
-        
+
         self = val0 | val1 | val2 | val3
     }
 }
-
 
 public final class Blowfish {
     public enum Error: Swift.Error {
@@ -154,26 +150,26 @@ public final class Blowfish {
         /// Invalid block mode
         case invalidBlockMode
     }
-    
+
     public static let blockSize: Int = 8 // 64 bit
     public let keySize: Int
-    
+
     private let blockMode: BlockMode
     private let padding: Padding
     private var decryptWorker: CipherModeWorker!
     private var encryptWorker: CipherModeWorker!
-    
+
     private let N = 16 // rounds
-    private var P: Array<UInt32>
-    private var S: Array<Array<UInt32>>
-    private let origP: Array<UInt32> = [
+    private var P: [UInt32]
+    private var S: [[UInt32]]
+    private let origP: [UInt32] = [
         0x243f6a88, 0x85a308d3, 0x13198a2e, 0x03707344, 0xa4093822,
         0x299f31d0, 0x082efa98, 0xec4e6c89, 0x452821e6, 0x38d01377,
         0xbe5466cf, 0x34e90c6c, 0xc0ac29b7, 0xc97c50dd, 0x3f84d5b5,
         0xb5470917, 0x9216d5d9, 0x8979fb1b
     ]
-    
-    private let origS: Array<Array<UInt32>> = [
+
+    private let origS: [[UInt32]] = [
         [
             0xd1310ba6, 0x98dfb5ac, 0x2ffd72db, 0xd01adfb7,
             0xb8e1afed, 0x6a267e96, 0xba7c9045, 0xf12c7f99,
@@ -439,39 +435,39 @@ public final class Blowfish {
             0xb74e6132, 0xce77e25b, 0x578fdfe3, 0x3ac372e6
         ]
     ]
-    
-    public init(key: Array<UInt8>, blockMode: BlockMode = CBC(iv: Array<UInt8>(repeating: 0, count: Blowfish.blockSize)), padding: Padding) throws {
+
+    public init(key: [UInt8], blockMode: BlockMode = CBC(iv: [UInt8](repeating: 0, count: Blowfish.blockSize)), padding: Padding) throws {
         precondition(key.count >= 5 && key.count <= 56)
-        
+
         self.blockMode = blockMode
         self.padding = padding
         self.keySize = key.count
-        
+
         self.S = self.origS
         self.P = self.origP
-        
+
         self.expandKey(key: key)
         try self.setupBlockModeWorkers()
     }
-    
+
     private func setupBlockModeWorkers() throws {
         self.encryptWorker = try self.blockMode.worker(blockSize: Blowfish.blockSize, cipherOperation: self.encrypt, encryptionOperation: self.encrypt)
-        
+
         self.decryptWorker = try self.blockMode.worker(blockSize: Blowfish.blockSize, cipherOperation: self.decrypt, encryptionOperation: self.encrypt)
     }
-    
+
     private func reset() {
         self.S = self.origS
         self.P = self.origP
         // todo expand key
     }
-    
-    private func expandKey(key: Array<UInt8>) {
+
+    private func expandKey(key: [UInt8]) {
         var j = 0
         for i in 0..<(self.N + 2) {
             var data: UInt32 = 0x0
             for _ in 0..<4 {
-                
+
                 var tempKey = UInt32(key[j])
                 if let first = String(format: "%02X", tempKey).first, !first.isNumber {
                     tempKey = tempKey | UInt32(4294967040)
@@ -486,17 +482,17 @@ public final class Blowfish {
             self.P[i] ^= data
             print(P[i])
         }
-        
+
         var datal: UInt32 = 0
         var datar: UInt32 = 0
-        
+
         for i in stride(from: 0, to: self.N + 2, by: 2) {
             self.encryptBlowfishBlock(l: &datal, r: &datar)
             self.P[i] = datal
             self.P[i + 1] = datar
             print("P l: \(datal), r: \(datar)")
         }
-        
+
         for i in 0..<4 {
             for j in stride(from: 0, to: 256, by: 2) {
                 self.encryptBlowfishBlock(l: &datal, r: &datar)
@@ -506,15 +502,15 @@ public final class Blowfish {
             }
         }
     }
-    
-    fileprivate func encrypt(block: ArraySlice<UInt8>) -> Array<UInt8>? {
-        var result = Array<UInt8>()
-        
+
+    fileprivate func encrypt(block: ArraySlice<UInt8>) -> [UInt8]? {
+        var result = [UInt8]()
+
         var l = UInt32(bytes: block[block.startIndex..<block.startIndex.advanced(by: 4)])
         var r = UInt32(bytes: block[block.startIndex.advanced(by: 4)..<block.startIndex.advanced(by: 8)])
-        
+
         encryptBlowfishBlock(l: &l, r: &r)
-        
+
         // because everything is too complex to be solved in reasonable time o_O
         result += [
             UInt8((l >> 24) & 0xff),
@@ -532,18 +528,18 @@ public final class Blowfish {
             UInt8((r >> 8) & 0xff),
             UInt8((r >> 0) & 0xff)
         ]
-        
+
         return result
     }
-    
-    fileprivate func decrypt(block: ArraySlice<UInt8>) -> Array<UInt8>? {
-        var result = Array<UInt8>()
-        
+
+    fileprivate func decrypt(block: ArraySlice<UInt8>) -> [UInt8]? {
+        var result = [UInt8]()
+
         var l = UInt32(bytes: block[block.startIndex..<block.startIndex.advanced(by: 4)])
         var r = UInt32(bytes: block[block.startIndex.advanced(by: 4)..<block.startIndex.advanced(by: 8)])
-        
+
         decryptBlowfishBlock(l: &l, r: &r)
-        
+
         // because everything is too complex to be solved in reasonable time o_O
         result += [
             UInt8((l >> 24) & 0xff),
@@ -563,7 +559,7 @@ public final class Blowfish {
         ]
         return result
     }
-    
+
     /// Encrypts the 8-byte padded buffer
     ///
     /// - Parameters:
@@ -572,31 +568,31 @@ public final class Blowfish {
     private func encryptBlowfishBlock(l: inout UInt32, r: inout UInt32) {
         var Xl = l
         var Xr = r
-        
+
         for i in 0..<self.N {
             Xl = Xl ^ self.P[i]
             Xr = self.TT(x: Xl) ^ Xr
-            
+
             (Xl, Xr) = (Xr, Xl)
         }
-        
+
         (Xl, Xr) = (Xr, Xl)
-        
+
         Xr = Xr ^ self.P[self.N]
         Xl = Xl ^ self.P[self.N + 1]
-        
+
         l = Xl
         r = Xr
         print("encrypt: \(l) \(r)")
     }
-    
+
     /// Decrypts the 8-byte padded buffer
     ///
     /// - Parameters:
     ///   - l: left half
     ///   - r: right half
     private func decryptBlowfishBlock(l: inout UInt32, r: inout UInt32) {
-        
+
 //        var Xl = l
 //        var Xr = r
 //        for i in N + 1
@@ -625,13 +621,7 @@ public final class Blowfish {
 //
 //        Xr = Xr ^ P[1];
 //        Xl = Xl ^ P[0];
-        
-        
-        
-        
-        
-        
-        
+
         var Xl = l
         var Xr = r
 
@@ -670,7 +660,7 @@ public final class Blowfish {
         let overflow = [e0, e1, e2, e3].reduce(UInt32(0), &+)
         return overflow
     }
-    
+
     private func F(x: UInt32) -> UInt32 {
         let f1 = self.S[0][Int(x >> 24) & 0xff]
         let f2 = self.S[1][Int(x >> 16) & 0xff]
@@ -685,35 +675,35 @@ extension Blowfish: Cipher {
     ///
     /// - Parameter bytes: Plaintext data
     /// - Returns: Encrypted data
-    public func encrypt<C: Collection>(_ bytes: C) throws -> Array<UInt8> where C.Element == UInt8, C.Index == Int {
+    public func encrypt<C: Collection>(_ bytes: C) throws -> [UInt8] where C.Element == UInt8, C.Index == Int {
         let bytes = self.padding.add(to: Array(bytes), blockSize: Blowfish.blockSize) // FIXME: Array(bytes) copies
-        
-        var out = Array<UInt8>()
+
+        var out = [UInt8]()
         out.reserveCapacity(bytes.count)
-        
+
         for chunk in bytes.batched(by: Blowfish.blockSize) {
             out += self.encryptWorker.encrypt(block: chunk)
         }
-        
+
         return out
     }
-    
+
     /// Decrypt the 8-byte padded buffer
     ///
     /// - Parameter bytes: Ciphertext data
     /// - Returns: Plaintext data
-    public func decrypt<C: Collection>(_ bytes: C) throws -> Array<UInt8> where C.Element == UInt8, C.Index == Int {
-        
-        var out = Array<UInt8>()
+    public func decrypt<C: Collection>(_ bytes: C) throws -> [UInt8] where C.Element == UInt8, C.Index == Int {
+
+        var out = [UInt8]()
         out.reserveCapacity(bytes.count)
-        
+
         for chunk in Array(bytes).batched(by: Blowfish.blockSize) {
             assert(chunk.count == Blowfish.blockSize)
             out += self.decryptWorker.decrypt(block: chunk) // FIXME: copying here is innefective
         }
-        
+
         out = self.padding.remove(from: out, blockSize: Blowfish.blockSize)
-        
+
         return out
     }
 }

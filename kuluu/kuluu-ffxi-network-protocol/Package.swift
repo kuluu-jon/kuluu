@@ -15,7 +15,7 @@ let package = Package(
         .library(
             name: "kuluu-ffxi-network-protocol",
             targets: ["kuluu-ffxi-network-protocol"]
-        ),
+        )
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -33,12 +33,12 @@ let package = Package(
                 "CocoaAsyncSocket",
                 "CryptoSwift",
                 "BinaryCodable",
-                "CollectionConcurrencyKit",
+                "CollectionConcurrencyKit"
             ]
         ),
         .testTarget(
             name: "kuluu-ffxi-network-protocolTests",
             dependencies: ["kuluu-ffxi-network-protocol"]
-        ),
+        )
     ]
 )

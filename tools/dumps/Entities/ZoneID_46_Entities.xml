@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<ArrayOfEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Entity>
+    <Name>none</Name>
+    <ServerId>0</ServerId>
+    <TargetIndex>0</TargetIndex>
+    <ZoneId>0</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Passage Crab</Name>
+    <ServerId>16965633</ServerId>
+    <TargetIndex>1</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Passage Crab</Name>
+    <ServerId>16965634</ServerId>
+    <TargetIndex>2</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gugru Jagil</Name>
+    <ServerId>16965635</ServerId>
+    <TargetIndex>3</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gugru Jagil</Name>
+    <ServerId>16965636</ServerId>
+    <TargetIndex>4</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Blanched Kraken</Name>
+    <ServerId>16965637</ServerId>
+    <TargetIndex>5</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gugru Orobon</Name>
+    <ServerId>16965638</ServerId>
+    <TargetIndex>6</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Northern Piranu</Name>
+    <ServerId>16965639</ServerId>
+    <TargetIndex>7</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gugru Crab</Name>
+    <ServerId>16965640</ServerId>
+    <TargetIndex>8</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Gugru Crab</Name>
+    <ServerId>16965641</ServerId>
+    <TargetIndex>9</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ocean Jagil</Name>
+    <ServerId>16965642</ServerId>
+    <TargetIndex>10</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ocean Jagil</Name>
+    <ServerId>16965643</ServerId>
+    <TargetIndex>11</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Ocean Kraken</Name>
+    <ServerId>16965644</ServerId>
+    <TargetIndex>12</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Revenant</Name>
+    <ServerId>16965645</ServerId>
+    <TargetIndex>13</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Thunder Elemental</Name>
+    <ServerId>16965646</ServerId>
+    <TargetIndex>14</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Water Elemental</Name>
+    <ServerId>16965647</ServerId>
+    <TargetIndex>15</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Achieve Master</Name>
+    <ServerId>16965650</ServerId>
+    <TargetIndex>18</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Unity Master</Name>
+    <ServerId>16965651</ServerId>
+    <TargetIndex>19</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>16965657</ServerId>
+    <TargetIndex>25</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>16965659</ServerId>
+    <TargetIndex>27</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>16965660</ServerId>
+    <TargetIndex>28</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>16965661</ServerId>
+    <TargetIndex>29</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>16965662</ServerId>
+    <TargetIndex>30</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>16965663</ServerId>
+    <TargetIndex>31</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>16965664</ServerId>
+    <TargetIndex>32</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>16965665</ServerId>
+    <TargetIndex>33</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Moogle</Name>
+    <ServerId>16965666</ServerId>
+    <TargetIndex>34</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>16965667</ServerId>
+    <TargetIndex>35</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name />
+    <ServerId>16965668</ServerId>
+    <TargetIndex>36</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Adeben</Name>
+    <ServerId>16965669</ServerId>
+    <TargetIndex>37</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Map</Name>
+    <ServerId>16965670</ServerId>
+    <TargetIndex>38</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Cargo Ship Door</Name>
+    <ServerId>16965671</ServerId>
+    <TargetIndex>39</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Cargo Ship Door</Name>
+    <ServerId>16965672</ServerId>
+    <TargetIndex>40</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Cargo Ship Door</Name>
+    <ServerId>16965673</ServerId>
+    <TargetIndex>41</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Door</Name>
+    <ServerId>16965674</ServerId>
+    <TargetIndex>42</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Door</Name>
+    <ServerId>16965675</ServerId>
+    <TargetIndex>43</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Door</Name>
+    <ServerId>16965676</ServerId>
+    <TargetIndex>44</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+  <Entity>
+    <Name>Cehn Teyohngo</Name>
+    <ServerId>16965677</ServerId>
+    <TargetIndex>45</TargetIndex>
+    <ZoneId>46</ZoneId>
+  </Entity>
+</ArrayOfEntity>

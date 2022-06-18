@@ -6,6 +6,6 @@
 //
 
 public enum FFXIMapPacket {
-    
+
     typealias RawValue = FFXIPacket
 }

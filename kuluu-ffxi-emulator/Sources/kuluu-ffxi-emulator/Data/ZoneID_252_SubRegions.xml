@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<ArrayOfSubRegion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z700z4w3</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2</ScaleX>
+    <ScaleY>8</ScaleY>
+    <ScaleZ>10</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>0</Unknown>
+    <X>-19.216085</X>
+    <Y>-3.6089008</Y>
+    <Z>-67.52518</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z701</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>4.712389</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>3</ScaleY>
+    <ScaleZ>4</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>1</Unknown>
+    <X>-19.23754</X>
+    <Y>-2.1625242</Y>
+    <Z>-63.96412</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_700 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2.3676548</ScaleX>
+    <ScaleY>2.9337597</ScaleY>
+    <ScaleZ>0.175</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>101.96934</X>
+    <Y>-8.554681</Y>
+    <Z>-12.000763</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_701 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>-0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2.367653</ScaleX>
+    <ScaleY>2.9337602</ScaleY>
+    <ScaleZ>0.175</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>45.902824</X>
+    <Y>-7.7462106</Y>
+    <Z>5.46993</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>515</FileId>
+    <Identifier>m701 </Identifier>
+    <RomPath>C:/Eden/SquareEnix/FINAL FANTASY XI/ROM2/0/37.DAT</RomPath>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>11</ScaleX>
+    <ScaleY>5</ScaleY>
+    <ScaleZ>16</ScaleZ>
+    <Type>Model</Type>
+    <Unknown>0</Unknown>
+    <X>45.9011</X>
+    <Y>-7.97385</Y>
+    <Z>0.575443</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>514</FileId>
+    <Identifier>m700 </Identifier>
+    <RomPath>C:/Eden/SquareEnix/FINAL FANTASY XI/ROM2/0/36.DAT</RomPath>
+    <RotationX>0</RotationX>
+    <RotationY>3.1415927</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>16</ScaleX>
+    <ScaleY>5</ScaleY>
+    <ScaleZ>12</ScaleZ>
+    <Type>Model</Type>
+    <Unknown>0</Unknown>
+    <X>94.667984</X>
+    <Y>-8.99653</Y>
+    <Z>-12.0097</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_70k </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>4.712389</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2</ScaleX>
+    <ScaleY>5</ScaleY>
+    <ScaleZ>6</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-74.12655</X>
+    <Y>-2.4622629</Y>
+    <Z>26.603712</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>e700 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>4.5</ScaleX>
+    <ScaleY>3</ScaleY>
+    <ScaleZ>4</ScaleZ>
+    <Type>Event</Type>
+    <Unknown>0</Unknown>
+    <X>101.965</X>
+    <Y>-8.53513</Y>
+    <Z>-12.0013</Z>
+  </SubRegion>
+</ArrayOfSubRegion>

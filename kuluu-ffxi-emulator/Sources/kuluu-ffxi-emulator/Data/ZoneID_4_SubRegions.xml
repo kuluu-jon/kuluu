@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<ArrayOfSubRegion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f040 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>160</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>100</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>502.725</X>
+    <Y>-7.5</Y>
+    <Z>711.89</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f041 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>30</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>70</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>297.246</X>
+    <Y>-7.5</Y>
+    <Z>581.009</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f042 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>100</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>100</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>342.00287</X>
+    <Y>-7.5</Y>
+    <Z>280.67606</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f043 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>40</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>90</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>308.01932</X>
+    <Y>-7.5</Y>
+    <Z>176.29546</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f044 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>200</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>100</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-357.977</X>
+    <Y>-7.5</Y>
+    <Z>-380.992</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f045 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>200</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>50</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-120.936295</X>
+    <Y>-7.5</Y>
+    <Z>-641.6315</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f046 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>50</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-276.50388</X>
+    <Y>-7.50001</Y>
+    <Z>-919.65295</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f047 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>20</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>50</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-403.77188</X>
+    <Y>-7.515005</Y>
+    <Z>-919.441</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f048 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>200</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>50</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>-636.80975</X>
+    <Y>-7.5</Y>
+    <Z>-679.9132</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z040z3a9</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>12</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>0</Unknown>
+    <X>673.80304</X>
+    <Y>-24.868656</Y>
+    <Z>911.89886</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z041</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>2.9670596</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1.5</ScaleX>
+    <ScaleY>4</ScaleY>
+    <ScaleZ>4</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>1</Unknown>
+    <X>669.9167</X>
+    <Y>-23.137611</Y>
+    <Z>911.65466</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_04s </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>-10.899999</ScaleX>
+    <ScaleY>-7.6000004</ScaleY>
+    <ScaleZ>0.4250003</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>256</Unknown>
+    <X>489.59387</X>
+    <Y>-5.236326</Y>
+    <Z>707.9841</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_04t </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>10.250001</ScaleX>
+    <ScaleY>10.250001</ScaleY>
+    <ScaleZ>0.5499999</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>256</Unknown>
+    <X>-393.8399</X>
+    <Y>-2.7847497</Y>
+    <Z>-384.70355</Z>
+  </SubRegion>
+</ArrayOfSubRegion>

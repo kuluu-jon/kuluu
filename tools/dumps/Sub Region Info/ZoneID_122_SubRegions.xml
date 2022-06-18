@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<ArrayOfSubRegion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_3e0 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0.8901179</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5.5</ScaleX>
+    <ScaleY>4.28835</ScaleY>
+    <ScaleZ>0.5</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>184.516</X>
+    <Y>-7.14654</Y>
+    <Z>14.2974</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_3e1 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>5.400204</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>5.5</ScaleX>
+    <ScaleY>4.28835</ScaleY>
+    <ScaleZ>0.5</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>0</Unknown>
+    <X>-184.51625</X>
+    <Y>-7.146832</Y>
+    <Z>14.2983265</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>522</FileId>
+    <Identifier>m3e1 </Identifier>
+    <RomPath>C:/Eden/SquareEnix/FINAL FANTASY XI/ROM2/21/115.DAT</RomPath>
+    <RotationX>0</RotationX>
+    <RotationY>6.1181445</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>150</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>200</ScaleZ>
+    <Type>Model</Type>
+    <Unknown>0</Unknown>
+    <X>225.83923</X>
+    <Y>-16.725626</Y>
+    <Z>-11.786502</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z3e0z3d9</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2</ScaleX>
+    <ScaleY>7</ScaleY>
+    <ScaleZ>10</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>0</Unknown>
+    <X>-0.00096263736</X>
+    <Y>-11.0351</Y>
+    <Z>-150.12018</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z3e1</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>4.712389</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>3</ScaleY>
+    <ScaleZ>4</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>1</Unknown>
+    <X>-0.011553861</X>
+    <Y>-9.889167</Y>
+    <Z>-146.43015</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z3e2z6z1</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>2</ScaleX>
+    <ScaleY>7</ScaleY>
+    <ScaleZ>10</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>0</Unknown>
+    <X>0.009905526</X>
+    <Y>-35.106842</Y>
+    <Z>126.63268</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>z3e3</Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>1</ScaleX>
+    <ScaleY>3</ScaleY>
+    <ScaleZ>4</ScaleZ>
+    <Type>ZoneLine</Type>
+    <Unknown>1</Unknown>
+    <X>-0.007611137</X>
+    <Y>-33.594685</Y>
+    <Z>123.47808</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>523</FileId>
+    <Identifier>m3e2 </Identifier>
+    <RomPath>C:/Eden/SquareEnix/FINAL FANTASY XI/ROM2/21/116.DAT</RomPath>
+    <RotationX>0</RotationX>
+    <RotationY>1.2338294</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>100</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>200</ScaleZ>
+    <Type>Model</Type>
+    <Unknown>0</Unknown>
+    <X>-184.75017</X>
+    <Y>-18.157131</Y>
+    <Z>97.91957</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_3e2 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>11.5</ScaleX>
+    <ScaleY>6</ScaleY>
+    <ScaleZ>6</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>256</Unknown>
+    <X>-0.00353581</X>
+    <Y>-10.2092</Y>
+    <Z>-104.005</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>_3e3 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>1.5707964</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>7.5</ScaleX>
+    <ScaleY>6</ScaleY>
+    <ScaleZ>6</ScaleZ>
+    <Type>Door or Object</Type>
+    <Unknown>256</Unknown>
+    <X>-0.00116642</X>
+    <Y>-31.7771</Y>
+    <Z>29.9794</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>523</FileId>
+    <Identifier>m3e2 </Identifier>
+    <RomPath>C:/Eden/SquareEnix/FINAL FANTASY XI/ROM2/21/116.DAT</RomPath>
+    <RotationX>0</RotationX>
+    <RotationY>3.3565457</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>150</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>200</ScaleZ>
+    <Type>Model</Type>
+    <Unknown>0</Unknown>
+    <X>-226.85126</X>
+    <Y>-18.265316</Y>
+    <Z>-13.589958</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>518</FileId>
+    <Identifier>m3e0 </Identifier>
+    <RomPath>C:/Eden/SquareEnix/FINAL FANTASY XI/ROM2/15/124.DAT</RomPath>
+    <RotationX>0</RotationX>
+    <RotationY>3.1415927</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>180</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>250</ScaleZ>
+    <Type>Model</Type>
+    <Unknown>0</Unknown>
+    <X>-0.9545474</X>
+    <Y>-18.3118</Y>
+    <Z>-50.40152</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>522</FileId>
+    <Identifier>m3e1 </Identifier>
+    <RomPath>C:/Eden/SquareEnix/FINAL FANTASY XI/ROM2/21/115.DAT</RomPath>
+    <RotationX>0</RotationX>
+    <RotationY>5.0994506</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>100</ScaleX>
+    <ScaleY>50</ScaleY>
+    <ScaleZ>200</ScaleZ>
+    <Type>Model</Type>
+    <Unknown>0</Unknown>
+    <X>184.478</X>
+    <Y>-16.725626</Y>
+    <Z>96.7944</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>518</FileId>
+    <Identifier>m3e0 </Identifier>
+    <RomPath>C:/Eden/SquareEnix/FINAL FANTASY XI/ROM2/15/124.DAT</RomPath>
+    <RotationX>0</RotationX>
+    <RotationY>3.1415927</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>140</ScaleX>
+    <ScaleY>80</ScaleY>
+    <ScaleZ>150</ScaleZ>
+    <Type>Model</Type>
+    <Unknown>0</Unknown>
+    <X>0.691579</X>
+    <Y>-31.711632</Y>
+    <Z>86.8829</Z>
+  </SubRegion>
+  <SubRegion>
+    <FileId>0</FileId>
+    <Identifier>f3e0 </Identifier>
+    <RotationX>0</RotationX>
+    <RotationY>0</RotationY>
+    <RotationZ>0</RotationZ>
+    <ScaleX>30</ScaleX>
+    <ScaleY>10</ScaleY>
+    <ScaleZ>30</ScaleZ>
+    <Type>Fishing area</Type>
+    <Unknown>0</Unknown>
+    <X>0.023366995</X>
+    <Y>-31.874756</Y>
+    <Z>72.087616</Z>
+  </SubRegion>
+</ArrayOfSubRegion>

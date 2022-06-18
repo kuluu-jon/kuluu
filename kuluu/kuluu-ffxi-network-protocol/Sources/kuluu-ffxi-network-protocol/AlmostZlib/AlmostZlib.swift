@@ -9,28 +9,28 @@ import Foundation
 import BinaryCodable
 
 public extension Data {
-    
+
     private func load<U>(offset: Int, as type: U.Type) -> U where U: BinaryInteger {
         withUnsafeBytes { (buffer: UnsafeRawBufferPointer) in
-            
+
             var storage: U = .init()
             let value: U = withUnsafeMutablePointer(to: &storage) {
                 $0.deinitialize(count: 1)
-                
+
                 guard buffer.count >= MemoryLayout<U>.size,
-                      let source:UnsafeRawPointer = buffer.baseAddress.map(UnsafeRawPointer.init(_:))
+                      let source: UnsafeRawPointer = buffer.baseAddress.map(UnsafeRawPointer.init(_:))
                 else { fatalError("attempt to load \(U.self) from buffer of size \(buffer.count)") }
-                
+
                 let raw: UnsafeMutableRawPointer = .init($0)
                 raw.copyMemory(from: source, byteCount: MemoryLayout<U>.size)
-                
+
                 return raw.load(fromByteOffset: offset, as: U.self)
             }
-            
+
             return U(value)
         }
     }
-    
+
     func toUInt16(offset: Int = 0) -> UInt16 {
         load(offset: offset, as: UInt16.self)
 //        withUnsafeBytes { $0.load(fromByteOffset: offset, as: UInt16.self) }
@@ -62,7 +62,7 @@ public class z {
         }
     }
     public var jumps: [UInt32]
-    
+
     // TODO: optimize me
     init() async {
         let decs = await jumpTable.chunked(into: 4).map { $0.toUInt32() }
@@ -73,13 +73,13 @@ public class z {
         var jumps = [UInt32]()
         for dec in decs {
             if dec > 0xFF {
-                
+
                 // Everything over 0xff are pointers.
                 // These pointers will be traversed until we hit data.
                 jumps.append((dec &- baseslot) / u4)
 
             } else {
-                
+
                 // Everything equal or less to 0xff is 8bit data.
                 // The pointers at offsets -3 and -2 in table must be zero for each non-zero data entry
                 // This approach assumes pointers are at least 8bit on the system.
@@ -90,7 +90,7 @@ public class z {
         }
         self.jumps = jumps
     }
-    
+
     func decompress(data inData: Data, maxSize: Int) -> Data {
         assert(!jumps.isEmpty)
         var jmp = jumps.first!
@@ -98,7 +98,7 @@ public class z {
 //            fatalError("invalid compressed data")
 //        }
 //        byte[] buffer = new byte[(int)Math.Ceiling(packetsize / 8m)];
-        let thing = min(inData.count, 1400) //Int((Double(inData.count)/8.0).rounded(.up))
+        let thing = min(inData.count, 1400) // Int((Double(inData.count)/8.0).rounded(.up))
         let buffer = Data(inData[1..<Int(thing)])
         var w = 0
         var out = Data.init(capacity: IncomingPacket.maxLength)
@@ -112,7 +112,7 @@ public class z {
             } else {
                 let realData = jumps[Int(jmp) + 3]
                 assert(realData <= 0xFF)
-                out.append(contentsOf: realData.bytes)//.insert(contentsOf: realData.bytes, at: w)
+                out.append(contentsOf: realData.bytes)// .insert(contentsOf: realData.bytes, at: w)
                 w += 1
             }
                 //                            continue
@@ -125,9 +125,9 @@ public class z {
         }
         return out
     }
-    
+
     func decompress2(data inData: Data, maxSize: Int) -> Data {
-        
+
 //        let zlibPacketSize = Int(data.toUInt32(offset: data.endIndex - 20))
 //        let zlibBufferSize = Int((Double(zlibPacketSize) / Double(chunkSize)).rounded(.up))
         let start = 0
@@ -155,7 +155,7 @@ public class z {
         }
         return outbuf
     }
-    
+
 //        uint32      w    = 0;
 //        const int8* data = in + 1;
 //        for (uint32 i = 0; i < in_sz && w < out_sz; ++i)
