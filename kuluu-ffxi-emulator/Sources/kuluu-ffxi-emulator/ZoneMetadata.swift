@@ -28,23 +28,38 @@ public struct ZoneMetadata: Codable, Identifiable {
     public let fileId: Int
     public let id: String
     
+    public let positionX: Float
+    public let positionY: Float
+    public let positionZ: Float
+    
+    public lazy var simdPosition: SIMD3<Float> = {
+        .init(x: positionX, y: positionY, z: positionZ)
+    }()
+    
     public let rotationX: Float
     public let rotationY: Float
     public let rotationZ: Float
+    
+    public lazy var simdRotation: SIMD3<Float> = {
+        .init(x: rotationX, y: rotationY, z: rotationZ)
+    }()
     
     public let scaleX: Float
     public let scaleY: Float
     public let scaleZ: Float
     
-    public let type: ZoneMetadataType?
+    public lazy var simdScale: SIMD3<Float> = {
+        .init(x: scaleX, y: scaleY, z: scaleZ)
+    }()
     
-    public let positionX: Float
-    public let positionY: Float
-    public let positionZ: Float
+    public let type: ZoneMetadataType?
     
     public enum CodingKeys: String, CodingKey {
         case id = "Identifier"
         case fileId = "FileId"
+        case positionX = "X"
+        case positionY = "Y"
+        case positionZ = "Z"
         case rotationX = "RotationX"
         case rotationY = "RotationY"
         case rotationZ = "RotationZ"
@@ -52,8 +67,5 @@ public struct ZoneMetadata: Codable, Identifiable {
         case scaleY = "ScaleY"
         case scaleZ = "ScaleZ"
         case type = "Type"
-        case positionX = "X"
-        case positionY = "Y"
-        case positionZ = "Z"
     }
 }
