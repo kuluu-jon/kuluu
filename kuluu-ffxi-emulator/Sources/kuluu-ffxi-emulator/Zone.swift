@@ -37,98 +37,18 @@ public struct ZoneEnvironment {
     public let atmosphere: String?
 }
 
+public struct ZoneLine {
+    let name: String
+    let position: SIMD3<Float>
+    let rotation: SIMD3<Float>
+    let scale: SIMD3<Float>
+}
+
 public protocol ZoneSceneMetadata {
     var id: Int { get }
     var lines: [ZoneLine] { get } // TODO: remove, use `ZoneMetadata`
     var fog: Fog? { get }
     var environment: ZoneEnvironment? { get }
-}
-
-private lazy var _zoneDescriptorMap: ZoneDescriptorMap! = {
-   loadZoneDescriptorMap()
-}()
-
-let xmlDecoder: XMLDecoder = {
-    let xmlDecoder = XMLDecoder()
-    //    xmlDecoder.keyDecodingStrategy = .convertFromCapitalized
-    //    xmlDecoder.shouldProcessNamespaces = false
-    //    xmlDecoder.removeWhitespaceElements = false
-    //    xmlDecoder.trimValueWhitespaces = false
-    return xmlDecoder
-}()
-
-public struct ZoneDescriptor {
-    internal init(entity: [Entity]? = nil, zoneMetadatas: [ZoneMetadata]? = nil) {
-        self.entity = entity
-        self.zoneMetadatas = zoneMetadatas
-    }
-    
-    public var entity: [Entity]?
-    public var zoneMetadatas: [ZoneMetadata]?
-}
-
-public typealias ZoneDescriptorMap = [Int: ZoneDescriptor]
-
-private func loadZoneDescriptorMap() async throws -> ZoneDescriptorMap {
-    // swift can be fast if u use all da cores, watch this.
-    // load all of the xml file urls in our resources
-    let urls = Bundle.module.urls(forResourcesWithExtension: "xml", subdirectory: "Data")
-    // pair urls with their data contents so we can process different urls differently if needed
-    // (e.g. subregion vs. entities)
-    let dataUrlTuples = try await urls?.concurrentCompactMap { url -> (Data, URL) in
-        (try Data(contentsOf: url), url)
-    }
-    // grab entity XMLs (and discard subregions for now) concurrently
-    enum DataType {
-        case entity(Data), subregion(Data)
-        
-        init?(tuple: (Data, URL)) {
-            let lastPath = tuple.1.lastPathComponent
-            if lastPath.hasSuffix("_Entities.xml") {
-                self = .entity(tuple.0)
-            } else if lastPath.hasSuffix("_SubRegions.xml") {
-                self = .subregion(tuple.0)
-            } else {
-                fatalError("unhandled xml file: \(lastPath)")
-            }
-        }
-    }
-    let dataTypes = await dataUrlTuples?.concurrentCompactMap(DataType.init(tuple:))
-    // decode XML concurrently
-    let zoneDescriptors = try await dataTypes?.concurrentCompactMap { dataType -> ZoneDescriptor? in
-        switch dataType {
-        case .subregion(let data):
-            let zoneXML = try xmlDecoder.decode(ArrayOfSubRegion.self, from: data)
-            let zoneMetadatas = zoneXML.zoneMetadatas
-            return ZoneDescriptor(entity: nil, zoneMetadatas: zoneMetadatas)
-        case .entity(let data):
-            let zoneXML = try xmlDecoder.decode(ArrayOfEntity.self, from: data)
-            let entities = zoneXML.entities
-            return ZoneDescriptor(entity: entities, zoneMetadatas: nil)
-        }
-    }
-    var zoneDescriptorMap: ZoneDescriptorMap = .init(minimumCapacity: zoneDescriptors?.count ?? 600)
-    await zoneDescriptors?.asyncForEach { row in
-        if let firstEntity = row.entity?.first {
-            let zoneId = firstEntity.zoneId
-            if var zoneDescriptor = zoneDescriptorMap[zoneId] {
-                zoneDescriptor.entity = row.entity!
-                zoneDescriptorMap[zoneId] = zoneDescriptor
-            } else {
-                zoneDescriptorMap[zoneId] = .init(entity: row.entity!, zoneMetadatas: nil)
-            }
-        } else if let firstZoneMetadata = row.zoneMetadatas?.first {
-            let zoneId = firstZoneMetadata.fileId
-            if var zoneDescriptor = zoneDescriptorMap[zoneId] {
-                zoneDescriptor.zoneMetadatas = row.zoneMetadatas!
-                zoneDescriptorMap[zoneId] = zoneDescriptor
-            } else {
-                zoneDescriptorMap[zoneId] = .init(entity: nil, zoneMetadatas: row.zoneMetadatas!)
-            }
-        }
-    }
-    
-    return zoneDescriptorMap
 }
 
 
@@ -152,16 +72,10 @@ public enum Zone: Int {
     }
 
     public var nodeName: String {
-        "\(rawValue)"
+        .init(rawValue)
     }
 }
 
-public struct ZoneLine {
-    let name: String
-    let position: SIMD3<Float>
-    let rotation: SIMD3<Float>
-    let scale: SIMD3<Float>
-}
 
 public struct SSandoria: ZoneSceneMetadata {
     public let id = Zone.ssandoria.rawValue

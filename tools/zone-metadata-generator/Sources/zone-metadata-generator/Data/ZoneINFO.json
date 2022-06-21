@@ -1,0 +1,5984 @@
+{
+  "zoneInfo": [
+    {
+      "id": 0,
+      "name": "unknown",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\28.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\110.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\10.DAT",
+      "Event_Dat_Path": "ROM3\\0\\66.DAT"
+    },
+    {
+      "id": 1,
+      "name": "Phanauet Channel",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\0.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\111.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\11.DAT",
+      "Event_Dat_Path": "ROM3\\0\\67.DAT"
+    },
+    {
+      "id": 2,
+      "name": "Carpenters' Landing",
+      "BumpMap_Dat_Path": "ROM3\\5\\125.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\1.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\112.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\12.DAT",
+      "Event_Dat_Path": "ROM3\\0\\68.DAT"
+    },
+    {
+      "id": 3,
+      "name": "Manaclipper",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\2.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\113.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\13.DAT",
+      "Event_Dat_Path": "ROM3\\0\\69.DAT"
+    },
+    {
+      "id": 4,
+      "name": "Bibiki Bay",
+      "BumpMap_Dat_Path": "ROM3\\5\\126.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\3.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\114.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\14.DAT",
+      "Event_Dat_Path": "ROM3\\0\\70.DAT"
+    },
+    {
+      "id": 5,
+      "name": "Uleguerand Range",
+      "BumpMap_Dat_Path": "ROM3\\5\\127.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\4.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\115.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\15.DAT",
+      "Event_Dat_Path": "ROM3\\0\\71.DAT"
+    },
+    {
+      "id": 6,
+      "name": "Bearclaw Pinnacle",
+      "BumpMap_Dat_Path": "ROM3\\6\\0.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\5.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\116.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\16.DAT",
+      "Event_Dat_Path": "ROM3\\0\\72.DAT"
+    },
+    {
+      "id": 7,
+      "name": "Attohwa Chasm",
+      "BumpMap_Dat_Path": "ROM3\\6\\1.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\6.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\117.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\17.DAT",
+      "Event_Dat_Path": "ROM3\\0\\73.DAT"
+    },
+    {
+      "id": 8,
+      "name": "Boneyard Gully",
+      "BumpMap_Dat_Path": "ROM3\\6\\2.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\7.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\118.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\18.DAT",
+      "Event_Dat_Path": "ROM3\\0\\74.DAT"
+    },
+    {
+      "id": 9,
+      "name": "Pso'Xja",
+      "BumpMap_Dat_Path": "ROM3\\6\\3.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\8.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\119.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\19.DAT",
+      "Event_Dat_Path": "ROM3\\0\\75.DAT"
+    },
+    {
+      "id": 10,
+      "name": "The Shrouded Maw",
+      "BumpMap_Dat_Path": "ROM3\\6\\4.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\9.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\120.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\20.DAT",
+      "Event_Dat_Path": "ROM3\\0\\76.DAT"
+    },
+    {
+      "id": 11,
+      "name": "Oldton Movalpolos",
+      "BumpMap_Dat_Path": "ROM3\\6\\5.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\10.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\121.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\21.DAT",
+      "Event_Dat_Path": "ROM3\\0\\77.DAT"
+    },
+    {
+      "id": 12,
+      "name": "Newton Movalpolos",
+      "BumpMap_Dat_Path": "ROM3\\6\\6.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\11.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\122.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\22.DAT",
+      "Event_Dat_Path": "ROM3\\0\\78.DAT"
+    },
+    {
+      "id": 13,
+      "name": "Mine Shaft #2716",
+      "BumpMap_Dat_Path": "ROM3\\6\\7.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\12.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\123.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\23.DAT",
+      "Event_Dat_Path": "ROM3\\0\\79.DAT"
+    },
+    {
+      "id": 14,
+      "name": "Hall of Transference",
+      "BumpMap_Dat_Path": "ROM3\\6\\8.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\13.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\124.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\24.DAT",
+      "Event_Dat_Path": "ROM3\\0\\80.DAT"
+    },
+    {
+      "id": 15,
+      "name": "Abyssea - Konschtat",
+      "BumpMap_Dat_Path": "ROM\\254\\10.DAT",
+      "Main_Model_Dat_Path": "ROM\\240\\106.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\25\\80.DAT",
+      "Dialogue_Dat_Path": "ROM\\23\\80.DAT",
+      "Event_Dat_Path": "ROM\\19\\80.DAT"
+    },
+    {
+      "id": 16,
+      "name": "Promyvion - Holla",
+      "BumpMap_Dat_Path": "ROM3\\6\\9.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\15.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\126.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\26.DAT",
+      "Event_Dat_Path": "ROM3\\0\\82.DAT"
+    },
+    {
+      "id": 17,
+      "name": "Spire of Holla",
+      "BumpMap_Dat_Path": "ROM3\\6\\10.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\16.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\2\\127.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\27.DAT",
+      "Event_Dat_Path": "ROM3\\0\\83.DAT"
+    },
+    {
+      "id": 18,
+      "name": "Promyvion - Dem",
+      "BumpMap_Dat_Path": "ROM3\\6\\11.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\17.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\0.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\28.DAT",
+      "Event_Dat_Path": "ROM3\\0\\84.DAT"
+    },
+    {
+      "id": 19,
+      "name": "Spire of Dem",
+      "BumpMap_Dat_Path": "ROM3\\6\\12.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\18.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\1.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\29.DAT",
+      "Event_Dat_Path": "ROM3\\0\\85.DAT"
+    },
+    {
+      "id": 20,
+      "name": "Promyvion - Mea",
+      "BumpMap_Dat_Path": "ROM3\\6\\13.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\19.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\2.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\30.DAT",
+      "Event_Dat_Path": "ROM3\\0\\86.DAT"
+    },
+    {
+      "id": 21,
+      "name": "Spire of Mea",
+      "BumpMap_Dat_Path": "ROM3\\6\\14.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\20.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\3.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\31.DAT",
+      "Event_Dat_Path": "ROM3\\0\\87.DAT"
+    },
+    {
+      "id": 22,
+      "name": "Promyvion - Vahzl",
+      "BumpMap_Dat_Path": "ROM3\\6\\15.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\21.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\4.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\32.DAT",
+      "Event_Dat_Path": "ROM3\\0\\88.DAT"
+    },
+    {
+      "id": 23,
+      "name": "Spire of Vahzl",
+      "BumpMap_Dat_Path": "ROM3\\6\\16.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\22.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\5.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\33.DAT",
+      "Event_Dat_Path": "ROM3\\0\\89.DAT"
+    },
+    {
+      "id": 24,
+      "name": "Lufaise Meadows",
+      "BumpMap_Dat_Path": "ROM3\\6\\17.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\23.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\6.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\34.DAT",
+      "Event_Dat_Path": "ROM3\\0\\90.DAT"
+    },
+    {
+      "id": 25,
+      "name": "Misareaux Coast",
+      "BumpMap_Dat_Path": "ROM3\\6\\18.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\24.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\7.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\35.DAT",
+      "Event_Dat_Path": "ROM3\\0\\91.DAT"
+    },
+    {
+      "id": 26,
+      "name": "Tavnazian Safehold",
+      "BumpMap_Dat_Path": "ROM3\\6\\19.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\25.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\8.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\36.DAT",
+      "Event_Dat_Path": "ROM3\\0\\92.DAT"
+    },
+    {
+      "id": 27,
+      "name": "Phomiuna Aqueducts",
+      "BumpMap_Dat_Path": "ROM3\\6\\20.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\26.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\9.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\37.DAT",
+      "Event_Dat_Path": "ROM3\\0\\93.DAT"
+    },
+    {
+      "id": 28,
+      "name": "Sacrarium",
+      "BumpMap_Dat_Path": "ROM3\\6\\21.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\27.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\10.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\38.DAT",
+      "Event_Dat_Path": "ROM3\\0\\94.DAT"
+    },
+    {
+      "id": 29,
+      "name": "Riverne - Site #B01",
+      "BumpMap_Dat_Path": "ROM3\\6\\22.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\28.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\11.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\39.DAT",
+      "Event_Dat_Path": "ROM3\\0\\95.DAT"
+    },
+    {
+      "id": 30,
+      "name": "Riverne - Site #A01",
+      "BumpMap_Dat_Path": "ROM3\\6\\23.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\29.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\12.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\40.DAT",
+      "Event_Dat_Path": "ROM3\\0\\96.DAT"
+    },
+    {
+      "id": 31,
+      "name": "Monarch Linn",
+      "BumpMap_Dat_Path": "ROM3\\6\\24.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\30.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\13.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\41.DAT",
+      "Event_Dat_Path": "ROM3\\0\\97.DAT"
+    },
+    {
+      "id": 32,
+      "name": "Sealion's Den",
+      "BumpMap_Dat_Path": "ROM3\\6\\25.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\31.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\14.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\42.DAT",
+      "Event_Dat_Path": "ROM3\\0\\98.DAT"
+    },
+    {
+      "id": 33,
+      "name": "Al'Taieu",
+      "BumpMap_Dat_Path": "ROM3\\6\\26.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\32.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\15.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\43.DAT",
+      "Event_Dat_Path": "ROM3\\0\\99.DAT"
+    },
+    {
+      "id": 34,
+      "name": "Grand Palace of Hu'Xzoi",
+      "BumpMap_Dat_Path": "ROM3\\6\\27.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\33.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\16.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\44.DAT",
+      "Event_Dat_Path": "ROM3\\0\\100.DAT"
+    },
+    {
+      "id": 35,
+      "name": "The Garden of Ru'Hmet",
+      "BumpMap_Dat_Path": "ROM3\\6\\28.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\34.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\17.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\45.DAT",
+      "Event_Dat_Path": "ROM3\\0\\101.DAT"
+    },
+    {
+      "id": 36,
+      "name": "Empyreal Paradox",
+      "BumpMap_Dat_Path": "ROM3\\6\\29.DAT",
+      "Main_Model_Dat_Path": "ROM3\\0\\35.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\18.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\46.DAT",
+      "Event_Dat_Path": "ROM3\\0\\102.DAT"
+    },
+    {
+      "id": 37,
+      "name": "Temenos",
+      "BumpMap_Dat_Path": "ROM3\\6\\30.DAT",
+      "Main_Model_Dat_Path": "ROM3\\3\\82.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\19.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\47.DAT",
+      "Event_Dat_Path": "ROM3\\0\\103.DAT"
+    },
+    {
+      "id": 38,
+      "name": "Apollyon",
+      "BumpMap_Dat_Path": "ROM3\\6\\31.DAT",
+      "Main_Model_Dat_Path": "ROM3\\5\\1.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\20.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\48.DAT",
+      "Event_Dat_Path": "ROM3\\0\\104.DAT"
+    },
+    {
+      "id": 39,
+      "name": "Dynamis - Valkurm",
+      "BumpMap_Dat_Path": "ROM3\\6\\32.DAT",
+      "Main_Model_Dat_Path": "ROM3\\5\\2.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\21.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\49.DAT",
+      "Event_Dat_Path": "ROM3\\0\\105.DAT"
+    },
+    {
+      "id": 40,
+      "name": "Dynamis - Buburimu",
+      "BumpMap_Dat_Path": "ROM3\\6\\33.DAT",
+      "Main_Model_Dat_Path": "ROM3\\5\\3.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\22.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\50.DAT",
+      "Event_Dat_Path": "ROM3\\0\\106.DAT"
+    },
+    {
+      "id": 41,
+      "name": "Dynamis - Qufim",
+      "BumpMap_Dat_Path": "ROM3\\6\\34.DAT",
+      "Main_Model_Dat_Path": "ROM3\\5\\4.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\23.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\51.DAT",
+      "Event_Dat_Path": "ROM3\\0\\107.DAT"
+    },
+    {
+      "id": 42,
+      "name": "Dynamis - Tavnazia",
+      "BumpMap_Dat_Path": "ROM3\\6\\35.DAT",
+      "Main_Model_Dat_Path": "ROM3\\5\\5.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\24.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\52.DAT",
+      "Event_Dat_Path": "ROM3\\0\\108.DAT"
+    },
+    {
+      "id": 43,
+      "name": "Diorama Abdhaljs-Ghelsba",
+      "BumpMap_Dat_Path": "ROM3\\6\\36.DAT",
+      "Main_Model_Dat_Path": "ROM3\\5\\6.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\25.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\53.DAT",
+      "Event_Dat_Path": "ROM3\\0\\109.DAT"
+    },
+    {
+      "id": 44,
+      "name": "Abdhaljs Isle-Purgonorgo",
+      "BumpMap_Dat_Path": "ROM3\\6\\37.DAT",
+      "Main_Model_Dat_Path": "ROM3\\5\\7.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM3\\3\\26.DAT",
+      "Dialogue_Dat_Path": "ROM3\\2\\54.DAT",
+      "Event_Dat_Path": "ROM3\\0\\110.DAT"
+    },
+    {
+      "id": 45,
+      "name": "Abyssea - Tahrongi",
+      "BumpMap_Dat_Path": "ROM\\254\\11.DAT",
+      "Main_Model_Dat_Path": "ROM\\240\\107.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\25\\110.DAT",
+      "Dialogue_Dat_Path": "ROM\\23\\110.DAT",
+      "Event_Dat_Path": "ROM\\19\\110.DAT"
+    },
+    {
+      "id": 46,
+      "name": "Open sea route to Al Zahbi",
+      "BumpMap_Dat_Path": "ROM4\\7\\79.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\0.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\45.DAT",
+      "Dialogue_Dat_Path": "ROM4\\0\\119.DAT",
+      "Event_Dat_Path": "ROM4\\0\\51.DAT"
+    },
+    {
+      "id": 47,
+      "name": "Open sea route to Mhaura",
+      "BumpMap_Dat_Path": "ROM4\\7\\80.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\1.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\46.DAT",
+      "Dialogue_Dat_Path": "ROM4\\0\\120.DAT",
+      "Event_Dat_Path": "ROM4\\0\\52.DAT"
+    },
+    {
+      "id": 48,
+      "name": "Al Zahbi",
+      "BumpMap_Dat_Path": "ROM4\\7\\81.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\2.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\47.DAT",
+      "Dialogue_Dat_Path": "ROM4\\0\\121.DAT",
+      "Event_Dat_Path": "ROM4\\0\\53.DAT"
+    },
+    {
+      "id": 49,
+      "name": "none",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\40.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\48.DAT",
+      "Dialogue_Dat_Path": "ROM4\\0\\122.DAT",
+      "Event_Dat_Path": "ROM4\\0\\54.DAT"
+    },
+    {
+      "id": 50,
+      "name": "Aht Urhgan Whitegate",
+      "BumpMap_Dat_Path": "ROM4\\7\\82.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\3.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\49.DAT",
+      "Dialogue_Dat_Path": "ROM4\\0\\123.DAT",
+      "Event_Dat_Path": "ROM4\\0\\55.DAT"
+    },
+    {
+      "id": 51,
+      "name": "Wajaom Woodlands",
+      "BumpMap_Dat_Path": "ROM4\\7\\83.DAT",
+      "Main_Model_Dat_Path": "ROM4\\1\\99.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\50.DAT",
+      "Dialogue_Dat_Path": "ROM4\\0\\124.DAT",
+      "Event_Dat_Path": "ROM4\\0\\56.DAT"
+    },
+    {
+      "id": 52,
+      "name": "Bhaflau Thickets",
+      "BumpMap_Dat_Path": "ROM4\\7\\84.DAT",
+      "Main_Model_Dat_Path": "ROM4\\7\\55.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\51.DAT",
+      "Dialogue_Dat_Path": "ROM4\\0\\125.DAT",
+      "Event_Dat_Path": "ROM4\\0\\57.DAT"
+    },
+    {
+      "id": 53,
+      "name": "Nashmau",
+      "BumpMap_Dat_Path": "ROM4\\7\\85.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\6.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\52.DAT",
+      "Dialogue_Dat_Path": "ROM4\\0\\126.DAT",
+      "Event_Dat_Path": "ROM4\\0\\58.DAT"
+    },
+    {
+      "id": 54,
+      "name": "Arrapago Reef",
+      "BumpMap_Dat_Path": "ROM4\\7\\86.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\7.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\53.DAT",
+      "Dialogue_Dat_Path": "ROM4\\0\\127.DAT",
+      "Event_Dat_Path": "ROM4\\0\\59.DAT"
+    },
+    {
+      "id": 55,
+      "name": "Ilrusi Atoll",
+      "BumpMap_Dat_Path": "ROM4\\7\\87.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\8.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\54.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\0.DAT",
+      "Event_Dat_Path": "ROM4\\0\\60.DAT"
+    },
+    {
+      "id": 56,
+      "name": "Periqia",
+      "BumpMap_Dat_Path": "ROM4\\7\\88.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\9.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\55.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\1.DAT",
+      "Event_Dat_Path": "ROM4\\0\\61.DAT"
+    },
+    {
+      "id": 57,
+      "name": "Talacca Cove",
+      "BumpMap_Dat_Path": "ROM4\\7\\89.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\10.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\56.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\2.DAT",
+      "Event_Dat_Path": "ROM4\\0\\62.DAT"
+    },
+    {
+      "id": 58,
+      "name": "Silver Sea route to Nashmau",
+      "BumpMap_Dat_Path": "ROM4\\7\\90.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\11.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\57.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\3.DAT",
+      "Event_Dat_Path": "ROM4\\0\\63.DAT"
+    },
+    {
+      "id": 59,
+      "name": "Silver Sea route to Al Zahbi",
+      "BumpMap_Dat_Path": "ROM4\\7\\91.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\12.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\58.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\4.DAT",
+      "Event_Dat_Path": "ROM4\\0\\64.DAT"
+    },
+    {
+      "id": 60,
+      "name": "The Ashu Talif",
+      "BumpMap_Dat_Path": "ROM4\\7\\92.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\13.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\59.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\5.DAT",
+      "Event_Dat_Path": "ROM4\\0\\65.DAT"
+    },
+    {
+      "id": 61,
+      "name": "Mount Zhayolm",
+      "BumpMap_Dat_Path": "ROM4\\7\\93.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\14.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\60.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\6.DAT",
+      "Event_Dat_Path": "ROM4\\0\\66.DAT"
+    },
+    {
+      "id": 62,
+      "name": "Halvung",
+      "BumpMap_Dat_Path": "ROM4\\7\\94.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\15.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\61.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\7.DAT",
+      "Event_Dat_Path": "ROM4\\0\\67.DAT"
+    },
+    {
+      "id": 63,
+      "name": "Lebros Cavern",
+      "BumpMap_Dat_Path": "ROM4\\7\\95.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\16.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\62.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\8.DAT",
+      "Event_Dat_Path": "ROM4\\0\\68.DAT"
+    },
+    {
+      "id": 64,
+      "name": "Navukgo Execution Chamber",
+      "BumpMap_Dat_Path": "ROM4\\7\\96.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\17.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\63.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\9.DAT",
+      "Event_Dat_Path": "ROM4\\0\\69.DAT"
+    },
+    {
+      "id": 65,
+      "name": "Mamook",
+      "BumpMap_Dat_Path": "ROM4\\7\\97.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\18.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\64.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\10.DAT",
+      "Event_Dat_Path": "ROM4\\0\\70.DAT"
+    },
+    {
+      "id": 66,
+      "name": "Mamool Ja Training Grounds",
+      "BumpMap_Dat_Path": "ROM4\\7\\98.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\19.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\65.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\11.DAT",
+      "Event_Dat_Path": "ROM4\\0\\71.DAT"
+    },
+    {
+      "id": 67,
+      "name": "Jade Sepulcher",
+      "BumpMap_Dat_Path": "ROM4\\7\\99.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\20.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\66.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\12.DAT",
+      "Event_Dat_Path": "ROM4\\0\\72.DAT"
+    },
+    {
+      "id": 68,
+      "name": "Aydeewa Subterrane",
+      "BumpMap_Dat_Path": "ROM4\\7\\100.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\21.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\67.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\13.DAT",
+      "Event_Dat_Path": "ROM4\\0\\73.DAT"
+    },
+    {
+      "id": 69,
+      "name": "Leujaoam Sanctum",
+      "BumpMap_Dat_Path": "ROM4\\7\\101.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\22.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\68.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\14.DAT",
+      "Event_Dat_Path": "ROM4\\0\\74.DAT"
+    },
+    {
+      "id": 70,
+      "name": "Chocobo Circuit",
+      "BumpMap_Dat_Path": "ROM4\\7\\102.DAT",
+      "Main_Model_Dat_Path": "ROM4\\5\\106.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\69.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\15.DAT",
+      "Event_Dat_Path": "ROM4\\0\\75.DAT"
+    },
+    {
+      "id": 71,
+      "name": "The Colosseum",
+      "BumpMap_Dat_Path": "ROM4\\7\\103.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\24.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\70.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\16.DAT",
+      "Event_Dat_Path": "ROM4\\0\\76.DAT"
+    },
+    {
+      "id": 72,
+      "name": "Alzadaal Undersea Ruins",
+      "BumpMap_Dat_Path": "ROM4\\7\\104.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\25.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\71.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\17.DAT",
+      "Event_Dat_Path": "ROM4\\0\\77.DAT"
+    },
+    {
+      "id": 73,
+      "name": "Zhayolm Remnants",
+      "BumpMap_Dat_Path": "ROM4\\7\\105.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\26.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\72.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\18.DAT",
+      "Event_Dat_Path": "ROM4\\0\\78.DAT"
+    },
+    {
+      "id": 74,
+      "name": "Arrapago Remnants",
+      "BumpMap_Dat_Path": "ROM4\\7\\106.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\27.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\73.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\19.DAT",
+      "Event_Dat_Path": "ROM4\\0\\79.DAT"
+    },
+    {
+      "id": 75,
+      "name": "Bhaflau Remnants",
+      "BumpMap_Dat_Path": "ROM4\\7\\107.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\28.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\74.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\20.DAT",
+      "Event_Dat_Path": "ROM4\\0\\80.DAT"
+    },
+    {
+      "id": 76,
+      "name": "Silver Sea Remnants",
+      "BumpMap_Dat_Path": "ROM4\\7\\108.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\29.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\75.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\21.DAT",
+      "Event_Dat_Path": "ROM4\\0\\81.DAT"
+    },
+    {
+      "id": 77,
+      "name": "Nyzul Isle",
+      "BumpMap_Dat_Path": "ROM4\\7\\109.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\30.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\76.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\22.DAT",
+      "Event_Dat_Path": "ROM4\\0\\82.DAT"
+    },
+    {
+      "id": 78,
+      "name": "Hazhalm Testing Grounds",
+      "BumpMap_Dat_Path": "ROM4\\7\\110.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\31.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\77.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\23.DAT",
+      "Event_Dat_Path": "ROM4\\0\\83.DAT"
+    },
+    {
+      "id": 79,
+      "name": "Caedarva Mire",
+      "BumpMap_Dat_Path": "ROM4\\7\\111.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\32.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM4\\1\\78.DAT",
+      "Dialogue_Dat_Path": "ROM4\\1\\24.DAT",
+      "Event_Dat_Path": "ROM4\\0\\84.DAT"
+    },
+    {
+      "id": 80,
+      "name": "Southern San d'Oria [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\101.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\0.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\17.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\17.DAT",
+      "Event_Dat_Path": "ROM\\20\\17.DAT"
+    },
+    {
+      "id": 81,
+      "name": "East Ronfaure [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\102.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\1.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\18.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\18.DAT",
+      "Event_Dat_Path": "ROM\\20\\18.DAT"
+    },
+    {
+      "id": 82,
+      "name": "Jugner Forest [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\103.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\2.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\19.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\19.DAT",
+      "Event_Dat_Path": "ROM\\20\\19.DAT"
+    },
+    {
+      "id": 83,
+      "name": "Vunkerl Inlet [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\104.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\3.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\20.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\20.DAT",
+      "Event_Dat_Path": "ROM\\20\\20.DAT"
+    },
+    {
+      "id": 84,
+      "name": "Batallia Downs [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\105.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\4.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\21.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\21.DAT",
+      "Event_Dat_Path": "ROM\\20\\21.DAT"
+    },
+    {
+      "id": 85,
+      "name": "La Vaule [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\106.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\5.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\22.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\22.DAT",
+      "Event_Dat_Path": "ROM\\20\\22.DAT"
+    },
+    {
+      "id": 86,
+      "name": "Everbloom Hollow",
+      "BumpMap_Dat_Path": "ROM5\\5\\107.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\6.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\23.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\23.DAT",
+      "Event_Dat_Path": "ROM\\20\\23.DAT"
+    },
+    {
+      "id": 87,
+      "name": "Bastok Markets [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\108.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\7.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\24.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\24.DAT",
+      "Event_Dat_Path": "ROM\\20\\24.DAT"
+    },
+    {
+      "id": 88,
+      "name": "North Gustaberg [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\109.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\8.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\25.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\25.DAT",
+      "Event_Dat_Path": "ROM\\20\\25.DAT"
+    },
+    {
+      "id": 89,
+      "name": "Grauberg [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\110.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\9.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\26.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\26.DAT",
+      "Event_Dat_Path": "ROM\\20\\26.DAT"
+    },
+    {
+      "id": 90,
+      "name": "Pashhow Marshlands [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\111.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\10.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\27.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\27.DAT",
+      "Event_Dat_Path": "ROM\\20\\27.DAT"
+    },
+    {
+      "id": 91,
+      "name": "Rolanberry Fields [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\112.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\11.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\28.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\28.DAT",
+      "Event_Dat_Path": "ROM\\20\\28.DAT"
+    },
+    {
+      "id": 92,
+      "name": "Beadeaux [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\113.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\12.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\29.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\29.DAT",
+      "Event_Dat_Path": "ROM\\20\\29.DAT"
+    },
+    {
+      "id": 93,
+      "name": "Ruhotz Silvermines",
+      "BumpMap_Dat_Path": "ROM5\\5\\114.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\13.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\30.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\30.DAT",
+      "Event_Dat_Path": "ROM\\20\\30.DAT"
+    },
+    {
+      "id": 94,
+      "name": "Windurst Waters [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\115.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\14.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\31.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\31.DAT",
+      "Event_Dat_Path": "ROM\\20\\31.DAT"
+    },
+    {
+      "id": 95,
+      "name": "West Sarutabaruta [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\116.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\15.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\32.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\32.DAT",
+      "Event_Dat_Path": "ROM\\20\\32.DAT"
+    },
+    {
+      "id": 96,
+      "name": "Fort Karugo-Narugo [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\117.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\16.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\33.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\33.DAT",
+      "Event_Dat_Path": "ROM\\20\\33.DAT"
+    },
+    {
+      "id": 97,
+      "name": "Meriphataud Mountains [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\118.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\17.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\34.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\34.DAT",
+      "Event_Dat_Path": "ROM\\20\\34.DAT"
+    },
+    {
+      "id": 98,
+      "name": "Sauromugue Champaign [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\119.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\18.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\35.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\35.DAT",
+      "Event_Dat_Path": "ROM\\20\\35.DAT"
+    },
+    {
+      "id": 99,
+      "name": "Castle Oztroja [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\120.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\19.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\36.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\36.DAT",
+      "Event_Dat_Path": "ROM\\20\\36.DAT"
+    },
+    {
+      "id": 100,
+      "name": "West Ronfaure",
+      "BumpMap_Dat_Path": "ROM\\92\\18.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\120.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\37.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\37.DAT",
+      "Event_Dat_Path": "ROM\\20\\37.DAT"
+    },
+    {
+      "id": 101,
+      "name": "East Ronfaure",
+      "BumpMap_Dat_Path": "ROM\\92\\19.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\121.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\38.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\38.DAT",
+      "Event_Dat_Path": "ROM\\20\\38.DAT"
+    },
+    {
+      "id": 102,
+      "name": "La Theine Plateau",
+      "BumpMap_Dat_Path": "ROM\\92\\20.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\115.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\39.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\39.DAT",
+      "Event_Dat_Path": "ROM\\20\\39.DAT"
+    },
+    {
+      "id": 103,
+      "name": "Valkurm Dunes",
+      "BumpMap_Dat_Path": "ROM\\92\\21.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\102.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\40.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\40.DAT",
+      "Event_Dat_Path": "ROM\\20\\40.DAT"
+    },
+    {
+      "id": 104,
+      "name": "Jugner Forest",
+      "BumpMap_Dat_Path": "ROM\\92\\22.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\114.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\41.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\41.DAT",
+      "Event_Dat_Path": "ROM\\20\\41.DAT"
+    },
+    {
+      "id": 105,
+      "name": "Batallia Downs",
+      "BumpMap_Dat_Path": "ROM\\92\\23.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\122.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\42.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\42.DAT",
+      "Event_Dat_Path": "ROM\\20\\42.DAT"
+    },
+    {
+      "id": 106,
+      "name": "North Gustaberg",
+      "BumpMap_Dat_Path": "ROM\\92\\24.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\123.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\43.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\43.DAT",
+      "Event_Dat_Path": "ROM\\20\\43.DAT"
+    },
+    {
+      "id": 107,
+      "name": "South Gustaberg",
+      "BumpMap_Dat_Path": "ROM\\92\\25.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\124.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\44.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\44.DAT",
+      "Event_Dat_Path": "ROM\\20\\44.DAT"
+    },
+    {
+      "id": 108,
+      "name": "Konschtat Highlands",
+      "BumpMap_Dat_Path": "ROM\\92\\26.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\90.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\45.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\45.DAT",
+      "Event_Dat_Path": "ROM\\20\\45.DAT"
+    },
+    {
+      "id": 109,
+      "name": "Pashhow Marshlands",
+      "BumpMap_Dat_Path": "ROM\\92\\27.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\125.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\46.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\46.DAT",
+      "Event_Dat_Path": "ROM\\20\\46.DAT"
+    },
+    {
+      "id": 110,
+      "name": "Rolanberry Fields",
+      "BumpMap_Dat_Path": "ROM\\92\\28.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\126.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\47.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\47.DAT",
+      "Event_Dat_Path": "ROM\\20\\47.DAT"
+    },
+    {
+      "id": 111,
+      "name": "Beaucedine Glacier",
+      "BumpMap_Dat_Path": "ROM\\92\\29.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\72.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\48.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\48.DAT",
+      "Event_Dat_Path": "ROM\\20\\48.DAT"
+    },
+    {
+      "id": 112,
+      "name": "Xarcabard",
+      "BumpMap_Dat_Path": "ROM\\92\\30.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\57.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\49.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\49.DAT",
+      "Event_Dat_Path": "ROM\\20\\49.DAT"
+    },
+    {
+      "id": 113,
+      "name": "Cape Teriggan",
+      "BumpMap_Dat_Path": "ROM2\\21\\67.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\0.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\95.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\46.DAT",
+      "Event_Dat_Path": "ROM2\\13\\5.DAT"
+    },
+    {
+      "id": 114,
+      "name": "Eastern Altepa Desert",
+      "BumpMap_Dat_Path": "ROM2\\21\\68.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\1.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\96.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\47.DAT",
+      "Event_Dat_Path": "ROM2\\13\\6.DAT"
+    },
+    {
+      "id": 115,
+      "name": "West Sarutabaruta",
+      "BumpMap_Dat_Path": "ROM\\92\\31.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\127.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\52.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\52.DAT",
+      "Event_Dat_Path": "ROM\\20\\52.DAT"
+    },
+    {
+      "id": 116,
+      "name": "East Sarutabaruta",
+      "BumpMap_Dat_Path": "ROM\\92\\32.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\0.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\53.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\53.DAT",
+      "Event_Dat_Path": "ROM\\20\\53.DAT"
+    },
+    {
+      "id": 117,
+      "name": "Tahrongi Canyon",
+      "BumpMap_Dat_Path": "ROM\\92\\33.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\1.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\54.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\54.DAT",
+      "Event_Dat_Path": "ROM\\20\\54.DAT"
+    },
+    {
+      "id": 118,
+      "name": "Buburimu Peninsula",
+      "BumpMap_Dat_Path": "ROM\\92\\34.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\71.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\55.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\55.DAT",
+      "Event_Dat_Path": "ROM\\20\\55.DAT"
+    },
+    {
+      "id": 119,
+      "name": "Meriphataud Mountains",
+      "BumpMap_Dat_Path": "ROM\\92\\35.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\101.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\56.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\56.DAT",
+      "Event_Dat_Path": "ROM\\20\\56.DAT"
+    },
+    {
+      "id": 120,
+      "name": "Sauromugue Champaign",
+      "BumpMap_Dat_Path": "ROM\\92\\36.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\2.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\57.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\57.DAT",
+      "Event_Dat_Path": "ROM\\20\\57.DAT"
+    },
+    {
+      "id": 121,
+      "name": "The Sanctuary of Zi'Tah",
+      "BumpMap_Dat_Path": "ROM2\\21\\69.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\2.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\97.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\54.DAT",
+      "Event_Dat_Path": "ROM2\\13\\7.DAT"
+    },
+    {
+      "id": 122,
+      "name": "Ro'Maeve",
+      "BumpMap_Dat_Path": "ROM2\\21\\70.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\3.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\98.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\55.DAT",
+      "Event_Dat_Path": "ROM2\\13\\8.DAT"
+    },
+    {
+      "id": 123,
+      "name": "Yuhtunga Jungle",
+      "BumpMap_Dat_Path": "ROM2\\21\\71.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\4.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\99.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\56.DAT",
+      "Event_Dat_Path": "ROM2\\13\\9.DAT"
+    },
+    {
+      "id": 124,
+      "name": "Yhoator Jungle",
+      "BumpMap_Dat_Path": "ROM2\\21\\72.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\5.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\100.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\57.DAT",
+      "Event_Dat_Path": "ROM2\\13\\10.DAT"
+    },
+    {
+      "id": 125,
+      "name": "Western Altepa Desert",
+      "BumpMap_Dat_Path": "ROM2\\21\\73.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\6.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\101.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\58.DAT",
+      "Event_Dat_Path": "ROM2\\13\\11.DAT"
+    },
+    {
+      "id": 126,
+      "name": "Qufim Island",
+      "BumpMap_Dat_Path": "ROM\\92\\37.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\58.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\63.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\63.DAT",
+      "Event_Dat_Path": "ROM\\20\\63.DAT"
+    },
+    {
+      "id": 127,
+      "name": "Behemoth's Dominion",
+      "BumpMap_Dat_Path": "ROM\\92\\38.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\3.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\64.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\64.DAT",
+      "Event_Dat_Path": "ROM\\20\\64.DAT"
+    },
+    {
+      "id": 128,
+      "name": "Valley of Sorrows",
+      "BumpMap_Dat_Path": "ROM2\\21\\74.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\7.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\102.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\61.DAT",
+      "Event_Dat_Path": "ROM2\\13\\12.DAT"
+    },
+    {
+      "id": 129,
+      "name": "Ghoyu's Reverie",
+      "BumpMap_Dat_Path": "ROM5\\5\\121.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\20.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\66.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\66.DAT",
+      "Event_Dat_Path": "ROM\\20\\66.DAT"
+    },
+    {
+      "id": 130,
+      "name": "Ru'Aun Gardens",
+      "BumpMap_Dat_Path": "ROM2\\21\\75.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\107.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\103.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\63.DAT",
+      "Event_Dat_Path": "ROM2\\13\\13.DAT"
+    },
+    {
+      "id": 131,
+      "name": "Mordion Gaol",
+      "BumpMap_Dat_Path": "ROM\\92\\39.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\4.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\68.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\68.DAT",
+      "Event_Dat_Path": "ROM\\20\\68.DAT"
+    },
+    {
+      "id": 132,
+      "name": "Abyssea - La Theine",
+      "BumpMap_Dat_Path": "ROM\\254\\12.DAT",
+      "Main_Model_Dat_Path": "ROM\\240\\108.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\69.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\69.DAT",
+      "Event_Dat_Path": "ROM\\20\\69.DAT"
+    },
+    {
+      "id": 133,
+      "name": "Lobby",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\5.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\70.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\70.DAT",
+      "Event_Dat_Path": "ROM\\20\\70.DAT"
+    },
+    {
+      "id": 134,
+      "name": "Dynamis - Beaucedine",
+      "BumpMap_Dat_Path": "ROM2\\21\\76.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\108.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\104.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\67.DAT",
+      "Event_Dat_Path": "ROM2\\13\\14.DAT"
+    },
+    {
+      "id": 135,
+      "name": "Dynamis - Xarcabard",
+      "BumpMap_Dat_Path": "ROM2\\21\\77.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\109.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\105.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\68.DAT",
+      "Event_Dat_Path": "ROM2\\13\\15.DAT"
+    },
+    {
+      "id": 136,
+      "name": "Beaucedine Glacier [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\122.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\21.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\73.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\73.DAT",
+      "Event_Dat_Path": "ROM\\20\\73.DAT"
+    },
+    {
+      "id": 137,
+      "name": "Xarcabard [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\123.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\22.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\74.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\74.DAT",
+      "Event_Dat_Path": "ROM\\20\\74.DAT"
+    },
+    {
+      "id": 138,
+      "name": "Castle Zvahl Baileys [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\124.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\23.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\75.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\75.DAT",
+      "Event_Dat_Path": "ROM\\20\\75.DAT"
+    },
+    {
+      "id": 139,
+      "name": "Horlais Peak",
+      "BumpMap_Dat_Path": "ROM\\92\\40.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\6.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\76.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\76.DAT",
+      "Event_Dat_Path": "ROM\\20\\76.DAT"
+    },
+    {
+      "id": 140,
+      "name": "Ghelsba Outpost",
+      "BumpMap_Dat_Path": "ROM\\92\\41.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\95.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\77.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\77.DAT",
+      "Event_Dat_Path": "ROM\\20\\77.DAT"
+    },
+    {
+      "id": 141,
+      "name": "Fort Ghelsba",
+      "BumpMap_Dat_Path": "ROM\\92\\42.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\7.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\78.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\78.DAT",
+      "Event_Dat_Path": "ROM\\20\\78.DAT"
+    },
+    {
+      "id": 142,
+      "name": "Yughott Grotto",
+      "BumpMap_Dat_Path": "ROM\\92\\43.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\8.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\79.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\79.DAT",
+      "Event_Dat_Path": "ROM\\20\\79.DAT"
+    },
+    {
+      "id": 143,
+      "name": "Palborough Mines",
+      "BumpMap_Dat_Path": "ROM\\92\\44.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\88.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\80.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\80.DAT",
+      "Event_Dat_Path": "ROM\\20\\80.DAT"
+    },
+    {
+      "id": 144,
+      "name": "Waughroon Shrine",
+      "BumpMap_Dat_Path": "ROM\\92\\45.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\89.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\81.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\81.DAT",
+      "Event_Dat_Path": "ROM\\20\\81.DAT"
+    },
+    {
+      "id": 145,
+      "name": "Giddeus",
+      "BumpMap_Dat_Path": "ROM\\92\\46.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\104.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\82.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\82.DAT",
+      "Event_Dat_Path": "ROM\\20\\82.DAT"
+    },
+    {
+      "id": 146,
+      "name": "Balga's Dais",
+      "BumpMap_Dat_Path": "ROM\\92\\47.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\105.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\83.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\83.DAT",
+      "Event_Dat_Path": "ROM\\20\\83.DAT"
+    },
+    {
+      "id": 147,
+      "name": "Beadeaux",
+      "BumpMap_Dat_Path": "ROM\\92\\48.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\61.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\84.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\84.DAT",
+      "Event_Dat_Path": "ROM\\20\\84.DAT"
+    },
+    {
+      "id": 148,
+      "name": "Qulun Dome",
+      "BumpMap_Dat_Path": "ROM\\92\\49.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\62.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\85.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\85.DAT",
+      "Event_Dat_Path": "ROM\\20\\85.DAT"
+    },
+    {
+      "id": 149,
+      "name": "Davoi",
+      "BumpMap_Dat_Path": "ROM\\92\\50.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\99.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\86.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\86.DAT",
+      "Event_Dat_Path": "ROM\\20\\86.DAT"
+    },
+    {
+      "id": 150,
+      "name": "Monastic Cavern",
+      "BumpMap_Dat_Path": "ROM\\92\\51.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\100.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\87.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\87.DAT",
+      "Event_Dat_Path": "ROM\\20\\87.DAT"
+    },
+    {
+      "id": 151,
+      "name": "Castle Oztroja",
+      "BumpMap_Dat_Path": "ROM\\92\\52.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\63.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\88.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\88.DAT",
+      "Event_Dat_Path": "ROM\\20\\88.DAT"
+    },
+    {
+      "id": 152,
+      "name": "Altar Room",
+      "BumpMap_Dat_Path": "ROM\\92\\53.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\64.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\89.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\89.DAT",
+      "Event_Dat_Path": "ROM\\20\\89.DAT"
+    },
+    {
+      "id": 153,
+      "name": "The Boyahda Tree",
+      "BumpMap_Dat_Path": "ROM2\\21\\78.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\8.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\106.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\86.DAT",
+      "Event_Dat_Path": "ROM2\\13\\16.DAT"
+    },
+    {
+      "id": 154,
+      "name": "Dragon's Aery",
+      "BumpMap_Dat_Path": "ROM2\\21\\79.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\9.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\107.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\87.DAT",
+      "Event_Dat_Path": "ROM2\\13\\17.DAT"
+    },
+    {
+      "id": 155,
+      "name": "Castle Zvahl Keep [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\125.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\24.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\92.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\92.DAT",
+      "Event_Dat_Path": "ROM\\20\\92.DAT"
+    },
+    {
+      "id": 156,
+      "name": "Throne Room [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\126.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\25.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\93.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\93.DAT",
+      "Event_Dat_Path": "ROM\\20\\93.DAT"
+    },
+    {
+      "id": 157,
+      "name": "Middle Delkfutt's Tower",
+      "BumpMap_Dat_Path": "ROM\\92\\54.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\56.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\94.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\94.DAT",
+      "Event_Dat_Path": "ROM\\20\\94.DAT"
+    },
+    {
+      "id": 158,
+      "name": "Upper Delkfutt's Tower",
+      "BumpMap_Dat_Path": "ROM\\92\\55.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\9.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\95.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\95.DAT",
+      "Event_Dat_Path": "ROM\\20\\95.DAT"
+    },
+    {
+      "id": 159,
+      "name": "Temple of Uggalepih",
+      "BumpMap_Dat_Path": "ROM2\\21\\80.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\10.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\108.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\92.DAT",
+      "Event_Dat_Path": "ROM2\\13\\18.DAT"
+    },
+    {
+      "id": 160,
+      "name": "Den of Rancor",
+      "BumpMap_Dat_Path": "ROM2\\21\\81.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\110.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\109.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\93.DAT",
+      "Event_Dat_Path": "ROM2\\13\\19.DAT"
+    },
+    {
+      "id": 161,
+      "name": "Castle Zvahl Baileys",
+      "BumpMap_Dat_Path": "ROM\\92\\56.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\60.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\98.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\98.DAT",
+      "Event_Dat_Path": "ROM\\20\\98.DAT"
+    },
+    {
+      "id": 162,
+      "name": "Castle Zvahl Keep",
+      "BumpMap_Dat_Path": "ROM\\92\\57.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\73.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\99.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\99.DAT",
+      "Event_Dat_Path": "ROM\\20\\99.DAT"
+    },
+    {
+      "id": 163,
+      "name": "Sacrificial Chamber",
+      "BumpMap_Dat_Path": "ROM2\\21\\82.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\111.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\110.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\96.DAT",
+      "Event_Dat_Path": "ROM2\\13\\20.DAT"
+    },
+    {
+      "id": 164,
+      "name": "Garlaige Citadel [S]",
+      "BumpMap_Dat_Path": "ROM5\\5\\127.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\26.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\101.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\101.DAT",
+      "Event_Dat_Path": "ROM\\20\\101.DAT"
+    },
+    {
+      "id": 165,
+      "name": "Throne Room",
+      "BumpMap_Dat_Path": "ROM\\92\\58.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\74.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\102.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\102.DAT",
+      "Event_Dat_Path": "ROM\\20\\102.DAT"
+    },
+    {
+      "id": 166,
+      "name": "Ranguemont Pass",
+      "BumpMap_Dat_Path": "ROM\\92\\59.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\10.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\103.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\103.DAT",
+      "Event_Dat_Path": "ROM\\20\\103.DAT"
+    },
+    {
+      "id": 167,
+      "name": "Bostaunieux Oubliette",
+      "BumpMap_Dat_Path": "ROM\\92\\60.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\108.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\104.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\104.DAT",
+      "Event_Dat_Path": "ROM\\20\\104.DAT"
+    },
+    {
+      "id": 168,
+      "name": "Chamber of Oracles",
+      "BumpMap_Dat_Path": "ROM2\\21\\83.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\11.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\111.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\101.DAT",
+      "Event_Dat_Path": "ROM2\\13\\21.DAT"
+    },
+    {
+      "id": 169,
+      "name": "Toraimarai Canal",
+      "BumpMap_Dat_Path": "ROM\\92\\61.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\65.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\106.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\106.DAT",
+      "Event_Dat_Path": "ROM\\20\\106.DAT"
+    },
+    {
+      "id": 170,
+      "name": "Full Moon Fountain",
+      "BumpMap_Dat_Path": "ROM2\\21\\84.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\12.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\112.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\103.DAT",
+      "Event_Dat_Path": "ROM2\\13\\22.DAT"
+    },
+    {
+      "id": 171,
+      "name": "Crawlers' Nest [S]",
+      "BumpMap_Dat_Path": "ROM5\\6\\0.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\27.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\108.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\108.DAT",
+      "Event_Dat_Path": "ROM\\20\\108.DAT"
+    },
+    {
+      "id": 172,
+      "name": "Zeruhn Mines",
+      "BumpMap_Dat_Path": "ROM\\92\\62.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\11.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\109.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\109.DAT",
+      "Event_Dat_Path": "ROM\\20\\109.DAT"
+    },
+    {
+      "id": 173,
+      "name": "Korroloka Tunnel",
+      "BumpMap_Dat_Path": "ROM2\\21\\85.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\13.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\113.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\106.DAT",
+      "Event_Dat_Path": "ROM2\\13\\23.DAT"
+    },
+    {
+      "id": 174,
+      "name": "Kuftal Tunnel",
+      "BumpMap_Dat_Path": "ROM2\\21\\86.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\14.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\114.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\107.DAT",
+      "Event_Dat_Path": "ROM2\\13\\24.DAT"
+    },
+    {
+      "id": 175,
+      "name": "The Eldieme Necropolis [S]",
+      "BumpMap_Dat_Path": "ROM5\\6\\1.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\28.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\112.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\112.DAT",
+      "Event_Dat_Path": "ROM\\20\\112.DAT"
+    },
+    {
+      "id": 176,
+      "name": "Sea Serpent Grotto",
+      "BumpMap_Dat_Path": "ROM2\\21\\87.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\15.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\115.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\109.DAT",
+      "Event_Dat_Path": "ROM2\\13\\25.DAT"
+    },
+    {
+      "id": 177,
+      "name": "Ve'Lugannon Palace",
+      "BumpMap_Dat_Path": "ROM2\\21\\88.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\112.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\116.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\110.DAT",
+      "Event_Dat_Path": "ROM2\\13\\26.DAT"
+    },
+    {
+      "id": 178,
+      "name": "The Shrine of Ru'Avitau",
+      "BumpMap_Dat_Path": "ROM2\\21\\89.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\113.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\117.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\111.DAT",
+      "Event_Dat_Path": "ROM2\\13\\27.DAT"
+    },
+    {
+      "id": 179,
+      "name": "Stellar Fulcrum",
+      "BumpMap_Dat_Path": "ROM2\\21\\90.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\16.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\118.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\112.DAT",
+      "Event_Dat_Path": "ROM2\\13\\28.DAT"
+    },
+    {
+      "id": 180,
+      "name": "La'Loff Amphitheater",
+      "BumpMap_Dat_Path": "ROM2\\21\\91.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\114.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\119.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\113.DAT",
+      "Event_Dat_Path": "ROM2\\13\\29.DAT"
+    },
+    {
+      "id": 181,
+      "name": "The Celestial Nexus",
+      "BumpMap_Dat_Path": "ROM2\\21\\92.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\115.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\120.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\114.DAT",
+      "Event_Dat_Path": "ROM2\\13\\30.DAT"
+    },
+    {
+      "id": 182,
+      "name": "Walk of Echoes",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\29.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\119.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\119.DAT",
+      "Event_Dat_Path": "ROM\\20\\119.DAT"
+    },
+    {
+      "id": 183,
+      "name": "Maquette Abdhaljs-LegionA",
+      "BumpMap_Dat_Path": "ROM\\92\\63.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\12.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\120.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\120.DAT",
+      "Event_Dat_Path": "ROM\\20\\120.DAT"
+    },
+    {
+      "id": 184,
+      "name": "Lower Delkfutt's Tower",
+      "BumpMap_Dat_Path": "ROM\\92\\64.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\13.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\121.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\121.DAT",
+      "Event_Dat_Path": "ROM\\20\\121.DAT"
+    },
+    {
+      "id": 185,
+      "name": "Dynamis - San d'Oria",
+      "BumpMap_Dat_Path": "ROM2\\21\\93.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\116.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\121.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\118.DAT",
+      "Event_Dat_Path": "ROM2\\13\\31.DAT"
+    },
+    {
+      "id": 186,
+      "name": "Dynamis - Bastok",
+      "BumpMap_Dat_Path": "ROM2\\21\\94.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\117.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\122.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\119.DAT",
+      "Event_Dat_Path": "ROM2\\13\\32.DAT"
+    },
+    {
+      "id": 187,
+      "name": "Dynamis - Windurst",
+      "BumpMap_Dat_Path": "ROM2\\21\\95.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\118.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\123.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\120.DAT",
+      "Event_Dat_Path": "ROM2\\13\\33.DAT"
+    },
+    {
+      "id": 188,
+      "name": "Dynamis - Jeuno",
+      "BumpMap_Dat_Path": "ROM2\\21\\96.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\119.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\124.DAT",
+      "Dialogue_Dat_Path": "ROM2\\17\\121.DAT",
+      "Event_Dat_Path": "ROM2\\13\\34.DAT"
+    },
+    {
+      "id": 189,
+      "name": "Residential_Area1",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\30.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\126.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\126.DAT",
+      "Event_Dat_Path": "ROM\\20\\126.DAT"
+    },
+    {
+      "id": 190,
+      "name": "King Ranperre's Tomb",
+      "BumpMap_Dat_Path": "ROM\\92\\65.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\14.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\26\\127.DAT",
+      "Dialogue_Dat_Path": "ROM\\24\\127.DAT",
+      "Event_Dat_Path": "ROM\\20\\127.DAT"
+    },
+    {
+      "id": 191,
+      "name": "Dangruf Wadi",
+      "BumpMap_Dat_Path": "ROM\\92\\66.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\52.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\0.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\0.DAT",
+      "Event_Dat_Path": "ROM\\21\\0.DAT"
+    },
+    {
+      "id": 192,
+      "name": "Inner Horutoto Ruins",
+      "BumpMap_Dat_Path": "ROM\\92\\67.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\112.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\1.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\1.DAT",
+      "Event_Dat_Path": "ROM\\21\\1.DAT"
+    },
+    {
+      "id": 193,
+      "name": "Ordelle's Caves",
+      "BumpMap_Dat_Path": "ROM\\92\\68.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\92.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\2.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\2.DAT",
+      "Event_Dat_Path": "ROM\\21\\2.DAT"
+    },
+    {
+      "id": 194,
+      "name": "Outer Horutoto Ruins",
+      "BumpMap_Dat_Path": "ROM\\92\\69.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\15.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\3.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\3.DAT",
+      "Event_Dat_Path": "ROM\\21\\3.DAT"
+    },
+    {
+      "id": 195,
+      "name": "The Eldieme Necropolis",
+      "BumpMap_Dat_Path": "ROM\\92\\70.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\77.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\4.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\4.DAT",
+      "Event_Dat_Path": "ROM\\21\\4.DAT"
+    },
+    {
+      "id": 196,
+      "name": "Gusgen Mines",
+      "BumpMap_Dat_Path": "ROM\\92\\71.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\16.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\5.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\5.DAT",
+      "Event_Dat_Path": "ROM\\21\\5.DAT"
+    },
+    {
+      "id": 197,
+      "name": "Crawlers' Nest",
+      "BumpMap_Dat_Path": "ROM\\92\\72.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\76.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\6.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\6.DAT",
+      "Event_Dat_Path": "ROM\\21\\6.DAT"
+    },
+    {
+      "id": 198,
+      "name": "Maze of Shakhrami",
+      "BumpMap_Dat_Path": "ROM\\92\\73.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\75.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\7.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\7.DAT",
+      "Event_Dat_Path": "ROM\\21\\7.DAT"
+    },
+    {
+      "id": 199,
+      "name": "Residential_Area2",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\31.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\8.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\8.DAT",
+      "Event_Dat_Path": "ROM\\21\\8.DAT"
+    },
+    {
+      "id": 200,
+      "name": "Garlaige Citadel",
+      "BumpMap_Dat_Path": "ROM\\92\\74.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\17.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\9.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\9.DAT",
+      "Event_Dat_Path": "ROM\\21\\9.DAT"
+    },
+    {
+      "id": 201,
+      "name": "Cloister of Gales",
+      "BumpMap_Dat_Path": "ROM2\\21\\97.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\17.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\125.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\6.DAT",
+      "Event_Dat_Path": "ROM2\\13\\35.DAT"
+    },
+    {
+      "id": 202,
+      "name": "Cloister of Storms",
+      "BumpMap_Dat_Path": "ROM2\\21\\98.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\18.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\126.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\7.DAT",
+      "Event_Dat_Path": "ROM2\\13\\36.DAT"
+    },
+    {
+      "id": 203,
+      "name": "Cloister of Frost",
+      "BumpMap_Dat_Path": "ROM2\\21\\99.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\19.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\13\\127.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\8.DAT",
+      "Event_Dat_Path": "ROM2\\13\\37.DAT"
+    },
+    {
+      "id": 204,
+      "name": "Fei'Yin",
+      "BumpMap_Dat_Path": "ROM\\92\\75.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\18.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\13.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\13.DAT",
+      "Event_Dat_Path": "ROM\\21\\13.DAT"
+    },
+    {
+      "id": 205,
+      "name": "Ifrit's Cauldron",
+      "BumpMap_Dat_Path": "ROM2\\21\\100.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\20.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\14\\0.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\10.DAT",
+      "Event_Dat_Path": "ROM2\\13\\38.DAT"
+    },
+    {
+      "id": 206,
+      "name": "Qu'Bia Arena",
+      "BumpMap_Dat_Path": "ROM\\92\\76.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\19.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\15.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\15.DAT",
+      "Event_Dat_Path": "ROM\\21\\15.DAT"
+    },
+    {
+      "id": 207,
+      "name": "Cloister of Flames",
+      "BumpMap_Dat_Path": "ROM2\\21\\101.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\21.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\14\\1.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\12.DAT",
+      "Event_Dat_Path": "ROM2\\13\\39.DAT"
+    },
+    {
+      "id": 208,
+      "name": "Quicksand Caves",
+      "BumpMap_Dat_Path": "ROM2\\21\\102.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\120.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\14\\2.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\13.DAT",
+      "Event_Dat_Path": "ROM2\\13\\40.DAT"
+    },
+    {
+      "id": 209,
+      "name": "Cloister of Tremors",
+      "BumpMap_Dat_Path": "ROM2\\21\\103.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\22.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\14\\3.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\14.DAT",
+      "Event_Dat_Path": "ROM2\\13\\41.DAT"
+    },
+    {
+      "id": 210,
+      "name": "GM_Home",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\40.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\19.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\19.DAT",
+      "Event_Dat_Path": "ROM\\21\\19.DAT"
+    },
+    {
+      "id": 211,
+      "name": "Cloister of Tides",
+      "BumpMap_Dat_Path": "ROM2\\21\\104.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\23.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\14\\4.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\16.DAT",
+      "Event_Dat_Path": "ROM2\\13\\42.DAT"
+    },
+    {
+      "id": 212,
+      "name": "Gustav Tunnel",
+      "BumpMap_Dat_Path": "ROM2\\21\\105.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\121.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\14\\5.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\17.DAT",
+      "Event_Dat_Path": "ROM2\\13\\43.DAT"
+    },
+    {
+      "id": 213,
+      "name": "Labyrinth of Onzozo",
+      "BumpMap_Dat_Path": "ROM2\\21\\106.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\122.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\14\\6.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\18.DAT",
+      "Event_Dat_Path": "ROM2\\13\\44.DAT"
+    },
+    {
+      "id": 214,
+      "name": "Residential_Area3",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM4\\0\\33.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\23.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\23.DAT",
+      "Event_Dat_Path": "ROM\\21\\23.DAT"
+    },
+    {
+      "id": 215,
+      "name": "Abyssea - Attohwa",
+      "BumpMap_Dat_Path": "ROM\\254\\13.DAT",
+      "Main_Model_Dat_Path": "ROM\\254\\7.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\24.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\24.DAT",
+      "Event_Dat_Path": "ROM\\21\\24.DAT"
+    },
+    {
+      "id": 216,
+      "name": "Abyssea - Misareaux",
+      "BumpMap_Dat_Path": "ROM\\254\\14.DAT",
+      "Main_Model_Dat_Path": "ROM\\254\\8.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\25.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\25.DAT",
+      "Event_Dat_Path": "ROM\\21\\25.DAT"
+    },
+    {
+      "id": 217,
+      "name": "Abyssea - Vunkerl",
+      "BumpMap_Dat_Path": "ROM\\254\\15.DAT",
+      "Main_Model_Dat_Path": "ROM\\254\\9.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\26.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\26.DAT",
+      "Event_Dat_Path": "ROM\\21\\26.DAT"
+    },
+    {
+      "id": 218,
+      "name": "Abyssea - Altepa",
+      "BumpMap_Dat_Path": "ROM\\258\\114.DAT",
+      "Main_Model_Dat_Path": "ROM\\258\\110.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\27.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\27.DAT",
+      "Event_Dat_Path": "ROM\\21\\27.DAT"
+    },
+    {
+      "id": 219,
+      "name": "Residential_Area4",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM5\\0\\32.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\28.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\28.DAT",
+      "Event_Dat_Path": "ROM\\21\\28.DAT"
+    },
+    {
+      "id": 220,
+      "name": "Ship bound for Selbina",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\24.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\29.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\29.DAT",
+      "Event_Dat_Path": "ROM\\21\\29.DAT"
+    },
+    {
+      "id": 221,
+      "name": "Ship bound for Mhaura",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\25.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\30.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\30.DAT",
+      "Event_Dat_Path": "ROM\\21\\30.DAT"
+    },
+    {
+      "id": 222,
+      "name": "Provenance",
+      "BumpMap_Dat_Path": "ROM\\280\\3.DAT",
+      "Main_Model_Dat_Path": "ROM\\280\\2.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\31.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\31.DAT",
+      "Event_Dat_Path": "ROM\\21\\31.DAT"
+    },
+    {
+      "id": 223,
+      "name": "San d'Oria-Jeuno Airship",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\26.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\32.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\32.DAT",
+      "Event_Dat_Path": "ROM\\21\\32.DAT"
+    },
+    {
+      "id": 224,
+      "name": "Bastok-Jeuno Airship",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\27.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\33.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\33.DAT",
+      "Event_Dat_Path": "ROM\\21\\33.DAT"
+    },
+    {
+      "id": 225,
+      "name": "Windurst-Jeuno Airship",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\28.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\34.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\34.DAT",
+      "Event_Dat_Path": "ROM\\21\\34.DAT"
+    },
+    {
+      "id": 226,
+      "name": "Kazham-Jeuno Airship",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\24.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\14\\7.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\31.DAT",
+      "Event_Dat_Path": "ROM2\\13\\45.DAT"
+    },
+    {
+      "id": 227,
+      "name": "Ship bound for Selbina",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\29.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\36.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\36.DAT",
+      "Event_Dat_Path": "ROM\\21\\36.DAT"
+    },
+    {
+      "id": 228,
+      "name": "Ship bound for Mhaura",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\30.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\37.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\37.DAT",
+      "Event_Dat_Path": "ROM\\21\\37.DAT"
+    },
+    {
+      "id": 229,
+      "name": "None",
+      "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\119.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\38.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\38.DAT",
+      "Event_Dat_Path": "ROM\\21\\38.DAT"
+    },
+    {
+      "id": 230,
+      "name": "Southern San d'Oria",
+      "BumpMap_Dat_Path": "ROM\\92\\77.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\31.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\39.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\39.DAT",
+      "Event_Dat_Path": "ROM\\21\\39.DAT"
+    },
+    {
+      "id": 231,
+      "name": "Northern San d'Oria",
+      "BumpMap_Dat_Path": "ROM\\92\\78.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\32.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\40.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\40.DAT",
+      "Event_Dat_Path": "ROM\\21\\40.DAT"
+    },
+    {
+      "id": 232,
+      "name": "Port San d'Oria",
+      "BumpMap_Dat_Path": "ROM\\92\\79.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\113.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\41.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\41.DAT",
+      "Event_Dat_Path": "ROM\\21\\41.DAT"
+    },
+    {
+      "id": 233,
+      "name": "Chateau d'Oraguille",
+      "BumpMap_Dat_Path": "ROM\\92\\80.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\33.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\42.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\42.DAT",
+      "Event_Dat_Path": "ROM\\21\\42.DAT"
+    },
+    {
+      "id": 234,
+      "name": "Bastok Mines",
+      "BumpMap_Dat_Path": "ROM\\92\\81.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\34.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\43.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\43.DAT",
+      "Event_Dat_Path": "ROM\\21\\43.DAT"
+    },
+    {
+      "id": 235,
+      "name": "Bastok Markets",
+      "BumpMap_Dat_Path": "ROM\\92\\82.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\35.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\44.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\44.DAT",
+      "Event_Dat_Path": "ROM\\21\\44.DAT"
+    },
+    {
+      "id": 236,
+      "name": "Port Bastok",
+      "BumpMap_Dat_Path": "ROM\\92\\83.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\36.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\45.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\45.DAT",
+      "Event_Dat_Path": "ROM\\21\\45.DAT"
+    },
+    {
+      "id": 237,
+      "name": "Metalworks",
+      "BumpMap_Dat_Path": "ROM\\92\\84.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\37.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\46.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\46.DAT",
+      "Event_Dat_Path": "ROM\\21\\46.DAT"
+    },
+    {
+      "id": 238,
+      "name": "Windurst Waters",
+      "BumpMap_Dat_Path": "ROM\\92\\85.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\78.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\47.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\47.DAT",
+      "Event_Dat_Path": "ROM\\21\\47.DAT"
+    },
+    {
+      "id": 239,
+      "name": "Windurst Walls",
+      "BumpMap_Dat_Path": "ROM\\92\\86.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\79.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\48.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\48.DAT",
+      "Event_Dat_Path": "ROM\\21\\48.DAT"
+    },
+    {
+      "id": 240,
+      "name": "Port Windurst",
+      "BumpMap_Dat_Path": "ROM\\92\\87.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\80.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\49.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\49.DAT",
+      "Event_Dat_Path": "ROM\\21\\49.DAT"
+    },
+    {
+      "id": 241,
+      "name": "Windurst Woods",
+      "BumpMap_Dat_Path": "ROM\\92\\88.DAT",
+      "Main_Model_Dat_Path": "ROM\\0\\81.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\50.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\50.DAT",
+      "Event_Dat_Path": "ROM\\21\\50.DAT"
+    },
+    {
+      "id": 242,
+      "name": "Heavens Tower",
+      "BumpMap_Dat_Path": "ROM\\92\\89.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\38.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\51.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\51.DAT",
+      "Event_Dat_Path": "ROM\\21\\51.DAT"
+    },
+    {
+      "id": 243,
+      "name": "Ru'Lude Gardens",
+      "BumpMap_Dat_Path": "ROM\\92\\90.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\39.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\52.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\52.DAT",
+      "Event_Dat_Path": "ROM\\21\\52.DAT"
+    },
+    {
+      "id": 244,
+      "name": "Upper Jeuno",
+      "BumpMap_Dat_Path": "ROM\\92\\91.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\40.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\53.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\53.DAT",
+      "Event_Dat_Path": "ROM\\21\\53.DAT"
+    },
+    {
+      "id": 245,
+      "name": "Lower Jeuno",
+      "BumpMap_Dat_Path": "ROM\\92\\92.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\41.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\54.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\54.DAT",
+      "Event_Dat_Path": "ROM\\21\\54.DAT"
+    },
+    {
+      "id": 246,
+      "name": "Port Jeuno",
+      "BumpMap_Dat_Path": "ROM\\92\\93.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\42.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\55.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\55.DAT",
+      "Event_Dat_Path": "ROM\\21\\55.DAT"
+    },
+    {
+      "id": 247,
+      "name": "Rabao",
+      "BumpMap_Dat_Path": "ROM2\\21\\108.DAT",
+      "Main_Model_Dat_Path": "ROM2\\12\\123.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\14\\8.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\52.DAT",
+      "Event_Dat_Path": "ROM2\\13\\46.DAT"
+    },
+    {
+      "id": 248,
+      "name": "Selbina",
+      "BumpMap_Dat_Path": "ROM\\92\\94.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\43.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\57.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\57.DAT",
+      "Event_Dat_Path": "ROM\\21\\57.DAT"
+    },
+    {
+      "id": 249,
+      "name": "Mhaura",
+      "BumpMap_Dat_Path": "ROM\\92\\95.DAT",
+      "Main_Model_Dat_Path": "ROM\\1\\44.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\58.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\58.DAT",
+      "Event_Dat_Path": "ROM\\21\\58.DAT"
+    },
+    {
+      "id": 250,
+      "name": "Kazham",
+      "BumpMap_Dat_Path": "ROM2\\21\\109.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\25.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\14\\9.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\55.DAT",
+      "Event_Dat_Path": "ROM2\\13\\47.DAT"
+    },
+    {
+      "id": 251,
+      "name": "Hall of the Gods",
+      "BumpMap_Dat_Path": "ROM2\\21\\110.DAT",
+      "Main_Model_Dat_Path": "ROM2\\21\\114.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\14\\10.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\56.DAT",
+      "Event_Dat_Path": "ROM2\\13\\48.DAT"
+    },
+    {
+      "id": 252,
+      "name": "Norg",
+      "BumpMap_Dat_Path": "ROM2\\21\\111.DAT",
+      "Main_Model_Dat_Path": "ROM2\\0\\27.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM2\\14\\11.DAT",
+      "Dialogue_Dat_Path": "ROM2\\18\\57.DAT",
+      "Event_Dat_Path": "ROM2\\13\\49.DAT"
+    },
+    {
+      "id": 253,
+      "name": "Abyssea - Uleguerand",
+      "BumpMap_Dat_Path": "ROM\\258\\115.DAT",
+      "Main_Model_Dat_Path": "ROM\\258\\111.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\62.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\62.DAT",
+      "Event_Dat_Path": "ROM\\21\\62.DAT"
+    },
+    {
+      "id": 254,
+      "name": "Abyssea - Grauberg",
+      "BumpMap_Dat_Path": "ROM\\258\\116.DAT",
+      "Main_Model_Dat_Path": "ROM\\258\\112.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\63.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\63.DAT",
+      "Event_Dat_Path": "ROM\\21\\63.DAT"
+    },
+    {
+      "id": 255,
+      "name": "Abyssea - Empyreal Paradox",
+      "BumpMap_Dat_Path": "ROM\\258\\117.DAT",
+      "Main_Model_Dat_Path": "ROM\\258\\113.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\27\\64.DAT",
+      "Dialogue_Dat_Path": "ROM\\25\\64.DAT",
+      "Event_Dat_Path": "ROM\\21\\64.DAT"
+    },
+    {
+      "id": 256,
+      "name": "Western Adoulin",
+      "BumpMap_Dat_Path": "ROM9\\6\\117.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\3.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\45.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\101.DAT",
+      "Event_Dat_Path": "ROM9\\5\\53.DAT"
+    },
+    {
+      "id": 257,
+      "name": "Eastern Adoulin",
+      "BumpMap_Dat_Path": "ROM9\\7\\62.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\4.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\46.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\102.DAT",
+      "Event_Dat_Path": "ROM9\\5\\54.DAT"
+    },
+    {
+      "id": 258,
+      "name": "Rala Waterways",
+      "BumpMap_Dat_Path": "ROM9\\7\\0.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\5.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\47.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\103.DAT",
+      "Event_Dat_Path": "ROM9\\5\\55.DAT"
+    },
+    {
+      "id": 259,
+      "name": "Rala Waterways [U]",
+      "BumpMap_Dat_Path": "ROM9\\7\\7.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\6.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\48.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\104.DAT",
+      "Event_Dat_Path": "ROM9\\5\\56.DAT"
+    },
+    {
+      "id": 260,
+      "name": "Yahse Hunting Grounds",
+      "BumpMap_Dat_Path": "ROM9\\7\\1.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\7.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\49.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\105.DAT",
+      "Event_Dat_Path": "ROM9\\5\\57.DAT"
+    },
+    {
+      "id": 261,
+      "name": "Ceizak Battlegrounds",
+      "BumpMap_Dat_Path": "ROM9\\7\\2.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\8.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\50.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\106.DAT",
+      "Event_Dat_Path": "ROM9\\5\\58.DAT"
+    },
+    {
+      "id": 262,
+      "name": "Foret de Hennetiel",
+      "BumpMap_Dat_Path": "ROM9\\7\\3.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\9.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\51.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\107.DAT",
+      "Event_Dat_Path": "ROM9\\5\\59.DAT"
+    },
+    {
+      "id": 263,
+      "name": "Yorcia Weald",
+      "BumpMap_Dat_Path": "ROM9\\7\\63.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\10.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\52.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\108.DAT",
+      "Event_Dat_Path": "ROM9\\5\\60.DAT"
+    },
+    {
+      "id": 264,
+      "name": "Yorcia Weald [U]",
+      "BumpMap_Dat_Path": "ROM9\\7\\64.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\11.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\53.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\109.DAT",
+      "Event_Dat_Path": "ROM9\\5\\61.DAT"
+    },
+    {
+      "id": 265,
+      "name": "Morimar Basalt Fields",
+      "BumpMap_Dat_Path": "ROM9\\7\\4.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\12.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\54.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\110.DAT",
+      "Event_Dat_Path": "ROM9\\5\\62.DAT"
+    },
+    {
+      "id": 266,
+      "name": "Marjami Ravine",
+      "BumpMap_Dat_Path": "ROM9\\7\\65.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\13.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\55.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\111.DAT",
+      "Event_Dat_Path": "ROM9\\5\\63.DAT"
+    },
+    {
+      "id": 267,
+      "name": "Kamihr Drifts",
+      "BumpMap_Dat_Path": "ROM9\\7\\66.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\14.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\56.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\112.DAT",
+      "Event_Dat_Path": "ROM9\\5\\64.DAT"
+    },
+    {
+      "id": 268,
+      "name": "Sih Gates",
+      "BumpMap_Dat_Path": "ROM9\\7\\5.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\15.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\57.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\113.DAT",
+      "Event_Dat_Path": "ROM9\\5\\65.DAT"
+    },
+    {
+      "id": 269,
+      "name": "Moh Gates",
+      "BumpMap_Dat_Path": "ROM9\\7\\6.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\16.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\58.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\114.DAT",
+      "Event_Dat_Path": "ROM9\\5\\66.DAT"
+    },
+    {
+      "id": 270,
+      "name": "Cirdas Caverns",
+      "BumpMap_Dat_Path": "ROM9\\7\\67.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\17.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\59.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\115.DAT",
+      "Event_Dat_Path": "ROM9\\5\\67.DAT"
+    },
+    {
+      "id": 271,
+      "name": "Cirdas Caverns [U]",
+      "BumpMap_Dat_Path": "ROM9\\7\\68.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\18.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\60.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\116.DAT",
+      "Event_Dat_Path": "ROM9\\5\\68.DAT"
+    },
+    {
+      "id": 272,
+      "name": "Dho Gates",
+      "BumpMap_Dat_Path": "ROM9\\7\\69.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\19.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\61.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\117.DAT",
+      "Event_Dat_Path": "ROM9\\5\\69.DAT"
+    },
+    {
+      "id": 273,
+      "name": "Woh Gates",
+      "BumpMap_Dat_Path": "ROM9\\7\\70.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\20.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\62.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\118.DAT",
+      "Event_Dat_Path": "ROM9\\5\\70.DAT"
+    },
+    {
+      "id": 274,
+      "name": "Outer Ra'Kaznar",
+      "BumpMap_Dat_Path": "ROM9\\7\\71.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\21.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\63.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\119.DAT",
+      "Event_Dat_Path": "ROM9\\5\\71.DAT"
+    },
+    {
+      "id": 275,
+      "name": "Outer Ra'Kaznar [U]",
+      "BumpMap_Dat_Path": "ROM9\\7\\72.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\22.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\64.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\120.DAT",
+      "Event_Dat_Path": "ROM9\\5\\72.DAT"
+    },
+    {
+      "id": 276,
+      "name": "Ra'Kaznar Inner Court",
+      "BumpMap_Dat_Path": "ROM9\\7\\73.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\23.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\65.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\121.DAT",
+      "Event_Dat_Path": "ROM9\\5\\73.DAT"
+    },
+    {
+      "id": 277,
+      "name": "Ra'Kaznar Turris",
+      "BumpMap_Dat_Path": "ROM9\\7\\74.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\24.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\66.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\122.DAT",
+      "Event_Dat_Path": "ROM9\\5\\74.DAT"
+    },
+    {
+      "id": 278,
+      "name": "None1",
+      "BumpMap_Dat_Path": "ROM9\\7\\75.DAT",
+      "Main_Model_Dat_Path": "ROM9\\0\\25.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\67.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\123.DAT",
+      "Event_Dat_Path": "ROM9\\5\\75.DAT"
+    },
+    {
+      "id": 279,
+      "name": "Walk of Echoes [P2]",
+      "BumpMap_Dat_Path": "ROM9\\8\\67.DAT",
+      "Main_Model_Dat_Path": "ROM9\\8\\66.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM9\\6\\68.DAT",
+      "Dialogue_Dat_Path": "ROM9\\5\\124.DAT",
+      "Event_Dat_Path": "ROM9\\5\\76.DAT"
+    },
+    {
+      "id": 280,
+      "name": "Mog Garden",
+      "BumpMap_Dat_Path": "ROM\\309\\11.DAT",
+      "Main_Model_Dat_Path": "ROM\\309\\10.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\303\\36.DAT",
+      "Dialogue_Dat_Path": "ROM\\303\\32.DAT",
+      "Event_Dat_Path": "ROM\\303\\28.DAT"
+    },
+    {
+      "id": 281,
+      "name": "Leafallia",
+      "BumpMap_Dat_Path": "ROM9\\8\\11.DAT",
+      "Main_Model_Dat_Path": "ROM9\\8\\10.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\315\\114.DAT",
+      "Dialogue_Dat_Path": "ROM\\315\\108.DAT",
+      "Event_Dat_Path": "ROM\\315\\104.DAT"
+    },
+    {
+      "id": 282,
+      "name": "Mount Kamihr",
+      "BumpMap_Dat_Path": "ROM\\315\\103.DAT",
+      "Main_Model_Dat_Path": "ROM\\315\\102.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\315\\115.DAT",
+      "Dialogue_Dat_Path": "ROM\\315\\109.DAT",
+      "Event_Dat_Path": "ROM\\315\\105.DAT"
+    },
+    {
+      "id": 283,
+      "name": "Silver Knife",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 284,
+      "name": "Celennia Memorial Library",
+      "BumpMap_Dat_Path": "ROM\\303\\27.DAT",
+      "Main_Model_Dat_Path": "ROM\\303\\26.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\303\\37.DAT",
+      "Dialogue_Dat_Path": "ROM\\303\\33.DAT",
+      "Event_Dat_Path": "ROM\\303\\29.DAT"
+    },
+    {
+      "id": 285,
+      "name": "Feretory",
+      "BumpMap_Dat_Path": "ROM\\306\\55.DAT",
+      "Main_Model_Dat_Path": "ROM\\306\\54.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\306\\61.DAT",
+      "Dialogue_Dat_Path": "ROM\\306\\58.DAT",
+      "Event_Dat_Path": "ROM\\306\\56.DAT"
+    },
+    {
+      "id": 286,
+      "name": "None2",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 287,
+      "name": "Maquette Abdhaljs-LegionB",
+      "BumpMap_Dat_Path": "ROM\\362\\19.DAT",
+      "Main_Model_Dat_Path": "ROM\\362\\18.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\362\\25.DAT",
+      "Dialogue_Dat_Path": "ROM\\362\\22.DAT",
+      "Event_Dat_Path": "ROM\\362\\20.DAT"
+    },
+    {
+      "id": 288,
+      "name": "Escha - Zi'Tah",
+      "BumpMap_Dat_Path": "ROM\\332\\103.DAT",
+      "Main_Model_Dat_Path": "ROM\\332\\99.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\332\\109.DAT",
+      "Dialogue_Dat_Path": "ROM\\332\\106.DAT",
+      "Event_Dat_Path": "ROM\\332\\104.DAT"
+    },
+    {
+      "id": 289,
+      "name": "Escha - Ru'Aun",
+      "BumpMap_Dat_Path": "ROM\\337\\60.DAT",
+      "Main_Model_Dat_Path": "ROM\\337\\59.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\337\\66.DAT",
+      "Dialogue_Dat_Path": "ROM\\337\\63.DAT",
+      "Event_Dat_Path": "ROM\\337\\61.DAT"
+    },
+    {
+      "id": 290,
+      "name": "Desuetia - Empyreal Paradox",
+      "BumpMap_Dat_Path": "ROM\\342\\75.DAT",
+      "Main_Model_Dat_Path": "ROM\\342\\72.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\342\\93.DAT",
+      "Dialogue_Dat_Path": "ROM\\342\\84.DAT",
+      "Event_Dat_Path": "ROM\\342\\78.DAT"
+    },
+    {
+      "id": 291,
+      "name": "Reisenjima",
+      "BumpMap_Dat_Path": "ROM\\342\\76.DAT",
+      "Main_Model_Dat_Path": "ROM\\342\\73.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\342\\94.DAT",
+      "Dialogue_Dat_Path": "ROM\\342\\85.DAT",
+      "Event_Dat_Path": "ROM\\342\\79.DAT"
+    },
+    {
+      "id": 292,
+      "name": "Reisenjima Henge",
+      "BumpMap_Dat_Path": "ROM\\351\\60.DAT",
+      "Main_Model_Dat_Path": "ROM\\351\\58.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\353\\61.DAT",
+      "Dialogue_Dat_Path": "ROM\\353\\58.DAT",
+      "Event_Dat_Path": "ROM\\353\\56.DAT"
+    },
+    {
+      "id": 293,
+      "name": "Reisenjima Sanctorium",
+      "BumpMap_Dat_Path": "ROM\\342\\77.DAT",
+      "Main_Model_Dat_Path": "ROM\\342\\74.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\342\\95.DAT",
+      "Dialogue_Dat_Path": "ROM\\342\\86.DAT",
+      "Event_Dat_Path": "ROM\\342\\80.DAT"
+    },
+    {
+      "id": 294,
+      "name": "Dynamis - San d'Oria [D]",
+      "BumpMap_Dat_Path": "ROM\\354\\110.DAT",
+      "Main_Model_Dat_Path": "ROM\\354\\109.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\354\\116.DAT",
+      "Dialogue_Dat_Path": "ROM\\354\\113.DAT",
+      "Event_Dat_Path": "ROM\\354\\111.DAT"
+    },
+    {
+      "id": 295,
+      "name": "Dynamis - Bastok [D]",
+      "BumpMap_Dat_Path": "ROM\\355\\4.DAT",
+      "Main_Model_Dat_Path": "ROM\\355\\3.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\355\\5.DAT",
+      "Dialogue_Dat_Path": "ROM\\355\\8.DAT",
+      "Event_Dat_Path": "ROM\\355\\6.DAT"
+    },
+    {
+      "id": 296,
+      "name": "Dynamis - Windurst [D]",
+      "BumpMap_Dat_Path": "ROM\\355\\33.DAT",
+      "Main_Model_Dat_Path": "ROM\\355\\32.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\355\\39.DAT",
+      "Dialogue_Dat_Path": "ROM\\355\\36.DAT",
+      "Event_Dat_Path": "ROM\\355\\34.DAT"
+    },
+    {
+      "id": 297,
+      "name": "Dynamis - Jeuno [D]",
+      "BumpMap_Dat_Path": "ROM\\355\\48.DAT",
+      "Main_Model_Dat_Path": "ROM\\355\\47.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\355\\54.DAT",
+      "Dialogue_Dat_Path": "ROM\\355\\51.DAT",
+      "Event_Dat_Path": "ROM\\355\\49.DAT"
+    },
+    {
+      "id": 298,
+      "name": "Walk of Echoes [P1]",
+      "BumpMap_Dat_Path": "ROM\\361\\86.DAT",
+      "Main_Model_Dat_Path": "ROM\\361\\85.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\361\\92.DAT",
+      "Dialogue_Dat_Path": "ROM\\361\\89.DAT",
+      "Event_Dat_Path": "ROM\\361\\87.DAT"
+    },
+    {
+      "id": 1000,
+      "name": "1000",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\214\\62.DAT",
+      "Dialogue_Dat_Path": "ROM\\214\\64.DAT",
+      "Event_Dat_Path": "ROM\\186\\95.DAT"
+    },
+    {
+      "id": 1001,
+      "name": "1001",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\216\\50.DAT",
+      "Dialogue_Dat_Path": "ROM\\216\\62.DAT",
+      "Event_Dat_Path": "ROM\\186\\96.DAT"
+    },
+    {
+      "id": 1002,
+      "name": "1002",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\216\\51.DAT",
+      "Dialogue_Dat_Path": "ROM\\216\\63.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1003,
+      "name": "1003",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\216\\52.DAT",
+      "Dialogue_Dat_Path": "ROM\\216\\64.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1004,
+      "name": "1004",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\216\\53.DAT",
+      "Dialogue_Dat_Path": "ROM\\216\\65.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1005,
+      "name": "1005",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\216\\54.DAT",
+      "Dialogue_Dat_Path": "ROM\\216\\66.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1006,
+      "name": "1006",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\216\\55.DAT",
+      "Dialogue_Dat_Path": "ROM\\216\\67.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1007,
+      "name": "1007",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\224\\117.DAT",
+      "Dialogue_Dat_Path": "ROM\\224\\119.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1008,
+      "name": "1008",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\238\\86.DAT",
+      "Dialogue_Dat_Path": "ROM\\238\\88.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1009,
+      "name": "1009",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\281\\80.DAT",
+      "Dialogue_Dat_Path": "ROM\\281\\88.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1010,
+      "name": "1010",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\281\\81.DAT",
+      "Dialogue_Dat_Path": "ROM\\281\\89.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1011,
+      "name": "1011",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\281\\82.DAT",
+      "Dialogue_Dat_Path": "ROM\\281\\90.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1012,
+      "name": "1012",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\281\\83.DAT",
+      "Dialogue_Dat_Path": "ROM\\281\\91.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1013,
+      "name": "1013",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\286\\102.DAT",
+      "Dialogue_Dat_Path": "ROM\\288\\0.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1014,
+      "name": "1014",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\288\\41.DAT",
+      "Dialogue_Dat_Path": "ROM\\288\\51.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1015,
+      "name": "1015",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\288\\42.DAT",
+      "Dialogue_Dat_Path": "ROM\\288\\52.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1016,
+      "name": "1016",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\288\\43.DAT",
+      "Dialogue_Dat_Path": "ROM\\288\\53.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1017,
+      "name": "1017",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\288\\44.DAT",
+      "Dialogue_Dat_Path": "ROM\\288\\54.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1018,
+      "name": "1018",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\288\\45.DAT",
+      "Dialogue_Dat_Path": "ROM\\288\\55.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1019,
+      "name": "1019",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\363\\67.DAT",
+      "Dialogue_Dat_Path": "ROM\\363\\103.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1020,
+      "name": "1020",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\363\\68.DAT",
+      "Dialogue_Dat_Path": "ROM\\363\\104.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1021,
+      "name": "1021",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\363\\69.DAT",
+      "Dialogue_Dat_Path": "ROM\\363\\105.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1022,
+      "name": "1022",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\363\\70.DAT",
+      "Dialogue_Dat_Path": "ROM\\363\\106.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1023,
+      "name": "1023",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\363\\71.DAT",
+      "Dialogue_Dat_Path": "ROM\\363\\107.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1024,
+      "name": "1024",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\363\\72.DAT",
+      "Dialogue_Dat_Path": "ROM\\363\\108.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1025,
+      "name": "1025",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\364\\110.DAT",
+      "Dialogue_Dat_Path": "ROM\\364\\114.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1026,
+      "name": "1026",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": "ROM\\364\\111.DAT",
+      "Dialogue_Dat_Path": "ROM\\364\\115.DAT",
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1027,
+      "name": "1027",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1028,
+      "name": "1028",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1029,
+      "name": "1029",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1030,
+      "name": "1030",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1031,
+      "name": "1031",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1032,
+      "name": "1032",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\186\\103.DAT"
+    },
+    {
+      "id": 1033,
+      "name": "1033",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\186\\104.DAT"
+    },
+    {
+      "id": 1034,
+      "name": "1034",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1035,
+      "name": "1035",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1036,
+      "name": "1036",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1037,
+      "name": "1037",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1038,
+      "name": "1038",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1039,
+      "name": "1039",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1040,
+      "name": "1040",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1041,
+      "name": "1041",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1042,
+      "name": "1042",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1043,
+      "name": "1043",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1044,
+      "name": "1044",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1045,
+      "name": "1045",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1046,
+      "name": "1046",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1047,
+      "name": "1047",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1048,
+      "name": "1048",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1049,
+      "name": "1049",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1050,
+      "name": "1050",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1051,
+      "name": "1051",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1052,
+      "name": "1052",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1053,
+      "name": "1053",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1054,
+      "name": "1054",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1055,
+      "name": "1055",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1056,
+      "name": "1056",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\6\\117.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1057,
+      "name": "1057",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\62.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1058,
+      "name": "1058",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\0.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1059,
+      "name": "1059",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\7.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1060,
+      "name": "1060",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\1.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1061,
+      "name": "1061",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\2.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1062,
+      "name": "1062",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\3.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1063,
+      "name": "1063",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\63.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1064,
+      "name": "1064",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\64.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\186\\97.DAT"
+    },
+    {
+      "id": 1065,
+      "name": "1065",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\4.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\186\\98.DAT"
+    },
+    {
+      "id": 1066,
+      "name": "1066",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\65.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1067,
+      "name": "1067",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\66.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1068,
+      "name": "1068",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\5.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1069,
+      "name": "1069",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\6.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1070,
+      "name": "1070",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\67.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1071,
+      "name": "1071",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\68.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1072,
+      "name": "1072",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\69.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1073,
+      "name": "1073",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\70.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1074,
+      "name": "1074",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\71.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1075,
+      "name": "1075",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\72.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1076,
+      "name": "1076",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\73.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1077,
+      "name": "1077",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\74.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1078,
+      "name": "1078",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\7\\75.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1079,
+      "name": "1079",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\8\\67.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1080,
+      "name": "1080",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\309\\11.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1081,
+      "name": "1081",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM9\\8\\11.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1082,
+      "name": "1082",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\315\\103.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1083,
+      "name": "1083",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1084,
+      "name": "1084",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\303\\27.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1085,
+      "name": "1085",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\306\\55.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1086,
+      "name": "1086",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1087,
+      "name": "1087",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\362\\19.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1088,
+      "name": "1088",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\332\\103.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1089,
+      "name": "1089",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\337\\60.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1090,
+      "name": "1090",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\342\\75.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1091,
+      "name": "1091",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\342\\76.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1092,
+      "name": "1092",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\351\\60.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1093,
+      "name": "1093",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\342\\77.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1094,
+      "name": "1094",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\354\\110.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1095,
+      "name": "1095",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\355\\4.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1096,
+      "name": "1096",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\355\\33.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\186\\99.DAT"
+    },
+    {
+      "id": 1097,
+      "name": "1097",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\355\\48.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\186\\100.DAT"
+    },
+    {
+      "id": 1098,
+      "name": "1098",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": "ROM\\361\\86.DAT",
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1099,
+      "name": "1099",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1100,
+      "name": "1100",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1101,
+      "name": "1101",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1102,
+      "name": "1102",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1103,
+      "name": "1103",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1104,
+      "name": "1104",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1105,
+      "name": "1105",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1106,
+      "name": "1106",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1107,
+      "name": "1107",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1108,
+      "name": "1108",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1109,
+      "name": "1109",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1110,
+      "name": "1110",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1111,
+      "name": "1111",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1112,
+      "name": "1112",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1113,
+      "name": "1113",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1114,
+      "name": "1114",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1115,
+      "name": "1115",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1116,
+      "name": "1116",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1117,
+      "name": "1117",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1118,
+      "name": "1118",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1119,
+      "name": "1119",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1120,
+      "name": "1120",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1121,
+      "name": "1121",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1122,
+      "name": "1122",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1123,
+      "name": "1123",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1124,
+      "name": "1124",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1125,
+      "name": "1125",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1126,
+      "name": "1126",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1127,
+      "name": "1127",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1128,
+      "name": "1128",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\186\\101.DAT"
+    },
+    {
+      "id": 1129,
+      "name": "1129",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\186\\102.DAT"
+    },
+    {
+      "id": 1130,
+      "name": "1130",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1131,
+      "name": "1131",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1132,
+      "name": "1132",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1133,
+      "name": "1133",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1134,
+      "name": "1134",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1135,
+      "name": "1135",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1136,
+      "name": "1136",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1137,
+      "name": "1137",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1138,
+      "name": "1138",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1139,
+      "name": "1139",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1140,
+      "name": "1140",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1141,
+      "name": "1141",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1142,
+      "name": "1142",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1143,
+      "name": "1143",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1144,
+      "name": "1144",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1145,
+      "name": "1145",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1146,
+      "name": "1146",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1147,
+      "name": "1147",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1148,
+      "name": "1148",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1149,
+      "name": "1149",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1150,
+      "name": "1150",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1151,
+      "name": "1151",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1152,
+      "name": "1152",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1153,
+      "name": "1153",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1154,
+      "name": "1154",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1155,
+      "name": "1155",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1156,
+      "name": "1156",
+      "BumpMap_Dat_Path": "ROM9\\5\\101.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1157,
+      "name": "1157",
+      "BumpMap_Dat_Path": "ROM9\\5\\102.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1158,
+      "name": "1158",
+      "BumpMap_Dat_Path": "ROM9\\5\\103.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1159,
+      "name": "1159",
+      "BumpMap_Dat_Path": "ROM9\\5\\104.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1160,
+      "name": "1160",
+      "BumpMap_Dat_Path": "ROM9\\5\\105.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\54.DAT"
+    },
+    {
+      "id": 1161,
+      "name": "1161",
+      "BumpMap_Dat_Path": "ROM9\\5\\106.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\55.DAT"
+    },
+    {
+      "id": 1162,
+      "name": "1162",
+      "BumpMap_Dat_Path": "ROM9\\5\\107.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\56.DAT"
+    },
+    {
+      "id": 1163,
+      "name": "1163",
+      "BumpMap_Dat_Path": "ROM9\\5\\108.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\57.DAT"
+    },
+    {
+      "id": 1164,
+      "name": "1164",
+      "BumpMap_Dat_Path": "ROM9\\5\\109.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\58.DAT"
+    },
+    {
+      "id": 1165,
+      "name": "1165",
+      "BumpMap_Dat_Path": "ROM9\\5\\110.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\59.DAT"
+    },
+    {
+      "id": 1166,
+      "name": "1166",
+      "BumpMap_Dat_Path": "ROM9\\5\\111.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\60.DAT"
+    },
+    {
+      "id": 1167,
+      "name": "1167",
+      "BumpMap_Dat_Path": "ROM9\\5\\112.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\61.DAT"
+    },
+    {
+      "id": 1168,
+      "name": "1168",
+      "BumpMap_Dat_Path": "ROM9\\5\\113.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\62.DAT"
+    },
+    {
+      "id": 1169,
+      "name": "1169",
+      "BumpMap_Dat_Path": "ROM9\\5\\114.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\63.DAT"
+    },
+    {
+      "id": 1170,
+      "name": "1170",
+      "BumpMap_Dat_Path": "ROM9\\5\\115.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\64.DAT"
+    },
+    {
+      "id": 1171,
+      "name": "1171",
+      "BumpMap_Dat_Path": "ROM9\\5\\116.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\65.DAT"
+    },
+    {
+      "id": 1172,
+      "name": "1172",
+      "BumpMap_Dat_Path": "ROM9\\5\\117.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\66.DAT"
+    },
+    {
+      "id": 1173,
+      "name": "1173",
+      "BumpMap_Dat_Path": "ROM9\\5\\118.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\67.DAT"
+    },
+    {
+      "id": 1174,
+      "name": "1174",
+      "BumpMap_Dat_Path": "ROM9\\5\\119.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\68.DAT"
+    },
+    {
+      "id": 1175,
+      "name": "1175",
+      "BumpMap_Dat_Path": "ROM9\\5\\120.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\69.DAT"
+    },
+    {
+      "id": 1176,
+      "name": "1176",
+      "BumpMap_Dat_Path": "ROM9\\5\\121.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\70.DAT"
+    },
+    {
+      "id": 1177,
+      "name": "1177",
+      "BumpMap_Dat_Path": "ROM9\\5\\122.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\71.DAT"
+    },
+    {
+      "id": 1178,
+      "name": "1178",
+      "BumpMap_Dat_Path": "ROM9\\5\\123.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\72.DAT"
+    },
+    {
+      "id": 1179,
+      "name": "1179",
+      "BumpMap_Dat_Path": "ROM9\\5\\124.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\73.DAT"
+    },
+    {
+      "id": 1180,
+      "name": "1180",
+      "BumpMap_Dat_Path": "ROM\\303\\32.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\74.DAT"
+    },
+    {
+      "id": 1181,
+      "name": "1181",
+      "BumpMap_Dat_Path": "ROM\\315\\108.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\75.DAT"
+    },
+    {
+      "id": 1182,
+      "name": "1182",
+      "BumpMap_Dat_Path": "ROM\\315\\109.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\76.DAT"
+    },
+    {
+      "id": 1183,
+      "name": "1183",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\72.DAT"
+    },
+    {
+      "id": 1184,
+      "name": "1184",
+      "BumpMap_Dat_Path": "ROM\\303\\33.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\77.DAT"
+    },
+    {
+      "id": 1185,
+      "name": "1185",
+      "BumpMap_Dat_Path": "ROM\\306\\58.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\78.DAT"
+    },
+    {
+      "id": 1186,
+      "name": "1186",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\79.DAT"
+    },
+    {
+      "id": 1187,
+      "name": "1187",
+      "BumpMap_Dat_Path": "ROM\\362\\22.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\80.DAT"
+    },
+    {
+      "id": 1188,
+      "name": "1188",
+      "BumpMap_Dat_Path": "ROM\\332\\106.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\81.DAT"
+    },
+    {
+      "id": 1189,
+      "name": "1189",
+      "BumpMap_Dat_Path": "ROM\\337\\63.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\82.DAT"
+    },
+    {
+      "id": 1190,
+      "name": "1190",
+      "BumpMap_Dat_Path": "ROM\\342\\84.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\83.DAT"
+    },
+    {
+      "id": 1191,
+      "name": "1191",
+      "BumpMap_Dat_Path": "ROM\\342\\85.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\84.DAT"
+    },
+    {
+      "id": 1192,
+      "name": "1192",
+      "BumpMap_Dat_Path": "ROM\\353\\58.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\85.DAT"
+    },
+    {
+      "id": 1193,
+      "name": "1193",
+      "BumpMap_Dat_Path": "ROM\\342\\86.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\81.DAT"
+    },
+    {
+      "id": 1194,
+      "name": "1194",
+      "BumpMap_Dat_Path": "ROM\\354\\113.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\246\\115.DAT"
+    },
+    {
+      "id": 1195,
+      "name": "1195",
+      "BumpMap_Dat_Path": "ROM\\355\\8.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\261\\122.DAT"
+    },
+    {
+      "id": 1196,
+      "name": "1196",
+      "BumpMap_Dat_Path": "ROM\\355\\36.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\265\\36.DAT"
+    },
+    {
+      "id": 1197,
+      "name": "1197",
+      "BumpMap_Dat_Path": "ROM\\355\\51.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\265\\37.DAT"
+    },
+    {
+      "id": 1198,
+      "name": "1198",
+      "BumpMap_Dat_Path": "ROM\\361\\89.DAT",
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\265\\38.DAT"
+    },
+    {
+      "id": 1199,
+      "name": "1199",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\265\\39.DAT"
+    },
+    {
+      "id": 1200,
+      "name": "1200",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\265\\40.DAT"
+    },
+    {
+      "id": 1201,
+      "name": "1201",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\265\\41.DAT"
+    },
+    {
+      "id": 1202,
+      "name": "1202",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\265\\42.DAT"
+    },
+    {
+      "id": 1203,
+      "name": "1203",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\265\\43.DAT"
+    },
+    {
+      "id": 1204,
+      "name": "1204",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\265\\44.DAT"
+    },
+    {
+      "id": 1205,
+      "name": "1205",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\265\\40.DAT"
+    },
+    {
+      "id": 1206,
+      "name": "1206",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\268\\37.DAT"
+    },
+    {
+      "id": 1207,
+      "name": "1207",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1208,
+      "name": "1208",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1209,
+      "name": "1209",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1210,
+      "name": "1210",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1211,
+      "name": "1211",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1212,
+      "name": "1212",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1213,
+      "name": "1213",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1214,
+      "name": "1214",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1215,
+      "name": "1215",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1216,
+      "name": "1216",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1217,
+      "name": "1217",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1218,
+      "name": "1218",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1219,
+      "name": "1219",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1220,
+      "name": "1220",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1221,
+      "name": "1221",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1222,
+      "name": "1222",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1223,
+      "name": "1223",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1224,
+      "name": "1224",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1225,
+      "name": "1225",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1226,
+      "name": "1226",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1227,
+      "name": "1227",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1228,
+      "name": "1228",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1229,
+      "name": "1229",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1230,
+      "name": "1230",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1231,
+      "name": "1231",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1232,
+      "name": "1232",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1233,
+      "name": "1233",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1234,
+      "name": "1234",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1235,
+      "name": "1235",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1236,
+      "name": "1236",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1237,
+      "name": "1237",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1238,
+      "name": "1238",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1239,
+      "name": "1239",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1240,
+      "name": "1240",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1241,
+      "name": "1241",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1242,
+      "name": "1242",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1243,
+      "name": "1243",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1244,
+      "name": "1244",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1245,
+      "name": "1245",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1246,
+      "name": "1246",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1247,
+      "name": "1247",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1248,
+      "name": "1248",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1249,
+      "name": "1249",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1250,
+      "name": "1250",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1251,
+      "name": "1251",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1252,
+      "name": "1252",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1253,
+      "name": "1253",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1254,
+      "name": "1254",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1255,
+      "name": "1255",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1256,
+      "name": "1256",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1257,
+      "name": "1257",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1258,
+      "name": "1258",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1259,
+      "name": "1259",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1260,
+      "name": "1260",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1261,
+      "name": "1261",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1262,
+      "name": "1262",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1263,
+      "name": "1263",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1264,
+      "name": "1264",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1265,
+      "name": "1265",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1266,
+      "name": "1266",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1267,
+      "name": "1267",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1268,
+      "name": "1268",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1269,
+      "name": "1269",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1270,
+      "name": "1270",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1271,
+      "name": "1271",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1272,
+      "name": "1272",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1273,
+      "name": "1273",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1274,
+      "name": "1274",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1275,
+      "name": "1275",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1276,
+      "name": "1276",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1277,
+      "name": "1277",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1278,
+      "name": "1278",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1279,
+      "name": "1279",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1280,
+      "name": "1280",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1281,
+      "name": "1281",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1282,
+      "name": "1282",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1283,
+      "name": "1283",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1284,
+      "name": "1284",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1285,
+      "name": "1285",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1286,
+      "name": "1286",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1287,
+      "name": "1287",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": null
+    },
+    {
+      "id": 1288,
+      "name": "1288",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\86.DAT"
+    },
+    {
+      "id": 1289,
+      "name": "1289",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\86.DAT"
+    },
+    {
+      "id": 1290,
+      "name": "1290",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\86.DAT"
+    },
+    {
+      "id": 1291,
+      "name": "1291",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\86.DAT"
+    },
+    {
+      "id": 1292,
+      "name": "1292",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\86.DAT"
+    },
+    {
+      "id": 1293,
+      "name": "1293",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\86.DAT"
+    },
+    {
+      "id": 1294,
+      "name": "1294",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\87.DAT"
+    },
+    {
+      "id": 1295,
+      "name": "1295",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\87.DAT"
+    },
+    {
+      "id": 1296,
+      "name": "1296",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\87.DAT"
+    },
+    {
+      "id": 1297,
+      "name": "1297",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\87.DAT"
+    },
+    {
+      "id": 1298,
+      "name": "1298",
+      "BumpMap_Dat_Path": null,
+      "Main_Model_Dat_Path": null,
+      "Shodow_Dat_Path": "ROM\\27\\81.DAT",
+      "Entity_Dat_Path": null,
+      "Dialogue_Dat_Path": null,
+      "Event_Dat_Path": "ROM\\191\\87.DAT"
+    }
+  ]
+}

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import XMLCoder
 import CollectionConcurrencyKit
 
 public struct ArrayOfEntity: Codable {
