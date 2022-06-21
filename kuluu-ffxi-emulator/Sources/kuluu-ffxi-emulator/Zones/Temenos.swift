@@ -5,7 +5,7 @@
 //
 public struct Temenos: ZoneSceneMetadata {
     public let id = Zone.temenos.rawValue
-    public let lines = [ZoneLine] = [
+    public let lines: [ZoneLine] = [
         .init(
             name: "z1e0z1c5",
             position: .init(x: -158.10202, y: 1.71772e-07, z: 0.0053858384),

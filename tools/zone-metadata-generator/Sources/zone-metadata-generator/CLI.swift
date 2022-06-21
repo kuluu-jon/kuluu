@@ -177,7 +177,7 @@ struct CLI {
         //
         public struct {{ className }}: ZoneSceneMetadata {
             public let id = Zone.{{ instanceName }}.rawValue
-            public let lines = [ZoneLine] = [{% for zl in zoneLines %}
+            public let lines: [ZoneLine] = [{% for zl in zoneLines %}
                 .init(
                     name: "{{ zl.id }}",
                     position: .init(x: {{ zl.positionX }}, y: {{ zl.positionY }}, z: {{ zl.positionZ }}),
@@ -210,22 +210,39 @@ struct CLI {
 //            Task(priority: .low) {
                 let url = URL.init(string: "file:///Users/jon/src/kuluu/kuluu-ffxi-emulator/Sources/kuluu-ffxi-emulator/Zones/\(className).swift")
                 try zoneCode.data(using: .utf8)?.write(to: url!)
-                print("written")
+//                print("written")
 //            }
         }
+        let zones = Array(zoneDescriptorMap.values.filter { zone in
+            let className = zone.zoneInfo.name.upperCamelized
+            guard let classNameFirst = className.first, classNameFirst.isLetter || classNameFirst == "_" else { return false }
+            return true
+        }.sorted(by: { $0.zoneInfo.id < $1.zoneInfo.id }))
+        func renderCases(zones: [ZoneDescriptor]) -> String {
+            var renderer = ""
+            var isFirst = true
+            for zone in zones {
+                renderer.append(contentsOf: "\(isFirst ? "" : "    ")case \(zone.zoneInfo.name.camelized) = \(zone.zoneInfo.id)\n")
+                isFirst = false
+            }
+            return renderer
+        }
+        func renderMetadataCases(zones: [ZoneDescriptor]) -> String {
+            var renderer = ""
+            var isFirst = true
+            for zone in zones {
+                renderer.append(contentsOf: "\(isFirst ? "" : "        ")case .\(zone.zoneInfo.name.camelized): return \(zone.zoneInfo.name.upperCamelized)()\n")
+                isFirst = false
+            }
+            return renderer
+        }
         let enumTemplate = """
-        public enum Zone: Int {
+        public enum Zone: Int, CaseIterable {
             public static var current: Zone = Self.allCases.first!
-            case ssandoria = 80
-            case wronfaure = 100
-            case valkurmDunes = 103
-            //    case ssandoriaShadow = 230
-            
+            \(renderCases(zones: zones))
             public var metadata: ZoneSceneMetadata {
                 switch self {
-                case .ssandoria: return SSandoria()
-                case .wronfaure: return WRonfaure()
-                case .valkurmDunes: return ValkurmDunes()
+                \(renderMetadataCases(zones: zones))
                 }
             }
             
@@ -238,6 +255,9 @@ struct CLI {
             }
         }
         """
+        
+        let url = URL.init(string: "file:///Users/jon/src/kuluu/kuluu-ffxi-emulator/Sources/kuluu-ffxi-emulator/Zone.swift")
+        try enumTemplate.data(using: .utf8)?.write(to: url!)
     }
 }
 

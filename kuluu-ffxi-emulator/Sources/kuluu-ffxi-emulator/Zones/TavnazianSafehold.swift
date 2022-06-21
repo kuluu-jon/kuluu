@@ -5,7 +5,7 @@
 //
 public struct TavnazianSafehold: ZoneSceneMetadata {
     public let id = Zone.tavnazianSafehold.rawValue
-    public let lines = [ZoneLine] = [
+    public let lines: [ZoneLine] = [
         .init(
             name: "z1h0z271",
             position: .init(x: 42.910114, y: -9.50842, z: -24.006039),

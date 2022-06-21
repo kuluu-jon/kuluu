@@ -5,7 +5,7 @@
 //
 public struct RolanberryFields: ZoneSceneMetadata {
     public let id = Zone.rolanberryFields.rawValue
-    public let lines = [ZoneLine] = [
+    public let lines: [ZoneLine] = [
         .init(
             name: "z6x0z3a3",
             position: .init(x: -0.17860928, y: -8.549365, z: 121.01522),

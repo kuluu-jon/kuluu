@@ -5,7 +5,7 @@
 //
 public struct YughottGrotto: ZoneSceneMetadata {
     public let id = Zone.yughottGrotto.rawValue
-    public let lines = [ZoneLine] = [
+    public let lines: [ZoneLine] = [
         .init(
             name: "z6t0z327",
             position: .init(x: -123.064705, y: -4.434821, z: -200.69084),

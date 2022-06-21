@@ -5,7 +5,7 @@
 //
 public struct CapeTeriggan: ZoneSceneMetadata {
     public let id = Zone.capeTeriggan.rawValue
-    public let lines = [ZoneLine] = [
+    public let lines: [ZoneLine] = [
         .init(
             name: "z6w0z2v5",
             position: .init(x: 16.894743, y: -19.332808, z: 104.28425),

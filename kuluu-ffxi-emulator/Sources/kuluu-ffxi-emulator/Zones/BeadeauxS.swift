@@ -5,7 +5,7 @@
 //
 public struct BeadeauxS: ZoneSceneMetadata {
     public let id = Zone.beadeauxS.rawValue
-    public let lines = [ZoneLine] = [
+    public let lines: [ZoneLine] = [
         .init(
             name: "z6y1",
             position: .init(x: -51.99746, y: -11.656284, z: -106.25426),

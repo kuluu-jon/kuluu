@@ -14,6 +14,9 @@ struct ZoneInfoContainer: Decodable {
 struct ZoneInfo: Decodable, Identifiable {
     let id: Int
     let name: String
+    lazy var camelizedName: String = {
+        name.camelized
+    }()
     let bumpMapDatPath: String?
     let mainModelDatPath: String?
     let shadowDatPath: String?

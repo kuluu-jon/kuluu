@@ -5,7 +5,7 @@
 //
 public struct RanguemontPass: ZoneSceneMetadata {
     public let id = Zone.ranguemontPass.rawValue
-    public let lines = [ZoneLine] = [
+    public let lines: [ZoneLine] = [
         .init(
             name: "zmrmzmrn",
             position: .init(x: 48.989346, y: 17.190235, z: -79.99357),
