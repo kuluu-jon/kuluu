@@ -2272,7 +2272,7 @@
     },
     {
       "id": 227,
-      "name": "Ship bound for Selbina",
+      "name": "Ship bound for Selbina 2",
       "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
       "Main_Model_Dat_Path": "ROM\\1\\29.DAT",
       "Shodow_Dat_Path": "ROM\\27\\81.DAT",
@@ -2282,7 +2282,7 @@
     },
     {
       "id": 228,
-      "name": "Ship bound for Mhaura",
+      "name": "Ship bound for Mhaura 2",
       "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
       "Main_Model_Dat_Path": "ROM\\1\\30.DAT",
       "Shodow_Dat_Path": "ROM\\27\\81.DAT",
@@ -2292,7 +2292,7 @@
     },
     {
       "id": 229,
-      "name": "None",
+      "name": "None 2",
       "BumpMap_Dat_Path": "ROM\\92\\17.DAT",
       "Main_Model_Dat_Path": "ROM\\0\\119.DAT",
       "Shodow_Dat_Path": "ROM\\27\\81.DAT",
