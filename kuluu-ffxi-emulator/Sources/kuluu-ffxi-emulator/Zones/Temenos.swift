@@ -7,27 +7,51 @@ public struct Temenos: ZoneSceneMetadata {
     public let id = Zone.temenos.rawValue
     public let lines: [ZoneLine] = [
         .init(
-            name: "z1e0z1c5",
-            position: .init(x: -158.10202, y: 1.71772e-07, z: 0.0053858384),
+            name: "z1c0z1fl",
+            position: .init(x: -120.18997, y: -1.3686471, z: 67.98132),
             rotation: .init(x: 0.0, y: 0.0, z: 0.0),
             scale: .init(x: 1.5, y: 10.0, z: 12.0)
         ),
         .init(
-            name: "z1e1",
-            position: .init(x: -155.85431, y: 0.22541964, z: -0.004226785),
+            name: "z1c1",
+            position: .init(x: -118.15029, y: 0.47991621, z: 67.996216),
             rotation: .init(x: 0.0, y: 0.0, z: 0.0),
             scale: .init(x: 1.0, y: 3.0, z: 4.0)
         ),
         .init(
-            name: "zmryzmrx",
-            position: .init(x: -114.0, y: -3.3327222, z: -80.0),
+            name: "z1c2z1g7",
+            position: .init(x: -68.00768, y: -1.0913492, z: 120.00897),
+            rotation: .init(x: 0.0, y: 1.5707964, z: 0.0),
+            scale: .init(x: 1.5, y: 10.0, z: 12.0)
+        ),
+        .init(
+            name: "z1c3",
+            position: .init(x: -67.989265, y: 0.39440164, z: 118.15053),
+            rotation: .init(x: 0.0, y: 1.5707964, z: 0.0),
+            scale: .init(x: 1.0, y: 3.0, z: 4.0)
+        ),
+        .init(
+            name: "z1c4z1e1",
+            position: .init(x: 122.10949, y: -5.1597958, z: 40.004925),
             rotation: .init(x: 0.0, y: 0.0, z: 0.0),
             scale: .init(x: 1.5, y: 10.0, z: 12.0)
         ),
         .init(
-            name: "zmrx",
-            position: .init(x: -102.5, y: -1.5, z: -80.0),
-            rotation: .init(x: 0.0, y: 0.0, z: 0.0),
+            name: "z1c5",
+            position: .init(x: 120.35878, y: -3.8162236, z: 40.004414),
+            rotation: .init(x: 0.0, y: 3.1415927, z: 0.0),
+            scale: .init(x: 1.0, y: 3.0, z: 4.0)
+        ),
+        .init(
+            name: "zmrwzmrv",
+            position: .init(x: 40.0, y: -3.76442, z: -74.0),
+            rotation: .init(x: 0.0, y: 1.5707964, z: 0.0),
+            scale: .init(x: 1.5, y: 10.0, z: 12.0)
+        ),
+        .init(
+            name: "zmrv",
+            position: .init(x: 40.0, y: -1.5000031, z: -62.509933),
+            rotation: .init(x: 0.0, y: 4.712389, z: 0.0),
             scale: .init(x: 1.0, y: 3.0, z: 4.0)
         ),
     ]

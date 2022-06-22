@@ -54,6 +54,8 @@
 		FC0C550128621CBC0055A270 /* FFXI.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0C54D428621CBC0055A270 /* FFXI.scnassets */; };
 		FC0C550228621CBC0055A270 /* FFXI.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0C54D428621CBC0055A270 /* FFXI.scnassets */; };
 		FCBB19FE2862206A00BF10F8 /* kuluu-ffxi-emulator in Frameworks */ = {isa = PBXBuildFile; productRef = FCBB19FD2862206A00BF10F8 /* kuluu-ffxi-emulator */; };
+		FCBB1A032862D7BA00BF10F8 /* kuluu-ffxi-network-protocol in Frameworks */ = {isa = PBXBuildFile; productRef = FCBB1A022862D7BA00BF10F8 /* kuluu-ffxi-network-protocol */; };
+		FCBB1A052862D7C000BF10F8 /* kuluu-ffxi-network-protocol in Frameworks */ = {isa = PBXBuildFile; productRef = FCBB1A042862D7C000BF10F8 /* kuluu-ffxi-network-protocol */; };
 		FCE55E0E28621A48001E32B7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE55E0D28621A48001E32B7 /* Tests_iOS.swift */; };
 		FCE55E1028621A48001E32B7 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE55E0F28621A48001E32B7 /* Tests_iOSLaunchTests.swift */; };
 		FCE55E1A28621A48001E32B7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE55E1928621A48001E32B7 /* Tests_macOS.swift */; };
@@ -132,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCBB19FE2862206A00BF10F8 /* kuluu-ffxi-emulator in Frameworks */,
+				FCBB1A052862D7C000BF10F8 /* kuluu-ffxi-network-protocol in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0C54B928621C930055A270 /* kuluu-ffxi-emulator in Frameworks */,
+				FCBB1A032862D7BA00BF10F8 /* kuluu-ffxi-network-protocol in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +308,7 @@
 			name = "kuluu-apple (iOS)";
 			packageProductDependencies = (
 				FCBB19FD2862206A00BF10F8 /* kuluu-ffxi-emulator */,
+				FCBB1A042862D7C000BF10F8 /* kuluu-ffxi-network-protocol */,
 			);
 			productName = "kuluu-apple (iOS)";
 			productReference = FCE55DFC28621A48001E32B7 /* kuluu-apple.app */;
@@ -324,6 +329,7 @@
 			name = "kuluu-apple (macOS)";
 			packageProductDependencies = (
 				FC0C54B828621C930055A270 /* kuluu-ffxi-emulator */,
+				FCBB1A022862D7BA00BF10F8 /* kuluu-ffxi-network-protocol */,
 			);
 			productName = "kuluu-apple (macOS)";
 			productReference = FCE55E0228621A48001E32B7 /* kuluu-apple.app */;
@@ -908,6 +914,14 @@
 		FCBB19FD2862206A00BF10F8 /* kuluu-ffxi-emulator */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = "kuluu-ffxi-emulator";
+		};
+		FCBB1A022862D7BA00BF10F8 /* kuluu-ffxi-network-protocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "kuluu-ffxi-network-protocol";
+		};
+		FCBB1A042862D7C000BF10F8 /* kuluu-ffxi-network-protocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "kuluu-ffxi-network-protocol";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -107,7 +107,7 @@ let xmlDecoder: XMLDecoder = {
 }()
 
 struct ZoneDescriptor {
-    init(zoneInfo: ZoneInfo?, entity: [Entity]? = nil, zoneMetadatas: [ZoneMetadata]? = nil) {
+    init(zoneInfo: ZoneInfo, entity: [Entity]? = nil, zoneMetadatas: [ZoneMetadata]? = nil) {
         self.zoneInfo = zoneInfo
         self.entity = entity
         self.zoneMetadatas = zoneMetadatas
@@ -157,7 +157,7 @@ extension String {
     }
 }
 
-typealias ZoneDescriptorMap = [String: ZoneDescriptor]
+typealias ZoneDescriptorMap = [Int: ZoneDescriptor]
 
 @main
 struct CLI {
@@ -197,7 +197,7 @@ struct CLI {
         try await zoneDescriptorMap.concurrentForEach { row in
             let (key, zone) = row
             let className = zone.zoneInfo.name.upperCamelized
-            guard let classNameFirst = className.first, classNameFirst.isLetter || classNameFirst == "_" else { return print("skip") }
+            guard let classNameFirst = className.first, classNameFirst.isLetter || classNameFirst == "_" else { return print("skip \(className)") }
             let instanceName = zone.zoneInfo.name.camelized
             let zoneLines: [ZoneMetadata] = await zone.zoneMetadatas.concurrentCompactMap { $0.type == .zoneLine ? $0 : nil }
             let context: [String: Any] = [
@@ -210,7 +210,7 @@ struct CLI {
 //            Task(priority: .low) {
                 let url = URL.init(string: "file:///Users/jon/src/kuluu/kuluu-ffxi-emulator/Sources/kuluu-ffxi-emulator/Zones/\(className).swift")
                 try zoneCode.data(using: .utf8)?.write(to: url!)
-//                print("written")
+                print("written")
 //            }
         }
         let zones = Array(zoneDescriptorMap.values.filter { zone in
@@ -273,7 +273,10 @@ func loadZoneDescriptorMap() async throws -> ZoneDescriptorMap {
 //    #else
 //    let bundle = Bundle.init(for: TestBundleTarget.self)
 //    #endif
-    let urls = bundle.urls(forResourcesWithExtension: "xml", subdirectory: "Data")
+    let entityUrls = bundle.urls(forResourcesWithExtension: "xml", subdirectory: "Data/Entities")
+    let subregionUrls = bundle.urls(forResourcesWithExtension: "xml", subdirectory: "Data/SubRegions")
+    assert(entityUrls?.count == subregionUrls?.count)
+    
     let zoneInfoUrl = bundle.url(forResource: "Data/ZoneINFO", withExtension: "json")!
     let zoneInfoJsonData = try Data(contentsOf: zoneInfoUrl, options: [])
     let jsonDecoder = JSONDecoder()
@@ -281,63 +284,49 @@ func loadZoneDescriptorMap() async throws -> ZoneDescriptorMap {
     
     let zoneInfo: ZoneInfoContainer = try jsonDecoder.decode(ZoneInfoContainer.self, from: zoneInfoJsonData)
     
-    let zones = zoneInfo.zoneInfo.sorted(by: { $0.id > $1.id })
+    let zoneInfoMap = zoneInfo.zoneInfo.reduce(into: .init(minimumCapacity: 600) as [Int: ZoneInfo], { acc, next in
+        acc[next.id] = next
+    })
+    
     // pair urls with their data contents so we can process different urls differently if needed
     // (e.g. subregion vs. entities)
-    let dataUrlTuples = try await urls?.concurrentCompactMap { url -> (Data, URL) in
-        (try Data(contentsOf: url), url)
-    }
-    // grab entity XMLs (and discard subregions for now) concurrently
-    enum DataType {
-        case entity(Data), subregion(Data)
-        
-        init?(tuple: (Data, URL)) {
-            let lastPath = tuple.1.lastPathComponent
-            if lastPath.hasSuffix("_Entities.xml") {
-                self = .entity(tuple.0)
-            } else if lastPath.hasSuffix("_SubRegions.xml") {
-                self = .subregion(tuple.0)
-            } else {
-                fatalError("unhandled xml file: \(lastPath)")
-            }
-        }
-    }
-    let dataTypes = await dataUrlTuples?.concurrentCompactMap(DataType.init(tuple:))
-    // decode XML concurrently
-    let zoneDescriptors = try await dataTypes?.concurrentCompactMap { dataType -> ZoneDescriptor? in
-        switch dataType {
-        case .subregion(let data):
-            let zoneXML = try xmlDecoder.decode(ArrayOfSubRegion.self, from: data)
-            let zoneMetadatas = zoneXML.zoneMetadatas
-            return ZoneDescriptor(zoneInfo: nil, entity: nil, zoneMetadatas: zoneMetadatas)
-        case .entity(let data):
-            let zoneXML = try xmlDecoder.decode(ArrayOfEntity.self, from: data)
-            let entities = zoneXML.entities
-            return ZoneDescriptor(zoneInfo: nil, entity: entities, zoneMetadatas: nil)
-        }
-    }
-    var zoneDescriptorMap: ZoneDescriptorMap = .init(minimumCapacity: zoneDescriptors?.count ?? 600)
-    await zoneDescriptors?.asyncForEach { row in
-        if let firstEntity = row.entity?.first {
-            let zoneId = String(firstEntity.zoneId)
-            let zoneInfo = zones[firstEntity.zoneId]
-            if var zoneDescriptor = zoneDescriptorMap[zoneId] {
-                zoneDescriptor.entity = row.entity!
-                zoneDescriptorMap[zoneId] = zoneDescriptor
-            } else {
-                zoneDescriptorMap[zoneId] = .init(zoneInfo: zoneInfo, entity: row.entity!, zoneMetadatas: nil)
-            }
-        } else if let firstZoneMetadata = row.zoneMetadatas?.first {
-            let zoneId = String(firstZoneMetadata.fileId)
-            let zoneInfo = zones[firstZoneMetadata.fileId]
-            if var zoneDescriptor = zoneDescriptorMap[zoneId] {
-                zoneDescriptor.zoneMetadatas = row.zoneMetadatas!
-                zoneDescriptorMap[zoneId] = zoneDescriptor
-            } else {
-                zoneDescriptorMap[zoneId] = .init(zoneInfo: zoneInfo, entity: nil, zoneMetadatas: row.zoneMetadatas!)
-            }
-        }
+    
+    struct ZoneDescriptorData {
+        let zoneInfo: ZoneInfo
+        let entity: Data
+        let subregion: Data
     }
     
-    return zoneDescriptorMap
+    let dataTuples = try await entityUrls?.concurrentCompactMap { entityUrl -> ZoneDescriptorData? in
+        let split = entityUrl.lastPathComponent.split(separator: "_")
+        guard
+            let subregionUrls = subregionUrls,
+            split.count > 1,
+            subregionUrls.count > 1,
+            let id = Int(split[1]),
+            subregionUrls.count > id,
+            let zoneInfo = zoneInfoMap[id]
+        else { return nil }
+        
+        let subregionUrl = subregionUrls[id]
+        return .init(
+            zoneInfo: zoneInfo,
+            entity: try Data(contentsOf: entityUrl),
+            subregion: try Data(contentsOf: subregionUrl)
+        )
+    }
+    
+    // decode XML concurrently
+    let zoneDescriptorMap = try await dataTuples?.concurrentCompactMap { zoneData -> ZoneDescriptor? in
+        let subRegionsXML = try xmlDecoder.decode(ArrayOfSubRegion.self, from: zoneData.subregion)
+        let zoneMetadatas = subRegionsXML.zoneMetadatas
+        let entitiesXML = try xmlDecoder.decode(ArrayOfEntity.self, from: zoneData.entity)
+        let entities = entitiesXML.entities
+
+        return .init(zoneInfo: zoneData.zoneInfo, entity: entities, zoneMetadatas: zoneMetadatas)
+    }.reduce(into: .init(minimumCapacity: zoneInfoMap.count) as ZoneDescriptorMap, { acc, next in
+        acc[next.zoneInfo.id] = next
+    })
+    
+    return zoneDescriptorMap!
 }
