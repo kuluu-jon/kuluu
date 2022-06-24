@@ -21,8 +21,6 @@
 		FC0C54E028621CBC0055A270 /* AccountSessionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C54C228621CBC0055A270 /* AccountSessionList.swift */; };
 		FC0C54E128621CBC0055A270 /* View+navigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C54C328621CBC0055A270 /* View+navigationLink.swift */; };
 		FC0C54E228621CBC0055A270 /* View+navigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C54C328621CBC0055A270 /* View+navigationLink.swift */; };
-		FC0C54E328621CBC0055A270 /* HeadlessFFXIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C54C428621CBC0055A270 /* HeadlessFFXIApp.swift */; };
-		FC0C54E428621CBC0055A270 /* HeadlessFFXIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C54C428621CBC0055A270 /* HeadlessFFXIApp.swift */; };
 		FC0C54E528621CBC0055A270 /* CharacterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C54C528621CBC0055A270 /* CharacterPicker.swift */; };
 		FC0C54E628621CBC0055A270 /* CharacterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C54C528621CBC0055A270 /* CharacterPicker.swift */; };
 		FC0C54E728621CBC0055A270 /* HeadlessFFXIAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C54C628621CBC0055A270 /* HeadlessFFXIAppViewModel.swift */; };
@@ -53,6 +51,14 @@
 		FC0C550028621CBC0055A270 /* ScaredComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C54D328621CBC0055A270 /* ScaredComponent.swift */; };
 		FC0C550128621CBC0055A270 /* FFXI.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0C54D428621CBC0055A270 /* FFXI.scnassets */; };
 		FC0C550228621CBC0055A270 /* FFXI.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0C54D428621CBC0055A270 /* FFXI.scnassets */; };
+		FC0E213428654103009F219F /* GameViewController+macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E213328654103009F219F /* GameViewController+macOS.swift */; };
+		FC0E213B2865411A009F219F /* PadOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E21362865411A009F219F /* PadOverlay.swift */; };
+		FC0E213C2865411A009F219F /* ButtonOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E21372865411A009F219F /* ButtonOverlay.swift */; };
+		FC0E213D2865411A009F219F /* GameViewController+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E21382865411A009F219F /* GameViewController+iOS.swift */; };
+		FC0E213E2865411A009F219F /* ControlOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E21392865411A009F219F /* ControlOverlay.swift */; };
+		FC0E213F2865411A009F219F /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E213A2865411A009F219F /* R.generated.swift */; };
+		FC0E214128654184009F219F /* kuluu_appleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E214028654184009F219F /* kuluu_appleApp.swift */; };
+		FC0E214228654184009F219F /* kuluu_appleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E214028654184009F219F /* kuluu_appleApp.swift */; };
 		FCBB19FE2862206A00BF10F8 /* kuluu-ffxi-emulator in Frameworks */ = {isa = PBXBuildFile; productRef = FCBB19FD2862206A00BF10F8 /* kuluu-ffxi-emulator */; };
 		FCBB1A032862D7BA00BF10F8 /* kuluu-ffxi-network-protocol in Frameworks */ = {isa = PBXBuildFile; productRef = FCBB1A022862D7BA00BF10F8 /* kuluu-ffxi-network-protocol */; };
 		FCBB1A052862D7C000BF10F8 /* kuluu-ffxi-network-protocol in Frameworks */ = {isa = PBXBuildFile; productRef = FCBB1A042862D7C000BF10F8 /* kuluu-ffxi-network-protocol */; };
@@ -60,8 +66,6 @@
 		FCE55E1028621A48001E32B7 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE55E0F28621A48001E32B7 /* Tests_iOSLaunchTests.swift */; };
 		FCE55E1A28621A48001E32B7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE55E1928621A48001E32B7 /* Tests_macOS.swift */; };
 		FCE55E1C28621A48001E32B7 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE55E1B28621A48001E32B7 /* Tests_macOSLaunchTests.swift */; };
-		FCE55E1D28621A48001E32B7 /* kuluu_appleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE55DF528621A47001E32B7 /* kuluu_appleApp.swift */; };
-		FCE55E1E28621A48001E32B7 /* kuluu_appleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE55DF528621A47001E32B7 /* kuluu_appleApp.swift */; };
 		FCE55E1F28621A48001E32B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE55DF628621A47001E32B7 /* ContentView.swift */; };
 		FCE55E2028621A48001E32B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE55DF628621A47001E32B7 /* ContentView.swift */; };
 		FCE55E2128621A48001E32B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE55DF728621A48001E32B7 /* Assets.xcassets */; };
@@ -93,7 +97,6 @@
 		FC0C54C128621CBC0055A270 /* ViewController+Embed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Embed.swift"; sourceTree = "<group>"; };
 		FC0C54C228621CBC0055A270 /* AccountSessionList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSessionList.swift; sourceTree = "<group>"; };
 		FC0C54C328621CBC0055A270 /* View+navigationLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+navigationLink.swift"; sourceTree = "<group>"; };
-		FC0C54C428621CBC0055A270 /* HeadlessFFXIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadlessFFXIApp.swift; sourceTree = "<group>"; };
 		FC0C54C528621CBC0055A270 /* CharacterPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterPicker.swift; sourceTree = "<group>"; };
 		FC0C54C628621CBC0055A270 /* HeadlessFFXIAppViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadlessFFXIAppViewModel.swift; sourceTree = "<group>"; };
 		FC0C54C728621CBC0055A270 /* HeadlessMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadlessMap.swift; sourceTree = "<group>"; };
@@ -109,9 +112,15 @@
 		FC0C54D228621CBC0055A270 /* SimdExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimdExtensions.swift; sourceTree = "<group>"; };
 		FC0C54D328621CBC0055A270 /* ScaredComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaredComponent.swift; sourceTree = "<group>"; };
 		FC0C54D428621CBC0055A270 /* FFXI.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = FFXI.scnassets; sourceTree = "<group>"; };
+		FC0E213328654103009F219F /* GameViewController+macOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GameViewController+macOS.swift"; sourceTree = "<group>"; };
+		FC0E21362865411A009F219F /* PadOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PadOverlay.swift; sourceTree = "<group>"; };
+		FC0E21372865411A009F219F /* ButtonOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonOverlay.swift; sourceTree = "<group>"; };
+		FC0E21382865411A009F219F /* GameViewController+iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GameViewController+iOS.swift"; sourceTree = "<group>"; };
+		FC0E21392865411A009F219F /* ControlOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlOverlay.swift; sourceTree = "<group>"; };
+		FC0E213A2865411A009F219F /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		FC0E214028654184009F219F /* kuluu_appleApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kuluu_appleApp.swift; sourceTree = "<group>"; };
 		FCBB19FB28621EFB00BF10F8 /* noesis-scene-generator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "noesis-scene-generator"; path = "../tools/noesis-scene-generator"; sourceTree = "<group>"; };
 		FCBB19FC28621EFB00BF10F8 /* zone-metadata-generator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "zone-metadata-generator"; path = "../tools/zone-metadata-generator"; sourceTree = "<group>"; };
-		FCE55DF528621A47001E32B7 /* kuluu_appleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kuluu_appleApp.swift; sourceTree = "<group>"; };
 		FCE55DF628621A47001E32B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCE55DF728621A48001E32B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCE55DFC28621A48001E32B7 /* kuluu-apple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kuluu-apple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,13 +183,13 @@
 		FC0C54BD28621CBC0055A270 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				FC0E214028654184009F219F /* kuluu_appleApp.swift */,
 				FC0C54BE28621CBC0055A270 /* HeadlessSessionViewModel.swift */,
 				FC0C54BF28621CBC0055A270 /* HeadlessSession.swift */,
 				FC0C54C028621CBC0055A270 /* NSEvent+KeyCode.swift */,
 				FC0C54C128621CBC0055A270 /* ViewController+Embed.swift */,
 				FC0C54C228621CBC0055A270 /* AccountSessionList.swift */,
 				FC0C54C328621CBC0055A270 /* View+navigationLink.swift */,
-				FC0C54C428621CBC0055A270 /* HeadlessFFXIApp.swift */,
 				FC0C54C528621CBC0055A270 /* CharacterPicker.swift */,
 				FC0C54C628621CBC0055A270 /* HeadlessFFXIAppViewModel.swift */,
 				FC0C54C728621CBC0055A270 /* HeadlessMap.swift */,
@@ -215,12 +224,25 @@
 			name = Tools;
 			sourceTree = "<group>";
 		};
+		FC0E21352865411A009F219F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FC0E21362865411A009F219F /* PadOverlay.swift */,
+				FC0E21372865411A009F219F /* ButtonOverlay.swift */,
+				FC0E21382865411A009F219F /* GameViewController+iOS.swift */,
+				FC0E21392865411A009F219F /* ControlOverlay.swift */,
+				FC0E213A2865411A009F219F /* R.generated.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		FCE55DEF28621A47001E32B7 = {
 			isa = PBXGroup;
 			children = (
 				FC0C550328621EA20055A270 /* Tools */,
 				FCE55E3228621B69001E32B7 /* Packages */,
 				FCE55DF428621A47001E32B7 /* Shared */,
+				FC0E21352865411A009F219F /* iOS */,
 				FCE55E0328621A48001E32B7 /* macOS */,
 				FCE55E0C28621A48001E32B7 /* Tests iOS */,
 				FCE55E1828621A48001E32B7 /* Tests macOS */,
@@ -236,7 +258,6 @@
 				FC0C54C928621CBC0055A270 /* Game */,
 				FC0C54BC28621CBC0055A270 /* R.generated.swift */,
 				FC0C54BD28621CBC0055A270 /* UI */,
-				FCE55DF528621A47001E32B7 /* kuluu_appleApp.swift */,
 				FCE55DF628621A47001E32B7 /* ContentView.swift */,
 				FCE55DF728621A48001E32B7 /* Assets.xcassets */,
 			);
@@ -257,6 +278,7 @@
 		FCE55E0328621A48001E32B7 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				FC0E213328654103009F219F /* GameViewController+macOS.swift */,
 				FCE55E0428621A48001E32B7 /* macOS.entitlements */,
 			);
 			path = macOS;
@@ -463,21 +485,25 @@
 				FC0C54F128621CBC0055A270 /* Zone+Scene.swift in Sources */,
 				FC0C54E728621CBC0055A270 /* HeadlessFFXIAppViewModel.swift in Sources */,
 				FC0C54EB28621CBC0055A270 /* Menu.swift in Sources */,
+				FC0E213B2865411A009F219F /* PadOverlay.swift in Sources */,
 				FC0C54FF28621CBC0055A270 /* ScaredComponent.swift in Sources */,
 				FC0C54DF28621CBC0055A270 /* AccountSessionList.swift in Sources */,
+				FC0E213C2865411A009F219F /* ButtonOverlay.swift in Sources */,
 				FC0C54ED28621CBC0055A270 /* GameView.swift in Sources */,
 				FC0C54EF28621CBC0055A270 /* SCNGeometry+Vertices.swift in Sources */,
-				FC0C54E328621CBC0055A270 /* HeadlessFFXIApp.swift in Sources */,
+				FC0E213F2865411A009F219F /* R.generated.swift in Sources */,
 				FC0C54F728621CBC0055A270 /* ChaserComponent.swift in Sources */,
 				FC0C54FB28621CBC0055A270 /* BaseComponent.swift in Sources */,
 				FC0C54F928621CBC0055A270 /* PlayerComponent.swift in Sources */,
+				FC0E214128654184009F219F /* kuluu_appleApp.swift in Sources */,
 				FCE55E1F28621A48001E32B7 /* ContentView.swift in Sources */,
 				FC0C54F328621CBC0055A270 /* Character.swift in Sources */,
 				FC0C54DD28621CBC0055A270 /* ViewController+Embed.swift in Sources */,
+				FC0E213E2865411A009F219F /* ControlOverlay.swift in Sources */,
 				FC0C54FD28621CBC0055A270 /* SimdExtensions.swift in Sources */,
-				FCE55E1D28621A48001E32B7 /* kuluu_appleApp.swift in Sources */,
 				FC0C54D928621CBC0055A270 /* HeadlessSession.swift in Sources */,
 				FC0C54D728621CBC0055A270 /* HeadlessSessionViewModel.swift in Sources */,
+				FC0E213D2865411A009F219F /* GameViewController+iOS.swift in Sources */,
 				FC0C54DB28621CBC0055A270 /* NSEvent+KeyCode.swift in Sources */,
 				FC0C54E528621CBC0055A270 /* CharacterPicker.swift in Sources */,
 				FC0C54E128621CBC0055A270 /* View+navigationLink.swift in Sources */,
@@ -497,16 +523,16 @@
 				FC0C550028621CBC0055A270 /* ScaredComponent.swift in Sources */,
 				FC0C54E028621CBC0055A270 /* AccountSessionList.swift in Sources */,
 				FC0C54EE28621CBC0055A270 /* GameView.swift in Sources */,
+				FC0E213428654103009F219F /* GameViewController+macOS.swift in Sources */,
 				FC0C54F028621CBC0055A270 /* SCNGeometry+Vertices.swift in Sources */,
-				FC0C54E428621CBC0055A270 /* HeadlessFFXIApp.swift in Sources */,
 				FC0C54F828621CBC0055A270 /* ChaserComponent.swift in Sources */,
+				FC0E214228654184009F219F /* kuluu_appleApp.swift in Sources */,
 				FC0C54FC28621CBC0055A270 /* BaseComponent.swift in Sources */,
 				FC0C54FA28621CBC0055A270 /* PlayerComponent.swift in Sources */,
 				FCE55E2028621A48001E32B7 /* ContentView.swift in Sources */,
 				FC0C54F428621CBC0055A270 /* Character.swift in Sources */,
 				FC0C54DE28621CBC0055A270 /* ViewController+Embed.swift in Sources */,
 				FC0C54FE28621CBC0055A270 /* SimdExtensions.swift in Sources */,
-				FCE55E1E28621A48001E32B7 /* kuluu_appleApp.swift in Sources */,
 				FC0C54DA28621CBC0055A270 /* HeadlessSession.swift in Sources */,
 				FC0C54D828621CBC0055A270 /* HeadlessSessionViewModel.swift in Sources */,
 				FC0C54DC28621CBC0055A270 /* NSEvent+KeyCode.swift in Sources */,
