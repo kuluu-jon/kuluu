@@ -178,6 +178,7 @@ struct CLI {
         public extension Zone {
             struct {{ className }}: ZoneSceneMetadata {
                 public let id = Zone.{{ instanceName }}.rawValue
+                public let name = "{{ name }}"
                 public let lines: [ZoneLine] = [{% for zl in zoneLines %}
                     .init(
                         name: "{{ zl.id }}",
@@ -200,10 +201,13 @@ struct CLI {
             let (key, zone) = row
             let className = zone.zoneInfo.name.upperCamelized
             guard let classNameFirst = className.first, classNameFirst.isLetter || classNameFirst == "_" else { return print("skip \(className)") }
-            let instanceName = zone.zoneInfo.name.camelized
-            let zoneLines: [ZoneMetadata] = await zone.zoneMetadatas.concurrentCompactMap { $0.type == .zoneLine ? $0 : nil }
+            let name = zone.zoneInfo.name
+            let instanceName = name.camelized
+            print(zone.zoneInfo.name)
+            let zoneLines: [ZoneMetadata] = zone.zoneMetadatas.compactMap { $0.type == .zoneLine ? $0 : nil }
             let context: [String: Any] = [
                 "id": key,
+                "name": name,
                 "className": className,
                 "instanceName": instanceName,
                 "zoneLines": zoneLines
@@ -212,7 +216,7 @@ struct CLI {
 //            Task(priority: .low) {
                 let url = URL.init(string: "file:///Users/jon/src/kuluu/kuluu-ffxi-emulator/Sources/kuluu-ffxi-emulator/Zones/\(className).swift")
                 try zoneCode.data(using: .utf8)?.write(to: url!)
-                print("written")
+                print("written \(className).swift")
 //            }
         }
         let zones = Array(zoneDescriptorMap.values.filter { zone in
@@ -275,8 +279,12 @@ func loadZoneDescriptorMap() async throws -> ZoneDescriptorMap {
 //    #else
 //    let bundle = Bundle.init(for: TestBundleTarget.self)
 //    #endif
-    let entityUrls = bundle.urls(forResourcesWithExtension: "xml", subdirectory: "Data/Entities")
-    let subregionUrls = bundle.urls(forResourcesWithExtension: "xml", subdirectory: "Data/SubRegions")
+    let entityUrls = bundle.urls(forResourcesWithExtension: "xml", subdirectory: "Data/Entities")?.sorted(by: { l, r in
+        l.relativeString > r.relativeString
+    })
+    let subregionUrls = bundle.urls(forResourcesWithExtension: "xml", subdirectory: "Data/SubRegions")?.sorted(by: { l, r in
+        l.relativeString > r.relativeString
+    })
     assert(entityUrls?.count == subregionUrls?.count)
     
     let zoneInfoUrl = bundle.url(forResource: "Data/ZoneINFO", withExtension: "json")!
